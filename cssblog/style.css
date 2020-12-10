@@ -3592,13 +3592,13 @@ input[type="button"].btn-block {
     .navbar-expand-md .navbar-toggler {
       display: none; } }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1091.98px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 992px) {
+@media (min-width: 1092px) {
   .navbar-expand-lg {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -9761,4 +9761,15 @@ textarea.form-control {
     color: white !important;
     position: relative;
   }
+}
+
+
+.linksiteuri{
+	color:black;
+}
+
+.linksiteuri:hover{
+	text-decoration:underline;
+	color: #333333;
+	transition: 0.15s;
 }
