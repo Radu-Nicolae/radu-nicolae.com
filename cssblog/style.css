@@ -1044,9 +1044,9 @@ pre {
     max-width: 25%; }
   .col-lg-4 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.33333%;
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%; }
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%; }
   .col-lg-5 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 41.66667%;
@@ -8851,10 +8851,18 @@ h1, h2, h3, h4, h5,
     color: #000000; }
 
 .progress-circle .progress {
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   background: none;
   position: relative; }
+@media(max-width: 992px){
+  .progress-circle .progress {
+    width: 150px;
+    height: 150px;
+    background: none;
+    position: relative;
+  }
+}
 
 .progress-circle .progress::after {
   content: "";
@@ -9776,4 +9784,66 @@ textarea.form-control {
 	text-decoration:underline;
 	color: #333333;
 	transition: 0.15s;
+}
+
+
+.nothing-when-hov {
+  border: none;
+}
+
+.nothing-when-hov:hover {
+  color: white !important;
+}
+
+.skillsLevel{
+  font-size: 0.8rem;
+}
+@media(max-width: 992px){
+  .skillsLevel{
+    font-size: 1.15rem !important;
+  }
+}
+
+.cyberSecurity{
+
+}
+@media (min-width: 991px) and (max-width: 1200px){
+  .cyberSecurity{
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 1200px){
+  .cyberSecurity{
+    font-size: 1.11rem;
+  }
+}
+
+.counterHeading{
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #ff851b;
+  text-align: center;
+  margin-top: 50px;
+}
+@media (max-width: 767px){
+  .counterHeading{
+    margin-top: 15px;
+  }
+}
+
+.counterText{
+  color: #595959;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  text-align: center;
+  padding: 34px 100px;
+}
+
+.paddingCounter{
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
 }
