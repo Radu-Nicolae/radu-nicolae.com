@@ -50,8 +50,8 @@ class Services
             <div class="container-fluid px-md-5">
                 <div class="row justify-content-center py-5 mt-5">
                     <div class="col-md-12 heading-section text-center ftco-animate fadeInUp ftco-animated">
-                        <h1 class="big big-2">' . $servicesDB[0][$lang] . '</h1>
-                        <h2 class="mb-4">' . $servicesDB[0][$lang] . '</h2>
+                        <h1 class="big big-2">' . 'Services' . '</h1>
+                        <h2 class="mb-4">' . 'Services' . '</h2>
                         <p></p>
                     </div>
                 </div>
