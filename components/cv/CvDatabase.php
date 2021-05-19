@@ -230,6 +230,29 @@ class CvDatabase
             '
         );
 
+        $topTheWhole = new CvItem(
+            "Jan 2021 - ",
+            "Ian 2020 - ",
+            "present",
+            "prezent",
+            "Website Founder",
+            "Fondator Website",
+            '<a href="https://topthewhole.com" class="linksiteuri"
+                                                          style="text-decoration: underline; color: black !important">Top The Whole</a>',
+            '<a href="https://topthewhole.com" class="linksiteuri"
+                                                          style="text-decoration: underline; color: black !important">Top The Whole</a>',
+            '<p><a href="https://topthewhole.com" style="text-decoration: underline">Top The Whole</a> is the website that 
+                    <a href="https://luanaionica.com" target="_blank" style="text-decoration: underline">Luana</a> and I built in order to attract traffic that,
+                    ultimately, can become a passive source of earning money. Thus, I gained knowledge of SEO and practiced my both Front End and Back End skills.
+                    Currently, I am keeping the website\'s maintenaince by posting new articles and updating details.
+                     </p>',
+            '<p> <a href="https://topthewhole.com" style="text-decoration: underline"><u>Top The Whole</u></a> este website-ul pe care l-am construit împreuna cu
+                     <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> pentru a atrage trafic web care,
+                     în cele din urmă, poate deveni o sursă pasivă de venit. Astfel, am dobândit cunoștințe despre SEO și mi-am exersat atât cunoștiințele de Front End, cât și pe cele de Back End.
+                     În prezent, păstrez mentenanța site-ului prin postarea de articole noi și actualizarea detaliilor.
+                      </p>'
+        );
+
         $jademyInternship = new cvItem(
             "May 2020 - ",
             "Mai 2020 - ",
@@ -299,8 +322,8 @@ class CvDatabase
             "prezent",
             'Web Developer Internship',
             "Web Developer Internship",
-            'Interact Bucharest',
-            'Interact București',
+            '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact Bucharest</a>',
+            '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact București</a>',
             '<p>My duties were to structure, design and build the
                                     official website of Interact Bucharest. In present I keep the maintenance of the
                                     website. Interact Bucharest is a non profit organization, belonging to Rotary Club,
@@ -337,6 +360,7 @@ class CvDatabase
 
         $cv = array(
             $github,
+            $topTheWhole,
             $jademyInternship,
             $happyCampsWebsite,
             $raduNicolaeWebsite,
@@ -361,6 +385,23 @@ class CvDatabase
             "Happy Camps",
             '<p>Buget, funding and sponsorship management for Happy Camps.</p>',
             '<p>Managementul bugetului, finanțărilor și sponsorizărilor pentru Happy Camps.</p>'
+        );
+
+        $corporateGamesFinancial = new CvItem(
+            'Apr 2020 - ',
+            'Apr 2020 - ',
+            "Sep 2020",
+            "Sep 2020",
+            "Sales Agent",
+            "Agent de vânzari",
+            "Corporate Games Romania",
+            "Corporate Games Romania",
+            "<p>After graduating the business course organized by <a href='https://www.corporate-games.ro/ro' target='_blank'>
+                    <u>Corporate Games Romania</u></a> I activated as Sales Agent for the company. My duties were to convinge the general managers of the greatest
+                    corporations from Romania to take part of the event together with their subordinates.</p>",
+            "<p> După absolvirea cursului de business organizat de <a href='https://www.corporate-games.ro/ro' target='_blank'>
+                      <u> Corporate Games Romania </u> </a> am activat ca agent de vânzări. Datoria mea era să îi conving pe directorii generali de cei mai mari
+                      corporații din România să participe la eveniment împreună cu subordonații lor. </p>"
         );
 
         $lazarMun = new CvItem(
@@ -429,7 +470,7 @@ class CvDatabase
             "Autovortex",
             "Autovortex",
             '
-                                    <p style="text-align: justify;">Autovortex is the national robotics team,
+                                    <p style="text-align: justify;"><a href="https://autovortex.ro/" target="_blank"><u>Autovortex</u></a> is the national robotics team,
                                         representing Romania in one of the biggest international contest of robotics,
                                         FIRST Tech Challenge.</p>
                                     <p>
@@ -453,7 +494,7 @@ class CvDatabase
                                         </li>
                                     </ul>
             ',
-            '<p style="text-align: justify;">Autovortex este echipa naționala de robotică a României</p>
+            '<p style="text-align: justify;"><a href="https://autovortex.ro/" target="_blank"><u>Autovortex</u></a> este echipa naționala de robotică a României</p>
                                     <p>
                                         Pricipalele activități sunt:
                                     </p>
@@ -470,7 +511,7 @@ class CvDatabase
                                         <li>Locul 1 la FIRST Tech Challenge Rusia 2021 - Etapa Naționala</li>
                                         <li>Locul 1 la FIRST Tech Challenge Rusia 2020 - Etapa Națională
                                         </li>
-                                        <li>Locul 2 la FIRST Tech Challenge Romania 2019 - Etapa Naționala
+                                        <li>Locul 2 la FIRST Tech Challenge Romania 2019 - Etapa Națională
                                         </li>
                                     </ul>'
         );
@@ -604,6 +645,7 @@ class CvDatabase
 
         $cv = array(
             $happyCampsFinancial,
+            $corporateGamesFinancial,
             $lazarMun,
             $redCross,
             $euDialogue,

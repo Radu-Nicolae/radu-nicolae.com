@@ -36,7 +36,7 @@
                 <div class="counter-wrap ftco-animate d-flex mt-md-3 fadeInUp ftco-animated">
                     <div class="text">
                         <p class="mb-4">
-                            <span class="number"> 4</span>
+                            <span class="number"><?=$officialWebsitesNo?></span>
                             <span>Official Websites completed</span>
                         </p>
                         <p><a href="CV-RaduNicolae.pdf" class="btn btn-primary py-3 px-3" download>Download CV</a></p>

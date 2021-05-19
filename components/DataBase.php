@@ -1,6 +1,7 @@
 <?php
 
 $grade = "11";
+$officialWebsitesNo = "5";
 
 
 $navbar = array(

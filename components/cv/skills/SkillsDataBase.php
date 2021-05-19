@@ -57,7 +57,45 @@ class SkillsDataBase
             $itemCode = '';
             $skillItem = $mainSkills[$i];
 
-            $itemCode .= '<div class="col-lg-4 mb-4">
+            if ($skillItem->getName() == "<span class='cyberSecurity'>Cyber Security</span>"){
+                $itemCode .= '<div class="col-lg-4 mb-4">
+                                        <div class="bg-white rounded-lg shadow p-4">
+                                            <h2 class="h5 font-weight-bold text-center mb-4">' . $skillItem->getName() . '</h2>
+
+                                            <!-- Progress bar 1 -->
+                                            <div class="progress mx-auto" data-value="' . $skillItem->getPercentage() . '">
+									<span class="progress-left">
+						  <span class="progress-bar border-primary" style="transform: rotate(' . ($skillItem->getPercentage() - 30) . 'deg);"></span>
+									</span>
+                                                <span class="progress-right">
+						  <span class="progress-bar border-primary" style="transform: rotate(180deg);"></span>
+									</span>
+                                                <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                                                    <div class="skillsLevel font-weight-bold">' . $skillItem->getLevel($lang) . '<sup class="small"></sup>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <br>
+                                            <!-- END -->
+
+                                            <!-- Demo info -->
+                                            <!-- <div class="row text-center mt-4">
+                                              <div class="col-6 border-right">
+                                                <div class="h4 font-weight-bold mb-0">100%</div><span class="small text-gray">Used last week</span>
+                                              </div>
+                                              <div class="col-6">
+                                                <div class="h4 font-weight-bold mb-0">100%</div><span class="small text-gray">Used last month</span>
+                                              </div>
+                                            </div> -->
+                                            <!-- END -->
+                                        </div>
+                                    </div>
+                                    
+                                    ';
+            }
+            else {
+                $itemCode .= '<div class="col-lg-4 mb-4">
                                         <div class="bg-white rounded-lg shadow p-4">
                                             <h2 class="h5 font-weight-bold text-center mb-4">' . $skillItem->getName() . '</h2>
 
@@ -92,6 +130,7 @@ class SkillsDataBase
                                     </div>
                                     
                                     ';
+            }
 
             $code .= $itemCode;
         }
