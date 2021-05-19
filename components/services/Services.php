@@ -22,6 +22,9 @@ class Services
     public function getCode($services, $lang)
     {
         include 'components\DataBase.php';
+        $servicesDBB = array(
+            "Services", "Servicii"
+        );
 
         $servicesCode = '';
         for ($i = 0; $i < sizeof($services); $i++) {
@@ -45,9 +48,7 @@ class Services
             $servicesCode .= $codePerItem;
         }
 
-        $servicesDBB = array(
-                "Services", "Servicii"
-        );
+
 
         $code = '
         <section class="ftco-section">
