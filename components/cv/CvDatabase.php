@@ -12,6 +12,90 @@ class CvDatabase
     public function getEducationCv()
     {
 
+        $edxDelft = new CvItem(
+            "Apr 2021 - ",
+            "Apr 2021 - ",
+            "Jun 2021",
+            "Iun 2021",
+            "<a href='https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home' style='color:black;'>Pre-University Calculus</a>",
+            "<a href='https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home' style='color:black;'>Pre-University Calculus</a>",
+            "TU Delft",
+            "TU Delft",
+            '
+                <p>
+                    I graduated the official pre-university mathematics course organized by TU Delft with the remarkable <b>final grade of 91%</b>.
+                </p>
+                
+                <p>
+                    I did gain and/or consolidate my knowledge of:
+                </p>
+                <ul>
+                    <li>
+                        Elementary Functions
+                        <ul>
+                            <li>Power functions</li> 
+                            <li>Rational functions</li> 
+                            <li>Polynomials</li> 
+                            <li>Trigonometric functions</li> 
+                            <li>Exponential functions</li> 
+                            <li>logarithmic functions</li>
+                        </ul>
+                    </li>
+                    
+                    <li>Equations and Inegalities</li>
+                    <li>Differentiation and Derivatives</li>
+                    <li>Integration and Integrals</li>
+                    <li>Geometry
+                        <ul>
+                            <li>Vectors</li>
+                            <li>Lines</li>
+                            <li>Circles</li>
+                            <li>General Curves</li>
+                            <li>Geometry in space</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <p>For more details about the course, please click <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home">here.</a></p>
+            ',
+            '<p>
+                    Am absolvit cursul oficial de matematică preuniversitară organizat de TU Delft și am obținut <b>calificativul final de 91%</b>.
+                </p>
+                
+                <p>
+                    Am dobândit și/sau consolidat cunoștiințe de:
+                </p>
+                <ul>
+                    <li>
+                        Funcții elementare
+                        <ul>
+                            <li>Puteri</li> 
+                            <li>Numere raționale</li> 
+                            <li>Funcții Polinomiale</li> 
+                            <li>Funcții trigonometrice</li> 
+                            <li>Funcții exponențiale</li> 
+                            <li>Funcții logaritmice</li>
+                        </ul>
+                    </li>
+                    
+                    <li>Ecuații și Inegalități</li>
+                    <li>Derivate</li>
+                    <li>Integrale</li>
+                    <li>Geometrie
+                        <ul>
+                            <li>Vectori</li>
+                            <li>Drepte/Segmente</li>
+                            <li>Circuri</li>
+                            <li>Parabole</li>
+                            <li>Geometrie în spațiu</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <p>Pentru mai multe detalii despre curs click <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home">aici.</a></p>
+'
+        );
+
         $sololearn = new CvItem(
             "2020 - ",
             "2020 - ",
@@ -195,6 +279,7 @@ class CvDatabase
 
         $cv = array(
             $sololearn,
+            $edxDelft,
             $jademyCourses,
             $ecdl,
             $highSchool,
