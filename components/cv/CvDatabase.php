@@ -7,8 +7,6 @@ include 'components/cv/CvUtils.php';
 class CvDatabase
 {
 
-    public $grade = "11";
-
     public function getEducationCv()
     {
 

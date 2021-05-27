@@ -13,6 +13,12 @@
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/gtxbnm"
                                                                            target="_blank"><span
+                                        class="icon-linkedin"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/gtxbnm"
+                                                                           target="_blank"><span
+                                        class="icon-github"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/gtxbnm"
+                                                                           target="_blank"><span
                                     class="icon-facebook"></span></a></li>
                         <li class="ftco-animate fadeInUp ftco-animated"><a
                                 href="https://www.instagram.com/radu._.nicolae/" target="_blank"><span
@@ -45,7 +51,6 @@
                         <li><a href="#page-3"><span class="icon-long-arrow-right mr-2"></span><?=$servs[2]?></a>
                         </li>
                         <li><a href="#page-3"><span class="icon-long-arrow-right mr-2"></span><?=$servs[3]?></a></li>
-                        <li><a href="#page-3"><span class="icon-long-arrow-right mr-2"></span><?=$servs[4]?></a></li>
                     </ul>
                 </div>
             </div>
