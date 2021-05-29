@@ -326,7 +326,7 @@ class CvDatabase
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
             '<p><a href="https://topthewhole.com" style="text-decoration: underline">Top The Whole</a> is the website that 
                     <a href="https://luanaionica.com" target="_blank" style="text-decoration: underline">Luana</a> and I built in order to attract traffic that,
-                    ultimately, can become a passive source of earning money. Thus, I gained knowledge of SEO and practiced my both Front End and Back End skills.
+                    ultimately, can become a passive source of income. Thus, I gained knowledge of SEO and practiced my both Front End and Back End skills.
                     Currently, I am keeping the website\'s maintenaince by posting new articles and updating details.
                      </p>',
             '<p> <a href="https://topthewhole.com" style="text-decoration: underline"><u>Top The Whole</u></a> este website-ul pe care l-am construit împreuna cu
@@ -480,7 +480,7 @@ class CvDatabase
             "Corporate Games Romania",
             "Corporate Games Romania",
             "<p>After graduating the business course organized by <a href='https://www.corporate-games.ro/ro' target='_blank'>
-                    <u>Corporate Games Romania</u></a> I activated as Sales Agent for the company. My duties were to convinge the general managers of the greatest
+                    <u>Corporate Games Romania</u></a> I activated as a Sales Agent for the company. My duties were to convinge the general managers of the greatest
                     corporations from Romania to take part of the event together with their subordinates.</p>",
             "<p> După absolvirea cursului de business organizat de <a href='https://www.corporate-games.ro/ro' target='_blank'>
                       <u> Corporate Games Romania </u> </a> am activat ca agent de vânzări. Datoria mea era să îi conving pe directorii generali de cei mai mari
