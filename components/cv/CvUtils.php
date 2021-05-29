@@ -4,7 +4,7 @@
 class cvUtils
 {
 
-    public function generateCode($cv)
+    public function generateCode($cv, $lang)
     {
         $code = "";
         $codePerItem = "";
@@ -20,13 +20,24 @@ class cvUtils
                         <div class="text pl-3">
                             <span class="date">';
 
-            $codePerItem .= $cvItem->getStartingDate() . $cvItem->getEndingDate() . "</span>";
-            $codePerItem .= '<h2>' . $cvItem->getTitle() . '</h2>';
-            $codePerItem .= '<span class="position">' . $cvItem->getOrganizer() . "</span>";
-            $codePerItem .= $cvItem->getDescription();
-            $codePerItem .= "</div>
+            if ($lang == 0) {
+                $codePerItem .= $cvItem->getStartingDate() . $cvItem->getEndingDate() . "</span>";
+                $codePerItem .= '<h2>' . $cvItem->getTitle() . '</h2>';
+                $codePerItem .= '<span class="position">' . $cvItem->getOrganizer() . "</span>";
+                $codePerItem .= $cvItem->getDescription();
+                $codePerItem .= "</div>
                     </div>
                     ";
+            }
+            else{
+                $codePerItem .= $cvItem->getStartingDateRo() . $cvItem->getEndingDateRo() . "</span>";
+                $codePerItem .= '<h2>' . $cvItem->getTitleRo() . '</h2>';
+                $codePerItem .= '<span class="position">' . $cvItem->getOrganizerRo() . "</span>";
+                $codePerItem .= $cvItem->getDescriptionRo();
+                $codePerItem .= "</div>
+                    </div>
+                    ";
+            }
 
             $code .= $codePerItem;
         }

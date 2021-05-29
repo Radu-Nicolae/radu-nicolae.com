@@ -216,7 +216,7 @@ class CvDatabase
             "Mathematics-Informatics",
             "Matematică-Informatică",
             '<a href="https://licsfsava.ro" style="color: black !important" target="_blank">"Saint Sava" National College</a>',
-            '"<a href="https://licsfsava.ro" target="_blank">Colegiul Național "Sfântul Sava"</a>',
+            '"<a href="https://licsfsava.ro" target="_blank" style="color: black !important">Colegiul Național "Sfântul Sava"</a>',
             '<div style="color:#999999">
                                 <p>I study at the best high school in Romania mathematics-informatics profile and
                                     currently I am in the 11<sup>th</sup> grade.</p>

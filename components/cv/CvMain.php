@@ -28,7 +28,7 @@ $cvDatabase = new CvDatabase();
 
                     <?php
 
-                    echo $cvUtils->generateCode($cvDatabase->getEducationCv());
+                    echo $cvUtils->generateCode($cvDatabase->getEducationCv(), $lang);
                     ?>
 
 
@@ -36,13 +36,13 @@ $cvDatabase = new CvDatabase();
                         <h2 class="heading"> <?= $cvCategories[1][$lang] ?> </h2>
 
 
-                        <?= $cvUtils->generateCode($cvDatabase->getDevelopingCv()) ?>
+                        <?= $cvUtils->generateCode($cvDatabase->getDevelopingCv(), $lang) ?>
 
 
                         <div id="page-21" class="page two">
                             <h2 class="heading"><?= $cvCategories[2][$lang] ?></h2>
 
-                            <?= $cvUtils->generateCode($cvDatabase->getOtherExperienceCv()) ?>
+                            <?= $cvUtils->generateCode($cvDatabase->getOtherExperienceCv(), $lang) ?>
 
 
                         </div>

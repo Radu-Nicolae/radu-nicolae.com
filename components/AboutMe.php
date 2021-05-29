@@ -27,7 +27,7 @@
                             <li class="d-flex"><span><?= $aboutMe[10][$lang] ?></span> <a href="mailto:mail@radu-nicolae.com"><span
                                         style="color: #595959 !important; text-decoration: underline; font-weight: normal;"><?= $aboutMe[11][$lang] ?></span></a></span>
                             </li>
-                            <li class="d-flex"><span style="color: #595959; !important;"><?= $aboutMe[12][$lang] ?> </span> <a href="tel://+40726066744"><span
+                            <li class="d-flex"><span><?= $aboutMe[12][$lang] ?> </span> <a style="color: #595959; !important;" href="tel://+40726066744"><span
                                         style="color: #595959 !important; text-decoration: underline; font-weight: normal;"><?= $aboutMe[13][$lang] ?></span></a>
                             </li>
                         </ul>
