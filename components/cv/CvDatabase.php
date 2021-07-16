@@ -9,6 +9,46 @@ class CvDatabase
 
     public function getEducationCv()
     {
+        $edxHarvard = new CvItem(
+            "Jun 2021 - ",
+            "Jun 2021 - ",
+            "present",
+            "present",
+            "Front End Course",
+            "Front End Course",
+            "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
+            "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
+            "
+            <p>
+                The course covers several languages and tools related to front end: 
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>MySQL</li>
+                    <li>Javascript</li>
+                </ul> 
+                The course also includes 3 chapters consisting of User Interfaces, Testing and Scalability and Security. More details about the course can be found <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>here</a>.
+            </p>",
+            "
+            <p>
+            Cursul acoperă mai multe limbaje și tool-uri legate de front end:
+             <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>MySQL</li>
+                    <li>Javascript</li>
+                </ul> 
+             De asemenea, cursul contine 3 capitole constând din interfețe utilizator, testare și scalabilitate și securitate. Mai multe detalii despre curs pot fi gasite <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>aici</a>.
+            </p>
+            "
+        );
+
 
         $edxDelft = new CvItem(
             "Apr 2021 - ",
@@ -277,6 +317,7 @@ class CvDatabase
 
         $cv = array(
             $sololearn,
+            $edxHarvard,
             $edxDelft,
             $jademyCourses,
             $ecdl,

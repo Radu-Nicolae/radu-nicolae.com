@@ -24,12 +24,12 @@
                 <div class="text text-center">
                     <span class="subheading"><?= $iam[0][$lang] ?> </span>
                     <h1>Radu Nicolae</h1>
-                    <h2 style="font-size: 2rem;"> <?= $iam[1][$lang] ?>
-                        <span
-                                class="txt-rotate"
-                                data-period="1000"
-                                data-rotate='[ "Web Developer.", "Web Designer.", "PHP Developer.",  "Java Developer."]'></span>
-                    </h2>
+<!--                    <h2 style="font-size: 2rem;"> --><?//= $iam[1][$lang] ?>
+<!--                        <span-->
+<!--                                class="txt-rotate"-->
+<!--                                data-period="1000"-->
+<!--                                data-rotate='[ "Web Developer.", "Web Designer.", "PHP Developer.",  "Java Developer."]'></span>-->
+<!--                    </h2>-->
                 </div>
             </div>
         </div>
