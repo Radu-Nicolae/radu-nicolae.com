@@ -2,7 +2,7 @@
 
 ?>
 
-<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+<section style="padding-top: 4rem !important;" class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
 
     <h2 class="heading">IELTS Academic</h2>
 
@@ -66,7 +66,7 @@
 </section>
 <br><br>
 
-<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+<section style="padding-top: 4rem !important;" class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
 
     <h2 class="heading">SAT - American Baccalaureate</h2>
 

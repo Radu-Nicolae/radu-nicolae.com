@@ -39,9 +39,19 @@ $aboutMe = array(
 
 $cvCategories = array(
     array("Education", "Studii"),
-    array("Full Stack Developing", "Full Stack Developing"),
-    array("Other experience", "Alte activități"),
+    array("Work Experience", "Experiență"),
+    array("Other", "Alte activități"),
     array("Skills", "Abilități"),
+);
+
+$cvSecondaryCategories = array(
+    array("High School", "Liceu"),
+    array("Courses", "Cursuri"),
+    array("Internship", "Internship"),
+    array("Projects", "Proiecte"),
+    array("Robotics", "Robotică"),
+    array("Competitions", "Compeții"),
+    array("Volunteering", "Voluntariate")
 );
 
 $servicesDB = array(

@@ -7,7 +7,6 @@ class cvUtils
     public function generateCode($cv, $lang)
     {
         $code = "";
-        $codePerItem = "";
 
         for ($i = 0; $i < sizeof($cv); $i++) {
             $codePerItem = ' ';

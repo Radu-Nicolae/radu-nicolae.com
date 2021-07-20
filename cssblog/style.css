@@ -9855,3 +9855,7 @@ sub{
   display: inline;
 }
 
+.secondary-cv{
+   padding-left: 3rem;
+   /*border-left: 1px solid gray !important;*/
+}
