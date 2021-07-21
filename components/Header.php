@@ -12,6 +12,8 @@
     <link rel="icon" href="logo.png" type="image/png">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="http://yoursite.com/themify-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="cssblog/themify-icons/themify-icons.css"
 
     <link rel="stylesheet" href="cssblog/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="cssblog/animate.css">
@@ -27,6 +29,7 @@
     <link rel="stylesheet" href="cssblog/flaticon.css">
     <link rel="stylesheet" href="cssblog/icomoon.css">
     <link rel="stylesheet" href="cssblog/style.css">
+
     <style type="text/css">.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after {
             pointer-events: none !important;
             -webkit-animation-play-state: paused !important;

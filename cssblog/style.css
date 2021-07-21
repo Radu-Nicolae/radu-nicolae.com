@@ -9847,3 +9847,15 @@ textarea.form-control {
   padding-top: 15px !important;
   padding-bottom: 15px !important;
 }
+
+sub{
+  color: #595959;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline;
+}
+
+.secondary-cv{
+   padding-left: 3rem;
+   /*border-left: 1px solid gray !important;*/
+}

@@ -25,10 +25,10 @@
                             <li class="d-flex"><span><?= $aboutMe[6][$lang] ?></span> <span><?= $aboutMe[7][$lang] ?></span></li>
                             <li class="d-flex"><span><?= $aboutMe[8][$lang] ?></span> <span><?= $aboutMe[9][$lang] ?></span></li>
                             <li class="d-flex"><span><?= $aboutMe[10][$lang] ?></span> <a href="mailto:mail@radu-nicolae.com"><span
-                                        style="color: #999999 !important; font-weight: normal;"><?= $aboutMe[11][$lang] ?></span></a></span>
+                                        style="color: #595959 !important; text-decoration: underline; font-weight: normal;"><?= $aboutMe[11][$lang] ?></span></a></span>
                             </li>
-                            <li class="d-flex"><span><?= $aboutMe[12][$lang] ?> </span> <a href="tel://+40726066744"><span
-                                        style="color: #999999 !important; font-weight: normal;"><?= $aboutMe[13][$lang] ?></span></a>
+                            <li class="d-flex"><span><?= $aboutMe[12][$lang] ?> </span> <a style="color: #595959; !important;" href="tel://+40726066744"><span
+                                        style="color: #595959 !important; text-decoration: underline; font-weight: normal;"><?= $aboutMe[13][$lang] ?></span></a>
                             </li>
                         </ul>
                     </div>
@@ -36,7 +36,7 @@
                 <div class="counter-wrap ftco-animate d-flex mt-md-3 fadeInUp ftco-animated">
                     <div class="text">
                         <p class="mb-4">
-                            <span class="number"> 4</span>
+                            <span class="number"><?=$officialWebsitesNo?></span>
                             <span>Official Websites completed</span>
                         </p>
                         <p><a href="CV-RaduNicolae.pdf" class="btn btn-primary py-3 px-3" download>Download CV</a></p>

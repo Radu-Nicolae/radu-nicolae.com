@@ -1,6 +1,7 @@
 <?php
 
 $grade = "11";
+$officialWebsitesNo = "5";
 
 
 $navbar = array(
@@ -14,7 +15,7 @@ $navbar = array(
 
 $iam = array(
     array("Hello! I am", "SALUTARE! MĂ NUMESC"),
-    array("I'm", "Sunt")
+    array("I'm a", "Sunt")
 
 );
 
@@ -33,14 +34,24 @@ $aboutMe = array(
     array("mail@radu-nicolae.com", "mail@radu-nicolae.com"),
     array("Phone: ", "Telefon: "),
     array("+40726066744", "+40726066744"),
-    array("Official Websites completed", "Site-uri oficiale completate")
+    array("Official Websites completed", "Site-uri oficiale dezvoltate")
 );
 
 $cvCategories = array(
     array("Education", "Studii"),
-    array("Full Stack Developing", "Full Stack Developing"),
-    array("Other experience", "Alte activități"),
+    array("Work Experience", "Experiență"),
+    array("Other", "Alte activități"),
     array("Skills", "Abilități"),
+);
+
+$cvSecondaryCategories = array(
+    array("High School", "Liceu"),
+    array("Courses", "Cursuri"),
+    array("Internship", "Internship"),
+    array("Projects", "Proiecte"),
+    array("Robotics", "Robotică"),
+    array("Competitions", "Compeții"),
+    array("Volunteering", "Voluntariate")
 );
 
 $servicesDB = array(
@@ -50,9 +61,8 @@ $servicesDB = array(
 $servs = array(
     "Web Development",
     "Web Design",
-    "Javascript Development",
-    "Java Development",
-    "MySQL Development"
+    "PHP Development",
+    "Java Development"
 );
 
 $devWebsites = array(
@@ -63,7 +73,7 @@ $hireMe = array(
     array("I'm <span>Available</span> <br>for new projects", "Sunt <span>Disponibil</span> <br>pentru noi proiecte"),
     array("Do you need a website? I can make a website or keep its maintenance by updating prices, adding
                     articles, etc.", "Ai nevoie de un website sau de o aplicație? Pot să dezvolt un website sau o aplicație sau să îi asigur mentenanța, actualizând prețuri, oferte, adaugând articole, etc."),
-    array("Contact me", "contact")
+    array("Contact me", "Contact")
 );
 
 $contact = array(
@@ -77,8 +87,8 @@ $contact = array(
 
 $footer = array(
     array("About"),
-    array('My name is Radu Nicolae and I am a student at "Saint Sava" National College. Some of the things I do are Web Developing, Web Desging, Javascript Developing, Java Developing, FTC Robotics, Red Cross volunteer, Happy Camps volunteer. I also love sport, I practice cycling, tennis, and swimming.',
-        'Numele meu este Radu Nicolae și sunt elev la Colegiul Național "Sfântul Sava". Câteva dintre activitățile mele sunt: Web Developing, Web Desiging, Javascript Developing, Java Developing, Robotică FTC, Voluntar Happy Camps, Voluntar Crucea Roșie. De asemenea, iubesc sportul, practic ciclism, tenis și înot.'),
+    array('My name is Radu Nicolae and I am a student at "Saint Sava" National College. Some of the things I do are Web Developing, Web Designing, PHP Developing, Java Developing, FIRST Tech Challenge Robotics, Happy Camps volunteering. I also love nature and sport, hence I love cycling and exploring new paths.',
+        'Numele meu este Radu Nicolae și sunt elev la Colegiul Național "Sfântul Sava". Câteva dintre activitățile mele sunt: Web Developing, Web Designing, Javascript Developing, Java Developing, Robotică FTC, Voluntar Happy Camps, Voluntar Crucea Roșie. De asemenea, iubesc sportul, practic ciclism, tenis și înot.'),
     array('Links', 'Link-uri'),
     array('Home', 'Home'),
     array('Personal Info', 'Despre mine'),
