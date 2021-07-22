@@ -10,33 +10,18 @@ class CvDatabase
         $highSchool = new CvItem(
             "2018 - ",
             "2018 - ",
-            "present",
+            "on going",
             "prezent",
-            "Mathematics-Informatics",
-            "Matematică-Informatică",
+            "Baccalaureate Diploma",
+            "Diplomă de Bacalaureat",
             '<a href="https://licsfsava.ro" style="color: black !important" target="_blank">"Saint Sava" National College</a>',
             '"<a href="https://licsfsava.ro" target="_blank" style="color: black !important">Colegiul Național "Sfântul Sava"</a>',
             '<div style="color:#999999">
-                                <p>I study at the best high school in Romania mathematics-informatics profile and
-                                    currently I am in the 11<sup>th</sup> grade.</p>
-                                <p>
-                                    Principal profile subjects studied are:
-                                </p>
-                                <ul>
-                                    <li>Mathematics</li>
-                                    <li>Informatics</li>
-                                    <li>Physics</li>
-                                    <li>Chemistry</li>
-                                </ul>
-
-                                <p>
-                                    Principal non-profile subjects studied are:
-                                </p>
-                                <ul>
-                                    <li>Romanian</li>
-                                    <li>English</li>
-                                    <li>French</li>
-                                </ul>
+                                <p>I study at the best high school in Romania <b>mathematics-informatics profile</b> and
+                                    currently I am in the 12<sup>th</sup> grade.</p>
+                                    
+                               <p>I will sustain at Baccalaureate Exam Mathematics, Phisics, Romanian, Digital Competences and English  </p>
+                                
                             </div>',
             '<div style="color:#999999">
                                 <p>În prezent sunt elev la cel mai bun liceu din România pe profilul matematică și informatică.</p>
@@ -61,9 +46,27 @@ class CvDatabase
                             </div>'
         );
 
-//        this array was created because otherwise the following method would crash: getDevelopingCv()
+        $sat = new CvItem(
+            "Dec 2020",
+            "Dec 2020",
+            "",
+            "",
+            "Scholastic Assessment Test (SAT)",
+            "Scholastic Assessment Test (SAT)",
+            "College Board",
+            "College Board",
+            "
+                <p>Overall: <b>1360 points</b> - higher than 91% of test takers</p>
+                
+                <p>Math: <b>760 points</b> - higher than 96% of test takers
+               <br>English: <b>600 points</b> - higher than 76% of test takers</p>
+                ",
+            "",
+        );
+
         $oneItemArray = array(
-            $highSchool
+            $highSchool,
+            $sat
         );
 
         return $oneItemArray;
@@ -75,26 +78,22 @@ class CvDatabase
         $edxHarvard = new CvItem(
             "Jun 2021 - ",
             "Jun 2021 - ",
-            "present",
-            "present",
+            "on going",
+            "on going",
             "Front End Course",
             "Front End Course",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
             "
             <p>
-                The course covers several languages and tools related to front end: 
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Git</li>
-                    <li>Python</li>
-                    <li>Django</li>
-                    <li>MySQL</li>
-                    <li>Javascript</li>
-                </ul> 
-                The course also includes 3 chapters consisting of User Interfaces, Testing and Scalability and Security. More details about the course can be found <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>here</a>.
-            </p>",
+                The course covers the following chapters: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability and Security.
+            </p>
+
+            <p>
+                More details about the course can be found <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>here</a>.
+            </p>
+            
+            ",
             "
             <p>
             Cursul acoperă mai multe limbaje și tool-uri legate de front end:
@@ -128,36 +127,10 @@ class CvDatabase
                 </p>
                 
                 <p>
-                    I did gain and/or consolidate my knowledge of:
+                    I did gain indispensable calculus and mathematical algorithm knowledge including equations, functions, differentiation, integration and geometry.
                 </p>
-                <ul>
-                    <li>
-                        Elementary Functions
-                        <ul>
-                            <li>Power functions</li> 
-                            <li>Rational functions</li> 
-                            <li>Polynomials</li> 
-                            <li>Trigonometric functions</li> 
-                            <li>Exponential functions</li> 
-                            <li>logarithmic functions</li>
-                        </ul>
-                    </li>
-                    
-                    <li>Equations and Inegalities</li>
-                    <li>Differentiation and Derivatives</li>
-                    <li>Integration and Integrals</li>
-                    <li>Geometry
-                        <ul>
-                            <li>Vectors</li>
-                            <li>Lines</li>
-                            <li>Circles</li>
-                            <li>General Curves</li>
-                            <li>Geometry in space</li>
-                        </ul>
-                    </li>
-                </ul>
                 
-                <p>For more details about the course, please click <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home">here.</a></p>
+                <p>More details about the course can be found <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home">here.</a></p>
             ',
             '<p>
                     Am absolvit cursul oficial de matematică preuniversitară organizat de TU Delft și am obținut <b>calificativul final de 91%</b>.
@@ -200,25 +173,15 @@ class CvDatabase
         $sololearn = new CvItem(
             "2020 - ",
             "2020 - ",
-            "present",
+            "on going",
             "prezent",
             "Programming Courses",
             "Cursuri de Programare",
             "SoloLearn",
             "SoloLearn",
             '
-                    <p>I have attended and graduated the following SoloLearn courses:</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Responsive Web Design</li>
-                                <li>Java</li>
-                                <li>PHP</li>
-                            </ul>
-
-                            <p>
-                                In present I am attending MySQL and C++ courses.
-                            </p>
+                    <p>I have attended and graduated the following SoloLearn courses: Java, PHP, HTML, CSS, Responsive Web Design.</p>
+                    <p>I am currently attending MySQL and C++ courses.</p>
                 ',
             '<p>Am participat la urmatoarele cursuri organizate și certificate de SoloLearn:</p>
                             <ul>
@@ -243,23 +206,12 @@ class CvDatabase
             "Cursuri Java",
             "Jademy",
             "Jademy",
-            '<p>I have attended back end courses of programming applied on Java, organized by Jademy - Oracle partner.</p>
-                            <p>
-                                I did gain knowledge of:
-                            </p>
-                            <ul>
-                                <li>Language syntax elements</li>
-                                <li>Application of notions of object-oriented programming (OOP)</li>
-                                <li>Analysis and solving top-down and bottom-up problems</li>
-                                <li>Coding style principles</li>
-                                <li>Java Collections</li>
-                                <li>Exceptions</li>
-                                <li>Databases (MySQL and JDBC)</li>
-                                <li>Functional Programming</li>
-                                <li>Java FX</li>
-                            </ul>
+            '
+                <p>I have attended Oracle authorised back end courses of Java.</p>
+                <p>The course help me develop an algorithmic thinking and I did gain knowledge of OOP, Debugging, solving problems, handling exceptions, databases (SQL and JDBC), functional programming and Java FX.</p>
+                <p>For more details about Jademy click <a href="https://jademy.ro" target="_blank">here.</a></p>',
 
-                            <p>For more details about Jademy click <a href="https://jademy.ro" target="_blank">here.</a></p>',
+
             '<p>Am participat la cursuri de back end organizate Jademy, partener Oracle .</p>
                             <p>
                                 Am dobândit cunoștiițe de:
@@ -354,7 +306,7 @@ class CvDatabase
         $topTheWhole = new CvItem(
             "Jan 2021 - ",
             "Ian 2020 - ",
-            "present",
+            "on going",
             "prezent",
             "Website Founder",
             "Fondator Website",
@@ -362,11 +314,10 @@ class CvDatabase
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
             '<a href="https://topthewhole.com" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
-            '<p><a href="https://topthewhole.com" style="text-decoration: underline">Top The Whole</a> is the website that 
-                    <a href="https://luanaionica.com" target="_blank" style="text-decoration: underline">Luana</a> and I built in order to attract traffic that,
-                    ultimately, can become a passive source of income. Thus, I gained knowledge of SEO and practiced my both Front End and Back End skills.
-                    Currently, I am keeping the website\'s maintenaince by posting new articles and updating details.
-                     </p>',
+            '
+                <p>Website owner - developed in order to attract traffic for Google Adsense.</p>
+                <p>I built the website together with <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> using PHP and SEO. I am currently keeping the maintenaince of the website.</p>        
+',
             '<p> <a href="https://topthewhole.com" style="text-decoration: underline"><u>Top The Whole</u></a> este website-ul pe care l-am construit împreuna cu
                      <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> pentru a atrage trafic web care,
                      în cele din urmă, poate deveni o sursă pasivă de venit. Astfel, am dobândit cunoștințe despre SEO și mi-am exersat atât cunoștiințele de Front End, cât și pe cele de Back End.
@@ -379,7 +330,7 @@ class CvDatabase
         $raduNicolaeWebsite = new CvItem(
             "Mar 2020 - ",
             "Mar 2020 - ",
-            "present",
+            "on going",
             "prezent",
             "Web Developer Internship",
             "Web Developer Internship",
@@ -387,7 +338,7 @@ class CvDatabase
                                                           style="text-decoration: underline; color: black !important">This website</a>',
             '<a href="#" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Acest website</a>',
-            '<p style="text-align: justify;">I have structured, designed and built my personal
+            '<p style="text-align: justify;">Structured, designed and built my personal
                                     website by my own using HTML, CSS, Javascript, PHP and GIT. In present I am keeping its maintenance. </p>',
             '<p style="text-align: justify;">Am structurat, proiectat și dezvoltat site-ul meu personal folosind HTML, CSS, 
                         Javascript, PHP și GIT. În prezent mă ocup de mentenanța acestuia.</p>'
@@ -402,7 +353,7 @@ class CvDatabase
             "Web Developer Internship",
             '<a href="https://happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
             '<a href="https://happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
-            '<p style="text-align: justify;">My duties were to structure, design, build and keep the
+            '<p style="text-align: justify;">Structured, designed, built and kept the
                                     maintenance for the official website of Happy Camps Club.</p>',
             '<p style="text-align: justify;">Am structurat, proiectat și dezvoltat site-ul oficial al Happy Camps Club, iar 
                         în prezent mă ocup cu mentenanța acestuia.</p>'
@@ -411,19 +362,14 @@ class CvDatabase
         $interactWebsite = new CvItem(
             "Feb 2020 - ",
             "Feb 2020 - ",
-            "present",
-            "prezent",
+            "Iul 2021",
+            "Iul 2021",
             'Web Developer Internship',
             "Web Developer Internship",
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact Bucharest</a>',
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact București</a>',
-            '<p>My duties were to structure, design and build the
-                                    official website of Interact Bucharest. In present I keep the maintenance of the
-                                    website. Interact Bucharest is a non profit organization, belonging to Rotary Club,
-                                    an international service organization whose stated purpose is to bring together
-                                    business and professional leaders in order to
-                                    provide humanitarian service and to advance goodwill and peace around the
-                                    world.</p>',
+            '<p>Structure, designed and built the
+                                    official website of Interact Bucharest. I kept maintenaince of the website during the period.</p>',
             '<p>Sarcinile mele erau de a structura, proiecta și construi
                                       site-ul oficial al Interact București. În prezent păstrez întreținerea
                                       site-ului. Interact București este o organizație non-profit, aparținând Rotary Club,
@@ -435,13 +381,13 @@ class CvDatabase
         $revistaCaVaWebsite = new CvItem(
             "Oct 2019 - ",
             "Oct 2019 - ",
-            "present",
+            "on going",
             "prezent",
             "Web Developer Internship",
             "Web Developer Internship",
             '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
             '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
-            '<p>My duties were to structure, design and build the
+            '<p>Structured, designed and built the
                                     official website of CaVa, the magazine of "Saint Sava" National College. In prezent
                                     I keep the maintenance of the website by posting new articles, updating details,
                                     making announcements, etc.</p>',
@@ -454,10 +400,10 @@ class CvDatabase
         $cv = array(
             $github,
             $topTheWhole,
-            $happyCampsWebsite,
             $raduNicolaeWebsite,
-            $interactWebsite,
             $revistaCaVaWebsite,
+            $happyCampsWebsite,
+            $interactWebsite
         );
 
         return $cv;
@@ -470,7 +416,7 @@ class CvDatabase
         $jademyInternship = new cvItem(
             "May 2020 - ",
             "Mai 2020 - ",
-            "present",
+            "on going",
             "prezent",
             "Front-End Trainer Internship",
             "Front-End Trainer Internship",
@@ -482,12 +428,10 @@ class CvDatabase
                                             href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"
                                             target="_blank" class="linksiteuri"
                                             style="text-decoration: underline; color: black !important">Curs Front-End</a></span>',
-            '<p style="text-align: justify;">I obtained an internship with Jademy in which I
-                                    have designed, structured and implemented a front end course of 25 modules
-                                    consisting of knowledge about HTML 5, CSS 3 and Javascript and I\'ve also
-                                    participated at Java courses as a trainer assistant . The course can be found <a
-                                            href = "https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start" ><u> here</u>.</a >
-                                </p > ',
+            '<p>I structured, created and implemented a 25 module front end course containg notions and exercises of Javascript, HTML and CSS for <b>Jademy - Oracle Silver Partner</b>. The course can be found here <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>here</u>.</a ></p>
+                        <p>I participated as a trainer assistant at Java Courses.</p> ',
+
+
             '<p style="text-align: justify;">Am obținut un internship cu Jademy unde am structurat, creat și implementat 
                                     un curs de front end care constă în 25 de module cu informații și exerciții cu HTML 5, CSS 3 și
                                      Javascript. De asemenea, am participat și la cursuri de Java ca trainer assistant. Cursul poate fi
@@ -507,7 +451,7 @@ class CvDatabase
         $autovortex = new CvItem(
             "Oct 2020 - ",
             "Oct 2020 - ",
-            "present",
+            "on going",
             "prezent",
             "National Team of Robotics Member",
             "Membru al Echipei Naționale de Robotică Autovortex",
@@ -518,23 +462,18 @@ class CvDatabase
                                         representing Romania in one of the biggest international contest of robotics,
                                         FIRST Tech Challenge.</p>
                                     <p>
-                                        Principal activities are:
+                                        Principal activities: robot designing, construction and programming.
                                     </p>
-                                    <ul>
-                                        <li>robot designing</li>
-                                        <li>robot construction</li>
-                                        <li>robot programming</li>
-                                    </ul>
 
                                     <p>
-                                        A few of our latest awards are:
+                                        Earnt Awards:
                                     </p>
                                     <ul>
-                                        <li>1<sup>st</sup> place at FIRST Tech Challenge Russia 2021 - National Stage
+                                        <li>1<sup>st</sup> place at FIRST Tech Challenge Russia 2021 - April 2021
                                         </li>
-                                        <li>1<sup>st</sup> place at FIRST Tech Challenge Russia 2020 - National Stage
+                                        <li>1<sup>st</sup> place at FIRST Tech Challenge Russia 2020 - February 2020
                                         </li>
-                                        <li>2<sup>nd</sup> place at FIRST Tech Challenge Romania 2019 - National Stage
+                                        <li>1<sup>st</sup> place at FIRST Tech Challenge Russia 2019 - December 2019
                                         </li>
                                     </ul>
             ',
@@ -570,18 +509,8 @@ class CvDatabase
             "FIRST Tech Challenge",
             "FIRST Tech Challenge",
             '
-            <!-- Other experience -->
-                           
-                                    <p style="text-align: justify;">I participated at the official Summer Camp
-                                        organized by FIRST Tech Challenge where I gained knowledge of:</p>
-                                    <ul>
-                                        <li>PTC Creo</li>
-                                        <li>Java and Android Studio, used for programming the robots</li>
-                                        <li>Unwritten rules of designing and construction</li>
-                                        </li>
-                                    </ul>
-                                
-                            <!-- Other experience -->
+                 <p>I participated at the official FIRST Tech Challenge Summer Camp where I gained knowledge of PTC Creo, Java and Android Studio robot designing and construction tactics.</p>
+
             ',
             '<p style="text-align: justify;">Am participat la Summer Camp organizată de FIRST Tech Challenge
                                                         unde am dobândit cunoștiințe de:</p>
@@ -602,16 +531,10 @@ class CvDatabase
             "Membru",
             "Gamma Robotics",
             "Gamma",
-            '<p style="text-align: justify;">Gamma is "Saint Sava" National College\'s robotics
-                                        team, which participates at one of the biggest international robotics contests
-                                        worldwide, FIRST Tech Challenge.
-                                    </p>
-
-                                    <p style="text-align: justify;">
-        We have managed to pass regional stage and we have competed against the best
-                                        robotics teams in Romania at the national stage in the 2018-2019 season of FIRST
-                                        Tech Challenge, Rover Ruckus.
-                                    </p>',
+            '
+                <p>Gamma is my high school\'s robotics team, which participated at the international contest FIRST Tech Challenge.</p>
+                <p>I was team leader and driver during the season. We passed the regional stage and we competed against the best robotics teams in Romania at the national stage.</p>
+',
             '<p style="text-align: justify;">Gamma este echipa de robotică a Colegiului Național Sfantul Sava care participă
                                                         la unul dintre cele mai mari concursuri internaționale de robotică, FIRST Tech Challenge.
                                     </p>
@@ -633,23 +556,65 @@ class CvDatabase
 
 
     public function getCompetitionsCv(){
-        $roboticsContest = new CvItem(
-            "10 May 2019",
-            "10 Mai 2019",
+        $ftc2019 = new CvItem(
             "",
             "",
-            "Participant at robotics contest",
-            'Participant concurs de robotică',
-            'Sciences and Techologies Ploiesti',
-            'Științe și Tehnologii Ploiești',
-            '<p>My team and I gained the special prize at robotics in the Sciences and Technologies Contest.</p>',
-            '<p>Am participat la concursul "Științe și Tehnologii", într-o echipa de 2 elevi, la secțiunea robotică, unde am obținut Premiul Special.</p>'
+            "",
+            "",
+            "1<sup>st</sup> place",
+            "Locul 1",
+            "First Tech Challenge Russia - Dec 2019",
+            "First Tech Challenge Russia - Dec 2019",
+            "<br><br>",
+            "<br><br>"
         );
 
+        $ftc2020 = new CvItem(
+            "",
+            "",
+            "",
+            "",
+            "1<sup>st</sup> place",
+            "Locul 1",
+            "First Tech Challenge Siberia - Feb 2020",
+            "First Tech Challenge Siberia - Feb 2020",
+            "<br><br>",
+            "<br><br>"
+        );
+
+        $ftc2021 = new CvItem(
+            "",
+            "",
+            "",
+            "",
+            "1<sup>st</sup> place",
+            "Locul 1",
+            "First Tech Challenge Russia - Apr 2021",
+            "First Tech Challenge Russia - Apr 2021",
+            "<br><br>",
+            "<br><br>"
+        );
+
+        $roboticsContest = new CvItem(
+            "",
+            "",
+            "",
+            "",
+            "Special Prize",
+            "Special Prize",
+            "Sciences and Technologies Ploiesti",
+            "Științe și Technologii Ploiești",
+            "<br><br>",
+            "<br><br>"
+        );
+
+
         $cv = array(
+            $ftc2019,
+            $ftc2020,
+            $ftc2021,
             $roboticsContest,
-            $roboticsContest,
-            $roboticsContest);
+        );
 
         return $cv;
     }
@@ -677,9 +642,7 @@ class CvDatabase
             "Agent de vânzari",
             "Corporate Games Romania",
             "Corporate Games Romania",
-            "<p>After graduating the business course organized by <a href='https://www.corporate-games.ro/ro' target='_blank'>
-                    <u>Corporate Games Romania</u></a> I activated as a Sales Agent for the company. My duties were to convinge the general managers of the greatest
-                    corporations from Romania to take part of the event together with their subordinates.</p>",
+            "<p>Convince the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>",
             "<p> După absolvirea cursului de business organizat de <a href='https://www.corporate-games.ro/ro' target='_blank'>
                       <u> Corporate Games Romania </u> </a> am activat ca agent de vânzări. Datoria mea era să îi conving pe directorii generali de cei mai mari
                       corporații din România să participe la eveniment împreună cu subordonații lor. </p>"
@@ -694,7 +657,7 @@ class CvDatabase
             "Membru Staff Lazăr MUN",
             "United Nations",
             "United Nations",
-            '<p style="text-align: justify;">I have occupied the position of Staff member at
+            '<p style="text-align: justify;">Staff member at
                                         Model United Nations Conference, held in "Gheorghe Lazar" National College from
                                         Bucharest.</p>',
             '<p style="text-align: justify;">Am ocupat funcția de voluntar la
@@ -715,8 +678,7 @@ class CvDatabase
                                         Movement is an international humanitarian movement whose mission is to protect
                                         human life and health, to ensure respect for the human being, to prevent and
                                         alleviate human suffering, without any discrimination of nationality, race,
-                                        religion, social classes. More details on <a href="https://www.icrc.org"
-                                                                                     target="_blank"> icrc.org</a>.</p>',
+                                        religion, social classes.</p>',
             '<p style="text-align: justify;">Mișcarea Internațională de Cruce Roșie și Semilună Roșie este o mișcare umanitară 
                         internațională a cărei misiune este de a proteja viața și sănătatea oamenilor, de a asigura respectul față de ființa umană,
                         de a preveni și alina suferința oamenilor, fără vreo discriminare de naționalitate, rasă, religie, clase sociale sau 
@@ -749,7 +711,7 @@ class CvDatabase
         $happyCampsVolunteer = new CvItem(
             "Apr 2019 - ",
             "Apr 2019 - ",
-            "present",
+            "on going",
             "prezent",
             "Volunteer",
             "Voluntar",
@@ -766,7 +728,6 @@ class CvDatabase
             $corporateGamesFinancial,
             $lazarMun,
             $redCross,
-            $cg2019,
             $happyCampsVolunteer
         );
 
