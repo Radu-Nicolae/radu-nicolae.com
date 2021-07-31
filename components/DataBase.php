@@ -15,8 +15,12 @@ $navbar = array(
 
 $iam = array(
     array("Hello! I am", "SALUTARE! MĂ NUMESC"),
-    array("I'm a", "Sunt")
+    array("", "")
 
+);
+
+$iam2 = array(
+    array("Welcome!", "Bun venit!")
 );
 
 $aboutMe = array(
