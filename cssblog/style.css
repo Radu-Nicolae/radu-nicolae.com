@@ -8139,6 +8139,11 @@ body {
   line-height: 1.8;
   font-weight: 400;
   color: #595959; }
+@media(max-width: 450px){
+  body{
+    font-size: 14px;
+  }
+}
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8706,11 +8711,24 @@ h1, h2, h3, h4, h5,
     margin-bottom: 30px;
     color: #ff851b; }
 
+  @media(max-width: 450px){
+    .icon{
+      display: none !important;
+    }
+  }
+
+
+
 .resume-wrap {
   width: 100%;
   margin-bottom: 30px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 10px; }
+@media(max-width: 450px){
+  .resume-wrap{
+    width: 110% !important;
+  }
+}
   .resume-wrap .icon {
     width: 50px;
     height: 50px;
@@ -8722,6 +8740,7 @@ h1, h2, h3, h4, h5,
     .resume-wrap .icon span {
       color: #fff;
       font-size: 28px; }
+
   .resume-wrap .text {
     width: calc(100% - 50px); }
   .resume-wrap .date {
@@ -8732,10 +8751,20 @@ h1, h2, h3, h4, h5,
   .resume-wrap h2 {
     font-size: 24px;
     font-weight: 700; }
+  @media(max-width: 450px){
+    .resume-wrap h2{
+      font-size: 21px;
+    }
+  }
   .resume-wrap .position {
     font-size: 18px;
     font-weight: 700;
     color: #000000; }
+  @media(max-width: 450px){
+    .resume-wrap .position{
+      font-size: 16px !important;
+    }
+  }
 
 .ftco-partner {
   padding: 4em 0 !important; }
@@ -9076,7 +9105,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 2em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }

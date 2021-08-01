@@ -2,7 +2,8 @@
 
 ?>
 
-<section style="padding-top: 4rem !important;" class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+<section style="padding-top: 4rem !important;" class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img"
+         id="section-counter" xmlns="http://www.w3.org/1999/html">
 
     <h2 class="heading">IELTS Academic</h2>
 
@@ -84,14 +85,28 @@
 
 <section style="padding-top: 4rem !important;" class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
 
+    <style>
+        @media(max-width: 450px){
+            .next-line{
+                display: none !important;
+            }
+        }
+
+        @media(min-width: 450px){
+            .verical-line{
+                display: none;
+            }
+        }
+    </style>
+
     <h2 class="heading">Soft Skills</h2>
 
     <div class="container-fluid px-md-5">
         <div class="row d-md-flex align-items-center">
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
                 <div class="block-18 shadow">
-                    <div class="text" style="clear: display: flex">
-                        <h4 class="number" style="color: black">Teamwork<span class="flatticon-here ti-settings"></span></h4>
+                    <div class="text">
+                        <h4 class="number" style="color: black"><span class="next-line flatticon-here ti-settings"></span></span>Teamwork</h4>
                     </div>
                 </div>
             </div>
@@ -102,7 +117,7 @@
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
                 <div class="block-18 shadow">
                     <div class="text">
-                        <h4 class="number" style="color: black">Solution oriented<span class="flatticon-here ti-light-bulb"></span></h4>
+                        <h4 class="number" style="color: black">Solution oriented<span class="next-line flatticon-here ti-light-bulb"></span></h4>
 
                     </div>
                 </div>
@@ -113,7 +128,7 @@
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
                 <div class="block-18 shadow">
                     <div class="text">
-                        <h4 class="number" style="color: black">Fast learner<span class="flatticon-here ti-bolt"></span></h4>
+                        <h4 class="number" style="color: black">Fast learner<span class="next-line flatticon-here ti-bolt"></span></h4>
 
                     </div>
                 </div>
@@ -125,7 +140,7 @@
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
                 <div class="block-18 shadow">
                     <div class="text">
-                        <h4 class="number" style="color: black">Attention to detail<span class="flatticon-here ti-search"></span></h4>
+                        <h4 class="number" style="color: black">Attention to detail<span class="next-line flatticon-here ti-search"></span></h4>
 
                     </div>
                 </div>
