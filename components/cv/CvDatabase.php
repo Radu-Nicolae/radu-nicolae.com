@@ -18,16 +18,16 @@ class CvDatabase
             '"<a href="https://licsfsava.ro" target="_blank" style="color: black !important">Colegiul Național "Sfântul Sava"</a>',
             '<div style="color:#999999">
                                 <p>I study at the best high school in Romania <b>mathematics-informatics profile</b> and
-                                    currently I am in the 12<sup>th</sup> grade.</p>
+                                    I am currently in the 12<sup>th</sup> grade.</p>
                                     
-                               <p>I will sustain at Baccalaureate Exam Mathematics, Phisics, Romanian, Digital Competences and English  </p>
+                               <p>I will sustain Baccalaureate Exam at Mathematics, Physics, Romanian, Digital Competences and English.  </p>
                                 
                             </div>',
             '<div style="color:#999999">
-                                <p> Studiez la cel mai bun liceu din România pe<b> profilul matematică-informatică </b> și
-                                     în prezent sunt în clasa a 12-a <sup> a </sup>. </p>
+                                <p> Studiez la cel mai bun liceu din România pe <b>profilul matematică-informatică</b> și
+                                     în prezent sunt în clasa a 12-a. </p>
                                     
-                                <p> Voi susține examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză </p>
+                                <p> Voi susține examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză. </p>
                             </div>'
         );
 
@@ -43,13 +43,13 @@ class CvDatabase
             "
                 <p>Overall: <b>1360 points</b> - higher than 91% of test takers</p>
                 
-                <p>Math: <b>760 points</b> - higher than 96% of test takers
-               <br>English: <b>600 points</b> - higher than 76% of test takers</p>
+                <p>Math: <b>760 points</b> - higher than 96% of test takers.
+               <br>English: <b>600 points</b> - higher than 76% of test takers.</p>
                 ",
-            "<p> Total: <b> 1360 de puncte </b> - mai mare decât 91% dintre candidații SAT. </p>
+            "<p> Total: <b>1360 de puncte</b> - mai mare decât 91% dintre candidații SAT. </p>
               
-                 <p> Matematică: <b> 760 de puncte </b> - mai mare decât 96% dintre candidații SAT
-                <br> Engleză: <b> 600 de puncte </b> - mai mare decât 76% dintre candidații la SAT </p>",
+                 <p> Matematică: <b>760 de puncte</b> - mai mare decât 96% dintre candidații SAT.
+                <br> Engleză: <b>600 de puncte</b> - mai mare decât 76% dintre candidații la SAT. </p>",
         );
 
         $schools = array(
@@ -117,11 +117,11 @@ class CvDatabase
             ',
             '
             <p>
-                     Am absolvit cursul oficial de matematică preuniversitar organizat de TU Delft cu <b> notă finală de 91% </b>.
+                     Am absolvit cursul oficial de matematică preuniversitar organizat de TU Delft cu <b>nota finală de 91% </b>.
                  </p>
                 
                  <p>
-                     Am obținut cunoștințe indispensabile de calcul și algoritm matematic, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.
+                     Am obținut cunoștiințe indispensabile de calcul și algoritm matematic, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.
                  </p>
                 
                  <p> Mai multe detalii despre curs pot fi găsite <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home"> aici. </a> </ p >
@@ -303,7 +303,7 @@ class CvDatabase
             '<p>Structure, designed and built the
                                     official website of Interact Bucharest, member of Rotary. I kept maintenaince of the website during the period.</p>',
             '<p>Am structurat, proiectat și construit
-                         site-ul oficial al Interact București, care aparține de Rotary. Am păstrat mentenanță site-ului web în timpul perioadei.</p>'
+                         site-ul oficial al Interact București, care aparține de Rotary și am păstrat mentenanța site-ului web.</p>'
         );
 
         $revistaCaVaWebsite = new CvItem(
@@ -321,7 +321,7 @@ class CvDatabase
                                     making announcements, etc.</p>',
             '<p> Am structurat, proiectat și construit
                          site-ul oficial al CaVa, revista Colegiului Național „Sfântul Sava”. În prezent
-                         Păstrez întreținerea site-ului web postând articole noi, actualizând detalii,
+                         păstrez întreținerea site-ului web postând articole noi, actualizând detalii,
                          efectuarea de anunțuri etc. </p>'
         );
 
@@ -436,7 +436,7 @@ class CvDatabase
                  <p>I participated at the official FIRST Tech Challenge Summer Camp where I gained knowledge of PTC Creo, Java and Android Studio robot designing and construction tactics.</p>
 
             ',
-            '<p> Am participat la tabăra oficială de vară FIRST Tech Challenge, unde am dobândit cunoștințe de proiectare, construcție și programare a robotului folosind PTC Creo, Java și Android Studio. </p>'
+            '<p> Am participat la tabăra oficială de vară FIRST Tech Challenge, unde am dobândit cunoștiințe de proiectare, construcție și programare a robotului folosind PTC Creo, Java și Android Studio. </p>'
         );
 
         $gammaRobotics = new CvItem(
@@ -570,7 +570,7 @@ class CvDatabase
                                         Model United Nations Conference, held in "Gheorghe Lazar" National College from
                                         Bucharest.</p>',
             '<p style="text-align: justify;">Am ocupat funcția de voluntar la
-                                         conferința model organizata de United Nations, desfășurată în Colegiul Național "Gheorghe Lazar" din România
+                                         conferința model organizată de United Nations, desfășurată în Colegiul Național "Gheorghe Lazar" din România
                                          Bucureşti.</p>'
         );
 
@@ -585,7 +585,7 @@ class CvDatabase
             "Crucea Roșie",
             '<p style="text-align: justify;">The International Red Cross and Red Crescent
                                         Movement is an international humanitarian movement across over 100 countries having over 300,000 members.</p>',
-            ' Crucea Roșie Internațională și Semiluna Roșie este o mișcare umanitară internațională raspândită in peste 100 de țări cu peste 300.000 de membri. '
+            '<p>Crucea Roșie Internațională și Semiluna Roșie este o mișcare umanitară internațională raspândită in peste 100 de țări cu peste 300.000 de membri.</p>'
         );
 
         $cg2019 = new CvItem(
@@ -657,7 +657,7 @@ class CvDatabase
 
     public function getOtherExperienceCv()
     {
-        
+
         $kidsParliament = new CvItem(
             "07 Jun 2019",
             "07 Iun 2019",

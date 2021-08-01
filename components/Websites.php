@@ -96,13 +96,15 @@ class Site
         $personalWebsite = new Site("Personal Website", "Web Developer, Web Designer, Javascript Developer, PHP Developer", "#", "personalWebsite.jpeg");
         $happyCampsClub = new Site("Happy Camps Club", "Web Developer, Web Design, Javascript Developer", "http://happycamps.club", "happyCampsClub.jpeg");
         $topTheWhole = new Site("Top The Whole", "Web Developer, Web Design, Javascript Developer, PHP Developer <br> Article Writer", "https://topthewhole.com", 'topTheWhole.jpeg');
+        $viviriaFestival = new Site("Vivira Festival", "Web Developer, PHP Developer, Web Designer", "https://viviriafestival.ro", "viviriafestival.jpg");
 
         $sites = array(
             $cava,
             $interactBucharest,
             $personalWebsite,
             $happyCampsClub,
-            $topTheWhole
+            $topTheWhole,
+            $viviriaFestival
         );
 
         return $sites;
