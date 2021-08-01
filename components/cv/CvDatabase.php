@@ -24,25 +24,10 @@ class CvDatabase
                                 
                             </div>',
             '<div style="color:#999999">
-                                <p>În prezent sunt elev la cel mai bun liceu din România pe profilul matematică și informatică.</p>
-                                <p>
-                                    Principalele subiecte studiate sunt:
-                                </p>
-                                <ul>
-                                    <li>Matematică</li>
-                                    <li>Informatică</li>
-                                    <li>Fizică</li>
-                                    <li>Chimie</li>
-                                </ul>
-
-                                <p>
-                                    Principalele subiecte secundare studiate sunt:
-                                </p>
-                                <ul>
-                                    <li>Română</li>
-                                    <li>Engleză</li>
-                                    <li>Franceză</li>
-                                </ul>
+                                <p> Studiez la cel mai bun liceu din România pe<b> profilul matematică-informatică </b> și
+                                     în prezent sunt în clasa a 12-a <sup> a </sup>. </p>
+                                    
+                                <p> Voi susține examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză </p>
                             </div>'
         );
 
@@ -61,15 +46,18 @@ class CvDatabase
                 <p>Math: <b>760 points</b> - higher than 96% of test takers
                <br>English: <b>600 points</b> - higher than 76% of test takers</p>
                 ",
-            "",
+            "<p> Total: <b> 1360 de puncte </b> - mai mare decât 91% dintre candidații SAT. </p>
+              
+                 <p> Matematică: <b> 760 de puncte </b> - mai mare decât 96% dintre candidații SAT
+                <br> Engleză: <b> 600 de puncte </b> - mai mare decât 76% dintre candidații la SAT </p>",
         );
 
-        $oneItemArray = array(
+        $schools = array(
             $highSchool,
             $sat
         );
 
-        return $oneItemArray;
+        return $schools;
     }
 
 
@@ -96,18 +84,13 @@ class CvDatabase
             ",
             "
             <p>
-            Cursul acoperă mai multe limbaje și tool-uri legate de front end:
-             <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Git</li>
-                    <li>Python</li>
-                    <li>Django</li>
-                    <li>MySQL</li>
-                    <li>Javascript</li>
-                </ul> 
-             De asemenea, cursul contine 3 capitole constând din interfețe utilizator, testare și scalabilitate și securitate. Mai multe detalii despre curs pot fi gasite <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>aici</a>.
-            </p>
+            <p>
+                 Cursul acoperă următoarele capitole: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability și Security.
+             </p>
+
+             <p>
+                 Mai multe detalii despre curs găsiți <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'> aici </a>.
+             </p>
             "
         );
 
@@ -132,42 +115,17 @@ class CvDatabase
                 
                 <p>More details about the course can be found <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home">here.</a></p>
             ',
-            '<p>
-                    Am absolvit cursul oficial de matematică preuniversitară organizat de TU Delft și am obținut <b>calificativul final de 91%</b>.
-                </p>
+            '
+            <p>
+                     Am absolvit cursul oficial de matematică preuniversitar organizat de TU Delft cu <b> notă finală de 91% </b>.
+                 </p>
                 
-                <p>
-                    Am dobândit și/sau consolidat cunoștiințe de:
-                </p>
-                <ul>
-                    <li>
-                        Funcții elementare
-                        <ul>
-                            <li>Puteri</li> 
-                            <li>Numere raționale</li> 
-                            <li>Funcții Polinomiale</li> 
-                            <li>Funcții trigonometrice</li> 
-                            <li>Funcții exponențiale</li> 
-                            <li>Funcții logaritmice</li>
-                        </ul>
-                    </li>
-                    
-                    <li>Ecuații și Inegalități</li>
-                    <li>Derivate</li>
-                    <li>Integrale</li>
-                    <li>Geometrie
-                        <ul>
-                            <li>Vectori</li>
-                            <li>Drepte/Segmente</li>
-                            <li>Circuri</li>
-                            <li>Parabole</li>
-                            <li>Geometrie în spațiu</li>
-                        </ul>
-                    </li>
-                </ul>
+                 <p>
+                     Am obținut cunoștințe indispensabile de calcul și algoritm matematic, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.
+                 </p>
                 
-                <p>Pentru mai multe detalii despre curs click <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home">aici.</a></p>
-'
+                 <p> Mai multe detalii despre curs pot fi găsite <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home"> aici. </a> </ p >
+            '
         );
 
         $sololearn = new CvItem(
@@ -183,18 +141,8 @@ class CvDatabase
                     <p>I have attended and graduated the following SoloLearn courses: Java, PHP, HTML, CSS, Responsive Web Design.</p>
                     <p>I am currently attending MySQL and C++ courses.</p>
                 ',
-            '<p>Am participat la urmatoarele cursuri organizate și certificate de SoloLearn:</p>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Responsive Web Design</li>
-                                <li>Java</li>
-                                <li>PHP</li>
-                            </ul>
-
-                            <p>
-                                În prezent particip la cursurile de MySQL și C++.
-                            </p>'
+            '<p>Am urmat și am absolvit următoarele cursuri SoloLearn: Java, PHP, HTML, CSS, Responsive Web Design.</p>
+                     <p>În prezent particip la cursurile de MySQL și C++. </p>'
         );
 
         $jademyCourses = new CvItem(
@@ -212,23 +160,9 @@ class CvDatabase
                 <p>For more details about Jademy click <a href="https://jademy.ro" target="_blank">here.</a></p>',
 
 
-            '<p>Am participat la cursuri de back end organizate Jademy, partener Oracle .</p>
-                            <p>
-                                Am dobândit cunoștiițe de:
-                            </p>
-                            <ul>
-                                <li>Elemente de sintaxă</li>
-                                <li>Aplicarea de noțiuni de OOP (programare orientată pe obiecte)</li>
-                                <li>Analizarea si rezolvarea bug-urilor</li>
-                                <li>Principii de coding style</li>
-                                <li>Java Collections</li>
-                                <li>Exceptions</li>
-                                <li>Databases (MySQL and JDBC)</li>
-                                <li>Programare funcțională</li>
-                                <li>Java FX</li>
-                            </ul>
-
-                            <p>Pentru mai mult detalii despre Jademy click <a href="https://jademy.ro" target="_blank">aici.</a></p>'
+            '<p> Am participat la cursuri Java de back-end autorizate de Oracle. </p>
+                 <p> Cursul m-a ajutat să dezvolt o gândire algoritmică și am dobândit cunoștințe despre OOP, Debugging, rezolvarea problemelor, gestionarea excepțiilor, baze de date (SQL și JDBC), programare funcțională și Java FX. </p>
+                 <p> Pentru mai multe detalii despre Jademy, click <a href="https://jademy.ro" target="_blank"> aici. </a> </p>'
         );
 
 
@@ -299,7 +233,7 @@ class CvDatabase
             ',
             '
                 <p><a href="https://github.com/Radu-Nicolae?tab=repositories">Github</a> este platforma pe care
-                    încarc toate proiectele dezvoltate de mine.</p>
+                    încarc toate proiectele pe care le dezvolt.</p>
             '
         );
 
@@ -318,10 +252,8 @@ class CvDatabase
                 <p>Website owner - developed in order to attract traffic for Google Adsense.</p>
                 <p>I built the website together with <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> using PHP and SEO. I am currently keeping the maintenaince of the website.</p>        
 ',
-            '<p> <a href="https://topthewhole.com" style="text-decoration: underline"><u>Top The Whole</u></a> este website-ul pe care l-am construit împreuna cu
-                     <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> pentru a atrage trafic web care,
-                     în cele din urmă, poate deveni o sursă pasivă de venit. Astfel, am dobândit cunoștințe despre SEO și mi-am exersat atât cunoștiințele de Front End, cât și pe cele de Back End.
-                     În prezent, păstrez mentenanța site-ului prin postarea de articole noi și actualizarea detaliilor.
+            '<p> Website owner - dezvoltat pentru a atrage trafic pentru Google Adsense. </p>
+                 <p> Am construit site-ul împreună cu <a href="https://luanaionica.com" target="_blank"> <u> Luana </u> </a> folosind PHP și SEO. În prezent păstrez mentenanța site-ului web. </p>
                       </p>'
         );
 
@@ -340,8 +272,8 @@ class CvDatabase
                                                           style="text-decoration: underline; color: black !important">Acest website</a>',
             '<p style="text-align: justify;">Structured, designed and built my personal
                                     website by my own using HTML, CSS, Javascript, PHP and GIT. In present I am keeping its maintenance. </p>',
-            '<p style="text-align: justify;">Am structurat, proiectat și dezvoltat site-ul meu personal folosind HTML, CSS, 
-                        Javascript, PHP și GIT. În prezent mă ocup de mentenanța acestuia.</p>'
+            '<p style = "text-align: justify;"> Am structurat, proiectat și construit
+                         acest site folosind HTML, CSS, Javascript, PHP și GÎT. În prezent păstrez mentenanța site-ului. </p>'
         );
 
         $happyCampsWebsite = new CvItem(
@@ -369,13 +301,9 @@ class CvDatabase
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact Bucharest</a>',
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact București</a>',
             '<p>Structure, designed and built the
-                                    official website of Interact Bucharest. I kept maintenaince of the website during the period.</p>',
-            '<p>Sarcinile mele erau de a structura, proiecta și construi
-                                      site-ul oficial al Interact București. În prezent păstrez întreținerea
-                                      site-ului. Interact București este o organizație non-profit, aparținând Rotary Club,
-                                      o organizație internațională de caritate al cărei scop este de a reuni
-                                      lideri de afaceri pentru a
-                                      oferi servicii umanitare.</p>'
+                                    official website of Interact Bucharest, member of Rotary. I kept maintenaince of the website during the period.</p>',
+            '<p>Am structurat, proiectat și construit
+                         site-ul oficial al Interact București, care aparține de Rotary. Am păstrat mentenanță site-ului web în timpul perioadei.</p>'
         );
 
         $revistaCaVaWebsite = new CvItem(
@@ -391,9 +319,10 @@ class CvDatabase
                                     official website of CaVa, the magazine of "Saint Sava" National College. In prezent
                                     I keep the maintenance of the website by posting new articles, updating details,
                                     making announcements, etc.</p>',
-            '<p>Am structurat, proiectat și construit site-ul oficial al revistei Colegiului Național Sfântul Sava.
-                        În prezent mă ocup cu mentenața site-ului prin postarea noilor articole, actualizarea detaliilor, postarea 
-                        noilor articole, crearea de anunțuri, etc.</p>'
+            '<p> Am structurat, proiectat și construit
+                         site-ul oficial al CaVa, revista Colegiului Național „Sfântul Sava”. În prezent
+                         Păstrez întreținerea site-ului web postând articole noi, actualizând detalii,
+                         efectuarea de anunțuri etc. </p>'
         );
 
 
@@ -432,12 +361,8 @@ class CvDatabase
                         <p>I participated as a trainer assistant at Java Courses.</p> ',
 
 
-            '<p style="text-align: justify;">Am obținut un internship cu Jademy unde am structurat, creat și implementat 
-                                    un curs de front end care constă în 25 de module cu informații și exerciții cu HTML 5, CSS 3 și
-                                     Javascript. De asemenea, am participat și la cursuri de Java ca trainer assistant. Cursul poate fi
-                                      accesat <a
-                                            href = "https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start" ><u>aici</u>.</a >
-                                </p > 
+            '<p> Am structurat, creat și implementat un curs de Front-End de 25 de module care conține noțiuni și exerciții de Javascript, HTML și CSS pentru <b> Jademy - Oracle Silver Partner </b>. Cursul poate fi găsit aici <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"> <u> aici </u>. </ A> </ p >
+                         <p> Am participat ca asistent de trainer la cursurile Java. </p>
                                 '
         );
 
@@ -477,24 +402,23 @@ class CvDatabase
                                         </li>
                                     </ul>
             ',
-            '<p style="text-align: justify;"><a href="https://autovortex.ro/" target="_blank"><u>Autovortex</u></a> este echipa naționala de robotică a României</p>
+            '<p style="text-align: justify;">
+                                     <a href="https://autovortex.ro/" target="_blank"> <u> Autovortex </u> </a> este echipa națională de robotică ,
+                                        reprezentând România la unul dintre cele mai mari concursuri internaționale de robotică,
+                                        FIRST Tech Challenge. </p>
                                     <p>
-                                        Pricipalele activități sunt:
+                                        Activități principale: proiectarea, construcția și programarea robotului.
                                     </p>
-                                    <ul>
-                                        <li>proiectarea robotului</li>
-                                        <li>construcția robotului</li>
-                                        <li>programarea robotului</li>
-                                    </ul>
 
                                     <p>
-                                        Câteva dintre cele mai recente premii sunt:
+                                        Premiile Câștigate:
                                     </p>
                                     <ul>
-                                        <li>Locul 1 la FIRST Tech Challenge Rusia 2021 - Etapa Naționala</li>
-                                        <li>Locul 1 la FIRST Tech Challenge Rusia 2020 - Etapa Națională
+                                        <li> Locul I la FIRST Tech Challenge Rusia 2021 - aprilie 2021
                                         </li>
-                                        <li>Locul 2 la FIRST Tech Challenge Romania 2019 - Etapa Națională
+                                        <li>Locul I la FIRST Tech Challenge Rusia 2020 - februarie 2020
+                                        </li>
+                                        <li> Locul I la FIRST Tech Challenge Rusia 2019 - decembrie 2019
                                         </li>
                                     </ul>'
         );
@@ -512,14 +436,7 @@ class CvDatabase
                  <p>I participated at the official FIRST Tech Challenge Summer Camp where I gained knowledge of PTC Creo, Java and Android Studio robot designing and construction tactics.</p>
 
             ',
-            '<p style="text-align: justify;">Am participat la Summer Camp organizată de FIRST Tech Challenge
-                                                        unde am dobândit cunoștiințe de:</p>
-                                    <ul>
-                                        <li>PTC Creo</li>
-                                        <li>Java and Android Studio, folosite pentur programarea roboților</li>
-                                        <li>Reguli nescrise de proiectare și construcție a roboților</li>
-                                        </li>
-                                    </ul>'
+            '<p> Am participat la tabăra oficială de vară FIRST Tech Challenge, unde am dobândit cunoștințe de proiectare, construcție și programare a robotului folosind PTC Creo, Java și Android Studio. </p>'
         );
 
         $gammaRobotics = new CvItem(
@@ -535,14 +452,8 @@ class CvDatabase
                 <p>Gamma is my high school\'s robotics team, which participated at the international contest FIRST Tech Challenge.</p>
                 <p>I was team leader and driver during the season. We passed the regional stage and we competed against the best robotics teams in Romania at the national stage.</p>
 ',
-            '<p style="text-align: justify;">Gamma este echipa de robotică a Colegiului Național Sfantul Sava care participă
-                                                        la unul dintre cele mai mari concursuri internaționale de robotică, FIRST Tech Challenge.
-                                    </p>
-
-                                    <p style="text-align: justify;">
-        Am reușit sa ne calificăm la etapa națională si sa concurăm împotriva celor mai bune echipe de robotică din Romania în sezonul
-        2018-2019 FIRST Tech Challenge, Rover Ruckus.
-                                    </p>'
+            '<p> Gamma este echipa de robotică a liceului meu, care a participat la concursul internațional FIRST Tech Challenge. </p>
+                 <p> Am fost lider de echipă și driver în timpul sezonului. Am trecut de etapa regională și am concurat împotriva celor mai bune echipe de robotică din România la etapa națională. </p>'
         );
 
         $cv = array(
@@ -600,8 +511,8 @@ class CvDatabase
             "",
             "",
             "",
-            "Special Prize",
-            "Special Prize",
+            "Robotics <span>&nbsp;</span>| <span>&nbsp;</span> Special Prize",
+            "Robotics <span>&nbsp;</span> | <span>&nbsp;</span> Special Prize",
             "Sciences and Technologies Ploiesti",
             "Științe și Technologii Ploiești",
             "<br><br>",
@@ -643,9 +554,7 @@ class CvDatabase
             "Corporate Games Romania",
             "Corporate Games Romania",
             "<p>Convince the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>",
-            "<p> După absolvirea cursului de business organizat de <a href='https://www.corporate-games.ro/ro' target='_blank'>
-                      <u> Corporate Games Romania </u> </a> am activat ca agent de vânzări. Datoria mea era să îi conving pe directorii generali de cei mai mari
-                      corporații din România să participe la eveniment împreună cu subordonații lor. </p>"
+            "<p> Convingerea directorilor generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor. </p>"
         );
 
         $lazarMun = new CvItem(
@@ -675,15 +584,8 @@ class CvDatabase
             "Red Cross",
             "Crucea Roșie",
             '<p style="text-align: justify;">The International Red Cross and Red Crescent
-                                        Movement is an international humanitarian movement whose mission is to protect
-                                        human life and health, to ensure respect for the human being, to prevent and
-                                        alleviate human suffering, without any discrimination of nationality, race,
-                                        religion, social classes.</p>',
-            '<p style="text-align: justify;">Mișcarea Internațională de Cruce Roșie și Semilună Roșie este o mișcare umanitară 
-                        internațională a cărei misiune este de a proteja viața și sănătatea oamenilor, de a asigura respectul față de ființa umană,
-                        de a preveni și alina suferința oamenilor, fără vreo discriminare de naționalitate, rasă, religie, clase sociale sau 
-                        opinii politice. Mai multe detalii pe <a href="https://www.icrc.org"
-                                                                                     target="_blank">icrc.org</a>.</p>'
+                                        Movement is an international humanitarian movement across over 100 countries having over 300,000 members.</p>',
+            ' Crucea Roșie Internațională și Semiluna Roșie este o mișcare umanitară internațională raspândită in peste 100 de țări cu peste 300.000 de membri. '
         );
 
         $cg2019 = new CvItem(
@@ -723,11 +625,29 @@ class CvDatabase
                                     </p>'
         );
 
+        $euDialogue = new CvItem(
+            "16 Oct 2020",
+            "16 Oct 2020",
+            "",
+            "",
+            'Participant at "The dialogue of the European Union with young people"',
+            'Participant la "Dialogul Uniunii Europene cu tinerii"',
+            "European Union",
+            "Uniunea Europeană",
+            '<p>I have participated at the local consultation within
+                                        the Seventh Cycle of the European Union Dialogue with young people, within the
+                                        National College "Saint Sava". We\'ve discussed about the main problems in the
+                                        European Union and seek solutions for them. The conclusions were recorded and
+                                        sent to European Union\'s parliament as "the voice of the young generation".</p>',
+            '<p>Am participat la consultarea locală din cadrul celui de-al Șaptelea Ciclu al Dialogului Uniunii Europene cu Tinerii, organizată în Colegiul Național "Sfântul Sava".</p>'
+        );
+
         $cv = array(
             $happyCampsFinancial,
             $corporateGamesFinancial,
             $lazarMun,
             $redCross,
+            $euDialogue,
             $happyCampsVolunteer
         );
 
@@ -737,32 +657,7 @@ class CvDatabase
 
     public function getOtherExperienceCv()
     {
-
-
-
-        $euDialogue = new CvItem(
-            "16 Oct 2020",
-            "16 Oct 2020",
-            "",
-            "",
-            'Participant at "The dialogue of the European Union with young people"',
-            'Participant la "Dialogul Uniunii Europene cu tinerii"',
-            "European Union",
-            "Uniunea Europeana",
-            '<p>I have participated at the local consultation within
-                                        the Seventh Cycle of the European Union Dialogue with young people, within the
-                                        National College "Saint Sava". We\'ve discussed about the main problems in the
-                                        European Union and seek solutions for them. The conclusions were recorded and
-                                        sent to European Union\'s parliament as "the voice of the young generation".</p>',
-            '<p>Am participat la consultarea locală din cadrul celui de-al Șaptelea Ciclu al Dialogului Uniunii Europene cu Tinerii, organizată în Colegiul Național "Sfântul Sava".</p>'
-        );
-
-
-
-
-
-
-
+        
         $kidsParliament = new CvItem(
             "07 Jun 2019",
             "07 Iun 2019",
