@@ -36,10 +36,10 @@ class CvDatabase
             "Dec 2020",
             "",
             "",
-            "Scholastic Assessment Test (SAT)",
-            "Scholastic Assessment Test (SAT)",
-            "College Board",
-            "College Board",
+            '<a href="https://www.collegeboard.org/" style="color: black !important" target="_blank">Scholastic Assessment Test (SAT)</a>',
+            '<a href="https://www.collegeboard.org/" style="color: black !important" target="_blank">Scholastic Assessment Test (SAT)</a>',
+            '<a href="https://www.collegeboard.org/" style="color: black !important" target="_blank">College Board</a>',
+            '<a href="https://www.collegeboard.org/" style="color: black !important" target="_blank">College Board</a>',
             "
                 <p>Overall: <b>1360 points</b> - higher than 91% of test takers</p>
                 
@@ -68,17 +68,13 @@ class CvDatabase
             "Jun 2021 - ",
             "on going",
             "on going",
-            "Front End Course",
-            "Front End Course",
+            "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Web Programming with Python and JavaScript</a>",
+            "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Web Programming with Python and JavaScript</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
             "
             <p>
                 The course covers the following chapters: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability and Security.
-            </p>
-
-            <p>
-                More details about the course can be found <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>here</a>.
             </p>
             
             ",
@@ -88,12 +84,26 @@ class CvDatabase
                  Cursul acoperă următoarele capitole: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability și Security.
              </p>
 
-             <p>
-                 Mai multe detalii despre curs găsiți <a href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'> aici </a>.
-             </p>
             "
         );
 
+
+        $sololearn = new CvItem(
+            "2020 - ",
+            "2020 - ",
+            "on going",
+            "prezent",
+            "<a style='color:black' href='https://www.sololearn.com/home'>Programming Courses</a>",
+            "<a style='color:black' href='https://www.sololearn.com/home'>Cursuri de programare</a>",
+            "<a style='color:black' href='https://www.sololearn.com/home'>Sololearn</a>",
+            "<a style='color:black' href='https://www.sololearn.com/home'>Sololearn</a>",
+            '
+                    <p>I have attended and graduated the following SoloLearn courses: Java, PHP, HTML, CSS, Responsive Web Design.</p>
+                    <p>I am currently attending MySQL and C++ courses.</p>
+                ',
+            '<p>Am urmat și am absolvit următoarele cursuri SoloLearn: Java, PHP, HTML, CSS, Responsive Web Design.</p>
+                     <p>În prezent particip la cursurile de MySQL și C++. </p>'
+        );
 
         $edxDelft = new CvItem(
             "Apr 2021 - ",
@@ -102,8 +112,8 @@ class CvDatabase
             "Iun 2021",
             "<a href='https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home' style='color:black;'>Pre-University Calculus</a>",
             "<a href='https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home' style='color:black;'>Pre-University Calculus</a>",
-            "TU Delft",
-            "TU Delft",
+            "<a href='https://www.tudelft.nl/' style='color:black;'>TU Delft</a>",
+            "<a href='https://www.tudelft.nl/' style='color:black;'>TU Delft</a>",
             '
                 <p>
                     I graduated the official pre-university mathematics course organized by TU Delft with the remarkable <b>final grade of 91%</b>.
@@ -113,7 +123,6 @@ class CvDatabase
                     I did gain indispensable calculus and mathematical algorithm knowledge including equations, functions, differentiation, integration and geometry.
                 </p>
                 
-                <p>More details about the course can be found <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home">here.</a></p>
             ',
             '
             <p>
@@ -123,46 +132,27 @@ class CvDatabase
                  <p>
                      Am obținut cunoștiințe indispensabile de calcul și algoritm matematic, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.
                  </p>
-                
-                 <p> Mai multe detalii despre curs pot fi găsite <a href="https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home"> aici. </a> </ p >
             '
         );
 
-        $sololearn = new CvItem(
-            "2020 - ",
-            "2020 - ",
-            "on going",
-            "prezent",
-            "Programming Courses",
-            "Cursuri de Programare",
-            "SoloLearn",
-            "SoloLearn",
-            '
-                    <p>I have attended and graduated the following SoloLearn courses: Java, PHP, HTML, CSS, Responsive Web Design.</p>
-                    <p>I am currently attending MySQL and C++ courses.</p>
-                ',
-            '<p>Am urmat și am absolvit următoarele cursuri SoloLearn: Java, PHP, HTML, CSS, Responsive Web Design.</p>
-                     <p>În prezent particip la cursurile de MySQL și C++. </p>'
-        );
 
         $jademyCourses = new CvItem(
             "Mar 2020 - ",
             "Mar 2020 - ",
             "Nov 2020",
             "Nov 2020",
-            "Java Courses",
-            "Cursuri Java",
-            "Jademy",
-            "Jademy",
+            "<a href='https://jademy.ro/' style='color:black;'>Java Courses</a>",
+            "<a href='https://jademy.ro/' style='color:black;'>Cursuri Java</a>",
+            "<a href='https://jademy.ro/' style='color:black;'>Jademy</a>",
+            "<a href='https://jademy.ro/' style='color:black;'>Jademy</a>",
             '
                 <p>I have attended Oracle authorised back end courses of Java.</p>
                 <p>The course help me develop an algorithmic thinking and I did gain knowledge of OOP, Debugging, solving problems, handling exceptions, databases (SQL and JDBC), functional programming and Java FX.</p>
-                <p>For more details about Jademy click <a href="https://jademy.ro" target="_blank">here.</a></p>',
-
+                ',
 
             '<p> Am participat la cursuri Java de back-end autorizate de Oracle. </p>
-                 <p> Cursul m-a ajutat să dezvolt o gândire algoritmică și am dobândit cunoștințe despre OOP, Debugging, rezolvarea problemelor, gestionarea excepțiilor, baze de date (SQL și JDBC), programare funcțională și Java FX. </p>
-                 <p> Pentru mai multe detalii despre Jademy, click <a href="https://jademy.ro" target="_blank"> aici. </a> </p>'
+                 <p> Cursul m-a ajutat să dezvolt o gândire algoritmică și am dobândit cunoștințe despre OOP, Debugging, rezolvarea problemelor, gestionarea excepțiilor, baze de date (SQL și JDBC), programare funcțională și Java FX.</p>
+            '
         );
 
 
@@ -249,11 +239,11 @@ class CvDatabase
             '<a href="https://topthewhole.com" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
             '
-                <p>Website owner - developed in order to attract traffic for Google Adsense.</p>
-                <p>I built the website together with <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> using PHP and SEO. I am currently keeping the maintenaince of the website.</p>        
+                <p>Website owner - developed in order to attract traffic for Google Adsense.<br>
+                I built the website together with <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> using PHP and SEO. I am currently keeping the maintenaince of the website.</p>        
 ',
-            '<p> Website owner - dezvoltat pentru a atrage trafic pentru Google Adsense. </p>
-                 <p> Am construit site-ul împreună cu <a href="https://luanaionica.com" target="_blank"> <u> Luana </u> </a> folosind PHP și SEO. În prezent păstrez mentenanța site-ului web. </p>
+            '<p> Website owner - dezvoltat pentru a atrage trafic pentru Google Adsense.<br>
+                 Am construit site-ul împreună cu <a href="https://luanaionica.com" target="_blank"> <u> Luana </u> </a> folosind PHP și SEO. În prezent păstrez mentenanța site-ului web. </p>
                       </p>'
         );
 
@@ -264,8 +254,8 @@ class CvDatabase
             "Mar 2020 - ",
             "on going",
             "prezent",
-            "Web Developer Internship",
-            "Web Developer Internship",
+            "Web Developer",
+            "Web Developer",
             '<a href="#" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">This website</a>',
             '<a href="#" class="linksiteuri"
@@ -380,8 +370,8 @@ class CvDatabase
             "prezent",
             "National Team of Robotics Member",
             "Membru al Echipei Naționale de Robotică Autovortex",
-            "Autovortex",
-            "Autovortex",
+            "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Autovortex</a>",
+            "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Autovortex</a>",
             '
                                     <p style="text-align: justify;"><a href="https://autovortex.ro/" target="_blank"><u>Autovortex</u></a> is the national robotics team,
                                         representing Romania in one of the biggest international contest of robotics,
@@ -429,11 +419,11 @@ class CvDatabase
             "14 Jul 2019",
             "14 Iul 2019",
             "Participant at FTC summer camp",
-            "Participant tabară de robotică FTC",
-            "FIRST Tech Challenge",
-            "FIRST Tech Challenge",
+            "Participant tabără de robotică FTC",
+            "<a href='https://www.firstinspires.org/robotics/ftc' target='_blank' style='color:black;'>FIRST Tech Challenge</a>",
+            "<a href='https://www.firstinspires.org/robotics/ftc' target='_blank' style='color:black;'>FIRST Tech Challenge</a>",
             '
-                 <p>I participated at the official FIRST Tech Challenge Summer Camp where I gained knowledge of PTC Creo, Java and Android Studio robot designing and construction tactics.</p>
+                 <p>I participated at the official FIRST Tech Challenge Summer Camp where I gained knowledge of PTC Creo, Java, Android Studio, robot designing and construction tactics.</p>
 
             ',
             '<p> Am participat la tabăra oficială de vară FIRST Tech Challenge, unde am dobândit cunoștiințe de proiectare, construcție și programare a robotului folosind PTC Creo, Java și Android Studio. </p>'
@@ -447,7 +437,7 @@ class CvDatabase
             "Team Member",
             "Membru",
             "Gamma Robotics",
-            "Gamma",
+            "Gamma Robotics",
             '
                 <p>Gamma is my high school\'s robotics team, which participated at the international contest FIRST Tech Challenge.</p>
                 <p>I was team leader and driver during the season. We passed the regional stage and we competed against the best robotics teams in Romania at the national stage.</p>
@@ -538,8 +528,8 @@ class CvDatabase
             "Sep 2020",
             "Financial Manager",
             "Manager Financiar",
-            "Happy Camps",
-            "Happy Camps",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
             '<p>Buget, funding and sponsorship management for Happy Camps.</p>',
             '<p>Managementul bugetului, finanțărilor și sponsorizărilor pentru Happy Camps.</p>'
         );
@@ -551,10 +541,10 @@ class CvDatabase
             "Sep 2020",
             "Sales Agent",
             "Agent de vânzari",
-            "Corporate Games Romania",
-            "Corporate Games Romania",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
             "<p>Convince the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>",
-            "<p> Convingerea directorilor generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor. </p>"
+            "<p>Convingerea directorilor generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor. </p>"
         );
 
         $lazarMun = new CvItem(
@@ -581,8 +571,8 @@ class CvDatabase
             "Apr 2020",
             "Volunteer",
             "Voluntar",
-            "Red Cross",
-            "Crucea Roșie",
+            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Red Cross</a>",
+            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Crucea Roșie</a>",
             '<p style="text-align: justify;">The International Red Cross and Red Crescent
                                         Movement is an international humanitarian movement across over 100 countries having over 300,000 members.</p>',
             '<p>Crucea Roșie Internațională și Semiluna Roșie este o mișcare umanitară internațională raspândită in peste 100 de țări cu peste 300.000 de membri.</p>'
@@ -593,21 +583,16 @@ class CvDatabase
             "15 - ",
             "16 Jun 2019",
             "16 Iun 2019",
-            "Cycling Competition Participant",
-            "Concurent Ciclism",
-            "Corporate Games",
-            "Corporate Games",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Cycling Competition Participant</a>",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Concurent Ciclism</a>",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games</a>",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games</a>",
             '
                                     <p style="text-align: justify;">I have managed to gain the second place in cycling
-                                        at one of the biggest international competitions, Corporate Games. More details
-                                        about Corporate Games on <a href="https://www.corporate-games.com/"
-                                                                    target="_blank">corporate-games.com</a>.</p>',
+                                        at one of the biggest international competitions, Corporate Games.',
             '
                       <p style="text-align: justify;">Am obținut locul al doilea la ciclism la una dintre cele mai mari competiții
-                                        internaționale, Corporate Games. Mai multe detalii despre Corporate Games pe 
-                                        <a href="https://www.corporate-games.com/"
-                                                                    target="_blank">corporate-games.com</a>.</p>  
-            '
+                                        internaționale, Corporate Games.'
         );
 
         $happyCampsVolunteer = new CvItem(
