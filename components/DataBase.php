@@ -54,7 +54,7 @@ $cvSecondaryCategories = array(
     array("Internship", "Internship"),
     array("Projects", "Proiecte"),
     array("Robotics", "Robotică"),
-    array("Competitions", "Compeții"),
+    array("Competitions", "Competiții"),
     array("Volunteering", "Voluntariate")
 );
 
