@@ -2,11 +2,10 @@
 include 'components/cv/CvUtils.php';
 
 
-
-
 class CvDatabase
 {
-    public function getHighSchoolCv(){
+    public function getHighSchoolCv()
+    {
         $highSchool = new CvItem(
             "2018 - ",
             "2018 - ",
@@ -15,20 +14,21 @@ class CvDatabase
             "Baccalaureate Diploma",
             "Diplomă de Bacalaureat",
             '<a href="https://licsfsava.ro" style="color: black !important" target="_blank">"Saint Sava" National College</a>',
-            '"<a href="https://licsfsava.ro" target="_blank" style="color: black !important">Colegiul Național "Sfântul Sava"</a>',
-            '<div style="color:#999999">
-                                <p>I study at the best high school in Romania <b>mathematics-informatics profile</b> and
-                                    I am currently in the 12<sup>th</sup> grade.</p>
-                                    
-                               <p>I will sustain Baccalaureate Exam at Mathematics, Physics, Romanian, Digital Competences and English.  </p>
-                                
-                            </div>',
-            '<div style="color:#999999">
-                                <p> Studiez la cel mai bun liceu din România pe <b>profilul matematică-informatică</b> și
-                                     în prezent sunt în clasa a 12-a. </p>
-                                    
-                                <p> Voi susține examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză. </p>
-                            </div>'
+            '<a href="https://licsfsava.ro" target="_blank" style="color: black !important">Colegiul Național "Sfântul Sava"</a>',
+
+            '
+                    <div style="color:#999999">
+                        <p>I study at the best high school in Romania <b>mathematics-informatics profile</b> and I am currently in the 12<sup>th</sup> grade.</p>
+                        <p>I will sustain Baccalaureate Exam at Mathematics, Physics, Romanian, Digital Competences and English.</p>    
+                    </div>
+                ',
+
+            '
+                    <div style="color:#999999">
+                        <p> Studiez la cel mai bun liceu din România pe <b>profilul matematică-informatică</b> și în prezent sunt în clasa a 12-a.</p>
+                        <p> Voi susține examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză.</p>
+                    </div>
+                '
         );
 
         $sat = new CvItem(
@@ -40,16 +40,18 @@ class CvDatabase
             '<a href="https://www.collegeboard.org/" style="color: black !important" target="_blank">Scholastic Assessment Test (SAT)</a>',
             '<a href="https://www.collegeboard.org/" style="color: black !important" target="_blank">College Board</a>',
             '<a href="https://www.collegeboard.org/" style="color: black !important" target="_blank">College Board</a>',
+
             "
-                <p>Overall: <b>1360 points</b> - higher than 91% of test takers</p>
-                
-                <p>Math: <b>760 points</b> - higher than 96% of test takers.
-               <br>English: <b>600 points</b> - higher than 76% of test takers.</p>
+                    <p>Overall: <b>1360 points</b> - higher than 91% of test takers</p>
+                    <p>Math: <b>760 points</b> - higher than 96% of test takers.
+                    <br>English: <b>600 points</b> - higher than 76% of test takers.</p>
                 ",
-            "<p> Total: <b>1360 de puncte</b> - mai mare decât 91% dintre candidații SAT. </p>
-              
-                 <p> Matematică: <b>760 de puncte</b> - mai mare decât 96% dintre candidații SAT.
-                <br> Engleză: <b>600 de puncte</b> - mai mare decât 76% dintre candidații la SAT. </p>",
+
+            "
+                    <p>Total: <b>1360 de puncte</b> - mai mare decât 91% dintre candidații SAT.</p>
+                    <p>Matematică: <b>760 de puncte</b> - mai mare decât 96% dintre candidații SAT.
+                    <br>Engleză: <b>600 de puncte</b> - mai mare decât 76% dintre candidații la SAT.</p>
+                "
         );
 
         $schools = array(
@@ -72,19 +74,14 @@ class CvDatabase
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Web Programming with Python and JavaScript</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
-            "
-            <p>
-                The course covers the following chapters: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability and Security.
-            </p>
-            
-            ",
-            "
-            <p>
-            <p>
-                 Cursul acoperă următoarele capitole: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability și Security.
-             </p>
 
             "
+                    <p>The course covers the following chapters: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability and Security.</p>
+                ",
+
+            "
+                    <p>Cursul acoperă următoarele capitole: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability și Security.</p>
+                "
         );
 
 
@@ -101,8 +98,10 @@ class CvDatabase
                     <p>I have attended and graduated the following SoloLearn courses: Java, PHP, HTML, CSS, Responsive Web Design.</p>
                     <p>I am currently attending MySQL and C++ courses.</p>
                 ',
-            '<p>Am urmat și am absolvit următoarele cursuri SoloLearn: Java, PHP, HTML, CSS, Responsive Web Design.</p>
-                     <p>În prezent particip la cursurile de MySQL și C++. </p>'
+            '
+                     <p>Am urmat și am absolvit următoarele cursuri SoloLearn: Java, PHP, HTML, CSS, Responsive Web Design.</p>
+                     <p>În prezent particip la cursurile de MySQL și C++. </p>
+                '
         );
 
         $edxDelft = new CvItem(
@@ -114,25 +113,16 @@ class CvDatabase
             "<a href='https://learning.edx.org/course/course-v1:DelftX+Calc001x+2T2020/home' style='color:black;'>Pre-University Calculus</a>",
             "<a href='https://www.tudelft.nl/' style='color:black;'>TU Delft</a>",
             "<a href='https://www.tudelft.nl/' style='color:black;'>TU Delft</a>",
+
             '
-                <p>
-                    I graduated the official pre-university mathematics course organized by TU Delft with the remarkable <b>final grade of 91%</b>.
-                </p>
-                
-                <p>
-                    I did gain indispensable calculus and mathematical algorithm knowledge including equations, functions, differentiation, integration and geometry.
-                </p>
-                
-            ',
+                    <p> I graduated the official pre-university mathematics course organized by TU Delft with the remarkable <b>final grade of 91%</b>.</p>
+                    <p>I did gain indispensable calculus and mathematical algorithm knowledge including equations, functions, differentiation, integration and geometry.</p>
+                ',
+
             '
-            <p>
-                     Am absolvit cursul oficial de matematică preuniversitar organizat de TU Delft cu <b>nota finală de 91% </b>.
-                 </p>
-                
-                 <p>
-                     Am obținut cunoștiințe indispensabile de calcul și algoritm matematic, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.
-                 </p>
-            '
+                    <p>Am absolvit cursul oficial de matematică preuniversitar organizat de TU Delft cu <b>nota finală de 91% </b>.</p>
+                    <p>Am obținut cunoștiințe indispensabile de calcul și algoritm matematic, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.</p>
+                '
         );
 
 
@@ -145,13 +135,15 @@ class CvDatabase
             "<a href='https://jademy.ro/' style='color:black;'>Cursuri Java</a>",
             "<a href='https://jademy.ro/' style='color:black;'>Jademy</a>",
             "<a href='https://jademy.ro/' style='color:black;'>Jademy</a>",
+
             '
-                <p>I have attended Oracle authorised back end courses of Java.</p>
-                <p>The course help me develop an algorithmic thinking and I did gain knowledge of OOP, Debugging, solving problems, handling exceptions, databases (SQL and JDBC), functional programming and Java FX.</p>
+                    <p>I have attended Oracle authorised back end courses of Java.</p>
+                    <p>The course help me develop an algorithmic thinking and I did gain knowledge of OOP, Debugging, solving problems, handling exceptions, databases (SQL and JDBC), functional programming and Java FX.</p>
                 ',
 
-            '<p> Am participat la cursuri Java de back-end autorizate de Oracle. </p>
-                 <p> Cursul m-a ajutat să dezvolt o gândire algoritmică și am dobândit cunoștințe despre OOP, Debugging, rezolvarea problemelor, gestionarea excepțiilor, baze de date (SQL și JDBC), programare funcțională și Java FX.</p>
+            '
+                    <p> Am participat la cursuri Java de back-end autorizate de Oracle. </p>
+                    <p> Cursul m-a ajutat să dezvolt o gândire algoritmică și am dobândit cunoștințe despre OOP, Debugging, rezolvarea problemelor, gestionarea excepțiilor, baze de date (SQL și JDBC), programare funcțională și Java FX.</p>
             '
         );
 
@@ -190,7 +182,6 @@ class CvDatabase
         );
 
 
-
         $cv = array(
             $edxHarvard,
             $sololearn,
@@ -217,13 +208,17 @@ class CvDatabase
                     Github</h2></a>',
             "",
             "",
+
             '
-                <p><a href="https://github.com/Radu-Nicolae?tab=repositories">Github</a> is the platform
-                                    where I have uploaded all my projects.</p>
+                <p>
+                    <a href="https://github.com/Radu-Nicolae?tab=repositories">Github</a> is the platform where I have uploaded all my projects.
+                </p>
             ',
+
             '
-                <p><a href="https://github.com/Radu-Nicolae?tab=repositories">Github</a> este platforma pe care
-                    încarc toate proiectele pe care le dezvolt.</p>
+                <p>
+                    <a href="https://github.com/Radu-Nicolae?tab=repositories">Github</a> este platforma pe care încarc toate proiectele pe care le dezvolt.
+                </p>
             '
         );
 
@@ -238,15 +233,19 @@ class CvDatabase
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
             '<a href="https://topthewhole.com" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
-            '
-                <p>Website owner - developed in order to attract traffic for Google Adsense.<br>
-                I built the website together with <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> using PHP and SEO. I am currently keeping the maintenaince of the website.</p>        
-',
-            '<p> Website owner - dezvoltat pentru a atrage trafic pentru Google Adsense.<br>
-                 Am construit site-ul împreună cu <a href="https://luanaionica.com" target="_blank"> <u> Luana </u> </a> folosind PHP și SEO. În prezent păstrez mentenanța site-ului web. </p>
-                      </p>'
-        );
 
+            '
+                <p>Website owner - developed in order to attract traffic for Google Adsense.<br> 
+                I built the website together with <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> using PHP and SEO. I am currently keeping the maintenaince of the website.
+                </p>        
+            ',
+
+            '
+                <p> Website owner - dezvoltat pentru a atrage trafic pentru Google Adsense.<br>
+                Am construit site-ul împreună cu <a href="https://luanaionica.com" target="_blank"> <u> Luana </u> </a> folosind PHP și SEO. În prezent păstrez mentenanța site-ului web. </p>
+                </p>
+            '
+        );
 
 
         $raduNicolaeWebsite = new CvItem(
@@ -256,14 +255,16 @@ class CvDatabase
             "prezent",
             "Web Developer",
             "Web Developer",
-            '<a href="#" class="linksiteuri"
-                                                          style="text-decoration: underline; color: black !important">This website</a>',
-            '<a href="#" class="linksiteuri"
-                                                          style="text-decoration: underline; color: black !important">Acest website</a>',
-            '<p style="text-align: justify;">Structured, designed and built my personal
-                                    website by my own using HTML, CSS, Javascript, PHP and GIT. In present I am keeping its maintenance. </p>',
-            '<p style = "text-align: justify;"> Am structurat, proiectat și construit
-                         acest site folosind HTML, CSS, Javascript, PHP și GÎT. În prezent păstrez mentenanța site-ului. </p>'
+            '<a href="#" class="linksiteuri" style="text-decoration: underline; color: black !important">This website</a>',
+            '<a href="#" class="linksiteuri" style="text-decoration: underline; color: black !important">Acest website</a>',
+
+            '
+                        <p style="text-align: justify;">Structured, designed and built my personal website by my own using HTML, CSS, Javascript, PHP and GIT. In present I am keeping its maintenance.</p>
+                    ',
+
+            '
+                        <p style="text-align: justify;">Am structurat, proiectat și construit acest site folosind HTML, CSS, Javascript, PHP și GIT. În prezent păstrez mentenanța site-ului.</p>
+                '
         );
 
         $happyCampsWebsite = new CvItem(
@@ -275,10 +276,14 @@ class CvDatabase
             "Web Developer Internship",
             '<a href="https://happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
             '<a href="https://happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
-            '<p style="text-align: justify;">Structured, designed, built and kept the
-                                    maintenance for the official website of Happy Camps Club.</p>',
-            '<p style="text-align: justify;">Am structurat, proiectat și dezvoltat site-ul oficial al Happy Camps Club, iar 
-                        în prezent mă ocup cu mentenanța acestuia.</p>'
+
+            '
+                        <p style="text-align: justify;">Structured, designed, built and kept the maintenance for the official website of Happy Camps Club.</p>
+                    ',
+
+            '
+                        <p style="text-align: justify;">Am structurat, proiectat și dezvoltat site-ul oficial al Happy Camps Club, iar în prezent mă ocup cu mentenanța acestuia.</p>
+                    '
         );
 
         $interactWebsite = new CvItem(
@@ -290,10 +295,12 @@ class CvDatabase
             "Web Developer Internship",
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact Bucharest</a>',
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact București</a>',
-            '<p>Structure, designed and built the
-                                    official website of Interact Bucharest, member of Rotary. I kept maintenaince of the website during the period.</p>',
-            '<p>Am structurat, proiectat și construit
-                         site-ul oficial al Interact București, care aparține de Rotary și am păstrat mentenanța site-ului web.</p>'
+            '
+                            <p>Structure, designed and built the official website of Interact Bucharest, member of Rotary. I kept maintenaince of the website during the period.</p>
+                       ',
+            '
+                            <p>Am structurat, proiectat și construit site-ul oficial al Interact București, care aparține de Rotary și am păstrat mentenanța site-ului web.</p>
+                       '
         );
 
         $revistaCaVaWebsite = new CvItem(
@@ -305,14 +312,12 @@ class CvDatabase
             "Web Developer Internship",
             '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
             '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
-            '<p>Structured, designed and built the
-                                    official website of CaVa, the magazine of "Saint Sava" National College. In prezent
-                                    I keep the maintenance of the website by posting new articles, updating details,
-                                    making announcements, etc.</p>',
-            '<p> Am structurat, proiectat și construit
-                         site-ul oficial al CaVa, revista Colegiului Național „Sfântul Sava”. În prezent
-                         păstrez întreținerea site-ului web postând articole noi, actualizând detalii,
-                         efectuarea de anunțuri etc. </p>'
+            '
+                            <p>Structured, designed and built the official website of CaVa, the magazine of "Saint Sava" National College. In prezent I keep the maintenance of the website by posting new articles, updating details, making announcements, etc.</p>
+                       ',
+            '
+                            <p> Am structurat, proiectat și construit site-ul oficial al CaVa, revista Colegiului Național „Sfântul Sava”. În prezent păstrez întreținerea site-ului web postând articole noi, actualizând detalii, efectuarea de anunțuri etc. </p>
+                         '
         );
 
 
@@ -329,7 +334,8 @@ class CvDatabase
     }
 
 
-    public function getInternshipCv(){
+    public function getInternshipCv()
+    {
 
 
         $jademyInternship = new cvItem(
@@ -362,7 +368,8 @@ class CvDatabase
     }
 
 
-    public function getRoboticsCv(){
+    public function getRoboticsCv()
+    {
         $autovortex = new CvItem(
             "Oct 2020 - ",
             "Oct 2020 - ",
@@ -456,7 +463,8 @@ class CvDatabase
     }
 
 
-    public function getCompetitionsCv(){
+    public function getCompetitionsCv()
+    {
         $ftc2019 = new CvItem(
             "",
             "",
@@ -520,7 +528,8 @@ class CvDatabase
         return $cv;
     }
 
-    public function getVolunteeringCv(){
+    public function getVolunteeringCv()
+    {
         $happyCampsFinancial = new CvItem(
             "Mar 2020 - ",
             "Mar 2020 - ",
