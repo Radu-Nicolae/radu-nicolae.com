@@ -25,7 +25,7 @@ class CvDatabase
 
             '
                     <div style="color:#999999">
-                        <p> Studiez la cel mai bun liceu din România pe <b>profilul matematică-informatică</b> și în prezent sunt în clasa a 12-a.</p>
+                        <p> Studiez la cel mai bun liceu din România <b>profilul matematică-informatică</b> și în prezent sunt în clasa a 12-a.</p>
                         <p> Voi susține examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză.</p>
                     </div>
                 '
@@ -50,7 +50,7 @@ class CvDatabase
             "
                     <p>Total: <b>1360 de puncte</b> - mai mare decât 91% dintre candidații SAT</p>
                     <p>Matematică: <b>760 de puncte</b> - mai mare decât 96% dintre candidații SAT
-                    <br>Engleză: <b>600 de puncte</b> - mai mare decât 76% dintre candidații la SAT</p>
+                    <br>Engleză: <b>600 de puncte</b> - mai mare decât 76% dintre candidații SAT</p>
                 "
         );
 
@@ -80,7 +80,7 @@ class CvDatabase
                 ",
 
             "
-                    <p>Cursul acoperă următoarele capitole: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability și Security.</p>
+                    <p>Cursul cuprinde următoarele capitole: HTML, CSS, Git, Python, Django, MySQL, Javascript, User Interfaces, Testing and Scalability și Security.</p>
                 "
         );
 
@@ -120,8 +120,8 @@ class CvDatabase
                 ',
 
             '
-                    <p>Am absolvit cursul oficial de matematică preuniversitar organizat de TU Delft cu <b>nota finală de 91% </b>.</p>
-                    <p>Am obținut cunoștiințe indispensabile de calcul și algoritm matematic, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.</p>
+                    <p>Am absolvit cursul oficial de pre-university calculus organizat de TU Delft cu <b>nota finală de 91% </b>.</p>
+                    <p>Am obținut cunoștiințe indispensabile de calcul și algoritmi matematici, inclusiv ecuații, funcții, diferențiere, integrale și geometrie.</p>
                 '
         );
 
@@ -142,8 +142,8 @@ class CvDatabase
                 ',
 
             '
-                    <p> Am participat la cursuri Java de back-end autorizate de Oracle. </p>
-                    <p> Cursul m-a ajutat să dezvolt o gândire algoritmică și am dobândit cunoștințe despre OOP, Debugging, rezolvarea problemelor, gestionarea excepțiilor, baze de date (SQL și JDBC), programare funcțională și Java FX.</p>
+                    <p>Am participat la cursul de Java organizat de centrul partener Oracle, <a href="https://jademy.ro" target="_blank">Jademy</a>. </p>
+                    <p>Cursul mi-a dezvoltat gândirea algoritmică și am dobândit cunoștiințe de OOP, debugging, rezolvarea erorilor, gestionarea excepțiilor, baze de date (SQL și JDBC), programare funcțională și Java FX.</p>
             '
         );
 
@@ -316,7 +316,7 @@ class CvDatabase
                             <p>I structured, designed and built the official website of CaVa, the magazine of "Saint Sava" National College. In present I keep the maintenance of the website by posting new articles, updating details, making announcements, etc.</p>
                        ',
             '
-                            <p> Am structurat, proiectat și construit site-ul oficial al CaVa, revista Colegiului Național „Sfântul Sava”. În prezent păstrez întreținerea site-ului web postând articole noi, actualizând detalii, efectuarea de anunțuri etc. </p>
+                            <p> Am structurat, proiectat și construit site-ul oficial al CaVa, revista Colegiului Național „Sfântul Sava”. În prezent păstrez mentenanța site-ului web postând articole noi, actualizând detalii, efectuarea de anunțuri etc. </p>
                          '
         );
 
@@ -356,9 +356,7 @@ class CvDatabase
             '<p>I structured, created and implemented a 25 module front end course containg notions and exercises of Javascript, HTML and CSS for <b>Jademy - Oracle Silver Partner</b>. The course can be found <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>here</u>.</a> I also participated as a trainer assistant at Java Courses.</p> ',
 
 
-            '<p> Am structurat, creat și implementat un curs de Front-End de 25 de module care conține noțiuni și exerciții de Javascript, HTML și CSS pentru <b> Jademy - Oracle Silver Partner </b>. Cursul poate fi găsit <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"> <u> aici </u>. </ A> </ p >
-                         <p> Am participat ca asistent de trainer la cursurile Java. </p>
-                                '
+            '<p> Am structurat, creat și implementat un curs de Front-End de 25 de module care conține noțiuni și exerciții de Javascript, HTML și CSS pentru <b> Jademy - Oracle Silver Partner </b>. Cursul poate fi găsit <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>aici</u></a>. De asemenea, am participat ca trainer assistant la cursurile Java.</p>'
         );
 
         $cv = array($jademyInternship);
@@ -407,7 +405,7 @@ class CvDatabase
                                     </p>
 
                                     <p>
-                                        Premiile Câștigate:
+                                        Premiile câștigate:
                                     </p>
                                     <ul>
                                         <li> Locul I la FIRST Tech Challenge Rusia 2021 - aprilie 2021
@@ -509,7 +507,7 @@ class CvDatabase
             "",
             "",
             "Robotics <span>&nbsp;</span>| <span>&nbsp;</span> Special Prize",
-            "Robotics <span>&nbsp;</span> | <span>&nbsp;</span> Special Prize",
+            "Robotică <span>&nbsp;</span> | <span>&nbsp;</span> Premiul Special",
             "Sciences and Technologies Ploiesti",
             "Științe și Technologii Ploiești",
             "<br><br>",
@@ -538,8 +536,12 @@ class CvDatabase
             "Manager Financiar",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
-            '<p>Buget, funding and sponsorship management for Happy Camps.</p>',
-            '<p>Managementul bugetului, finanțărilor și sponsorizărilor pentru Happy Camps.</p>'
+            '
+                    <p>Buget, funding and sponsorship management for Happy Camps.</p>
+                ',
+            '
+                    <p>Managementul bugetului, finanțărilor și sponsorizărilor pentru Happy Camps.</p>
+                '
         );
 
         $corporateGamesFinancial = new CvItem(
@@ -551,8 +553,12 @@ class CvDatabase
             "Agent de vânzari",
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
-            "<p>I convinced the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>",
-            "<p>Convingerea directorilor generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor. </p>"
+            "
+                    <p>I convinced the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>
+                ",
+            "
+                    <p>Task-ul meu era de a convinge directorii generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor.</p>
+                "
         );
 
         $lazarMun = new CvItem(
@@ -564,12 +570,12 @@ class CvDatabase
             "Membru Staff Lazăr MUN",
             "United Nations",
             "United Nations",
-            '<p style="text-align: justify;">Staff member at
-                                        Model United Nations Conference, held in "Gheorghe Lazar" National College from
-                                        Bucharest.</p>',
-            '<p style="text-align: justify;">Am ocupat funcția de voluntar la
-                                         conferința model organizată de United Nations, desfășurată în Colegiul Național "Gheorghe Lazar" din România
-                                         Bucureşti.</p>'
+            '
+                        <p style="text-align: justify;">Staff member at Model United Nations Conference, held in "Gheorghe Lazar" National College from Bucharest.</p>
+                    ',
+            '
+                        <p style="text-align: justify;">Am ocupat funcția de voluntar la conferința model organizată de United Nations, desfășurată în Colegiul Național "Gheorghe Lazar" din România Bucureşti.</p>
+                    '
         );
 
         $redCross = new CvItem(
@@ -581,9 +587,12 @@ class CvDatabase
             "Voluntar",
             "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Red Cross</a>",
             "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Crucea Roșie</a>",
-            '<p style="text-align: justify;">The International Red Cross and Red Crescent
-                                        Movement is an international humanitarian movement across over 100 countries having over 300,000 members.</p>',
-            '<p>Crucea Roșie Internațională și Semiluna Roșie este o mișcare umanitară internațională raspândită in peste 100 de țări cu peste 300.000 de membri.</p>'
+            '
+                        <p style="text-align: justify;">I participated at two different editions of Food Bank and I attended a few First Aid classes.</p>
+                    ',
+            '
+                        <p>Am participat la două ediții ale Băncii de Alimente și am participat la cateva cursuri de prim ajutor.</p>
+                    '
         );
 
         $cg2019 = new CvItem(
@@ -596,11 +605,11 @@ class CvDatabase
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games</a>",
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games</a>",
             '
-                                    <p style="text-align: justify;">I have managed to gain the second place in cycling
-                                        at one of the biggest international competitions, Corporate Games.',
+                        <p style="text-align: justify;">I have managed to gain the second place in cycling at one of the biggest international competitions, Corporate Games.
+                    ',
             '
-                      <p style="text-align: justify;">Am obținut locul al doilea la ciclism la una dintre cele mai mari competiții
-                                        internaționale, Corporate Games.'
+                        <p style="text-align: justify;">Am obținut locul al doilea la ciclism la una dintre cele mai mari competiții internaționale, Corporate Games.
+                    '
         );
 
         $happyCampsVolunteer = new CvItem(
@@ -612,10 +621,16 @@ class CvDatabase
             "Voluntar",
             'Happy Camps',
             "Happy Camps",
-            "<p>Happy Camps is a non profit organization for children and teenagers. Happy Camps is about help, personal development, sport and fun, being one of the biggest volunteering organizations in Romania.</p>",
-            '<p style="text-align: justify;">Happy Camps este o organizație non profit pentru copii și adolescenți. Happy Camps este
-                                                        despre ajutor, dezvoltare personală, sport și distracție, fiind una dintre cele mai mari organizații de voluntariat din România.
-                                    </p>'
+            "
+                        <p>I occupied the position of financial manager where I managed budgets, sponsorships and fundings for the organisation.</p> 
+                        <p>I also developed the club's website, which can be found <a href='https://happycamps.club' target='_blank'>here</a>.</p>
+                        <p>I also volunteered as a trainer in several summer and winter children camps where I improved my communication abilities, as well as my coordination skills.</p>
+                    ",
+            "
+                        <p>Am ocupat funcția de manager financiar în care am gestionat bugete, sponsorizări și finanțări pentru organizație.</p> 
+                        <p>De asemenea, am dezvoltat site-ul clubului, care poate fi găsit <a href='https://happycamps.club' target='_blank'> aici </a>.</p>
+                        <p>În plus, am fost trainer în mai multe tabere de vară și de iarnă pentru copii, unde mi-am îmbunătățit abilitățile de comunicare, precum și abilitățile de coordonare.</p>                    
+                    "
         );
 
         $euDialogue = new CvItem(
@@ -627,12 +642,12 @@ class CvDatabase
             'Participant la "Dialogul Uniunii Europene cu tinerii"',
             "European Union",
             "Uniunea Europeană",
-            '<p>I have participated at the local consultation within
-                                        the Seventh Cycle of the European Union Dialogue with young people, within the
-                                        National College "Saint Sava". We\'ve discussed about the main problems in the
-                                        European Union and seek solutions for them. The conclusions were recorded and
-                                        sent to European Union\'s parliament as "the voice of the young generation".</p>',
-            '<p>Am participat la consultarea locală din cadrul celui de-al Șaptelea Ciclu al Dialogului Uniunii Europene cu Tinerii, organizată în Colegiul Național "Sfântul Sava".</p>'
+            '
+                        <p>I have participated at the local consultation within the Seventh Cycle of the European Union Dialogue with young people, within the National College "Saint Sava". We\'ve discussed about the main problems in the European Union and seek solutions for them. The conclusions were recorded and sent to European Union\'s parliament as "the voice of the young generation".</p>
+                    ',
+            '
+                        <p>Am participat la consultarea locală din cadrul celui de-al Șaptelea Ciclu al Dialogului Uniunii Europene cu Tinerii, organizată în Colegiul Național "Sfântul Sava".</p>
+                    '
         );
 
         $cv = array(

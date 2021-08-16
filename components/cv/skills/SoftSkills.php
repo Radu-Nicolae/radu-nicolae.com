@@ -2,15 +2,18 @@
 
 class SoftSkills{
     var $skillName;
+    var $skillNameRo;
     var $flaticon;
 
     /**
      * @param $skillName
+     * @param $skillNameRo
      * @param $flaticon
      */
-    public function __construct($skillName, $flaticon)
+    public function __construct($skillName, $skillNameRo, $flaticon)
     {
         $this->skillName = $skillName;
+        $this->skillNameRo = $skillNameRo;
         $this->flaticon = $flaticon;
     }
 
@@ -33,6 +36,22 @@ class SoftSkills{
     /**
      * @return mixed
      */
+    public function getSkillNameRo()
+    {
+        return $this->skillNameRo;
+    }
+
+    /**
+     * @param mixed $skillNameRo
+     */
+    public function setSkillNameRo($skillNameRo): void
+    {
+        $this->skillNameRo = $skillNameRo;
+    }
+
+    /**
+     * @return mixed
+     */
     public function getFlaticon()
     {
         return $this->flaticon;
@@ -46,11 +65,14 @@ class SoftSkills{
         $this->flaticon = $flaticon;
     }
 
+
+
+
     public function getSoftSkillsDatabase(){
-        $teamwork = new SoftSkills("Teamwork", "ti-settings");
-        $solution = new SoftSkills("Solution oriented", "ti-light-bulb");
-        $fastLearner = new SoftSkills("Fast learner", "ti-bolt");
-        $details = new SoftSkills("Attention to detail", "ti-search");
+        $teamwork = new SoftSkills("Teamwork", "Teamwork", "ti-settings");
+        $solution = new SoftSkills("Solution oriented", "Solution oriented","ti-light-bulb");
+        $fastLearner = new SoftSkills("Fast learner", "Fast Learner", "ti-bolt");
+        $details = new SoftSkills("Attention to detail", "Attention to detail","ti-search");
 
         $softSkills = array(
                 $teamwork,
@@ -90,17 +112,32 @@ class SoftSkills{
         for ($i = 0; $i < sizeof($softSkills); $i++){
             $softSkill = $softSkills[$i];
 
-            $codePerItem = '
+            if ($lang == 0) {
+                $codePerItem = '
                 <div class="row d-md-flex align-items-center">
                     <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
                         <div class="block-18 shadow">
                             <div class="text">
-                                <h4 class="number" style="color: black"><span class="next-line flatticon-here ' . $softSkill->getFlaticon() . '"></span></span>' . $softSkill->getSkillName() .'</h4>
+                                <h4 class="number" style="color: black"><span class="next-line flatticon-here ' . $softSkill->getFlaticon() . '"></span></span>' . $softSkill->getSkillName() . '</h4>
                             </div>
                         </div>
                     </div>
                 </div>
-            ';
+                ';
+            }
+            else{
+                $codePerItem = '
+                <div class="row d-md-flex align-items-center">
+                    <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
+                        <div class="block-18 shadow">
+                            <div class="text">
+                                <h4 class="number" style="color: black"><span class="next-line flatticon-here ' . $softSkill->getFlaticon() . '"></span></span>' . $softSkill->getSkillNameRo() . '</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                ';
+            }
 
             $code .= $codePerItem;
         }
@@ -117,7 +154,7 @@ class SoftSkills{
 ?>
 
 <?php
-    $utilityObject = new SoftSkills("nothing at", "all");
+    $utilityObject = new SoftSkills("nothing", "at", "all");
     echo($utilityObject->getSoftSkillsCode($utilityObject->getSoftSkillsDatabase()));
 
 ?>
