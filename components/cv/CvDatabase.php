@@ -372,8 +372,8 @@ class CvDatabase
             "Oct 2020 - ",
             "on going",
             "prezent",
-            "National Team of Robotics Member",
-            "Membru al Echipei Naționale de Robotică Autovortex",
+            "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>National Team of Robotics Member</a>",
+            "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Membru al Echipei Naționale de Robotică Autovortex</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Autovortex</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Autovortex</a>",
             '
@@ -422,8 +422,8 @@ class CvDatabase
             "8 -",
             "14 Jul 2019",
             "14 Iul 2019",
-            "Participant at FTC summer camp",
-            "Participant tabără de robotică FTC",
+            "<a href='https://www.firstinspires.org/robotics/ftc' target='_blank' style='color:black;'>Participant at FTC summer camp</a>",
+            "<a href='https://www.firstinspires.org/robotics/ftc' target='_blank' style='color:black;'>Participant tabără de robotică FTC</a>",
             "<a href='https://www.firstinspires.org/robotics/ftc' target='_blank' style='color:black;'>FIRST Tech Challenge</a>",
             "<a href='https://www.firstinspires.org/robotics/ftc' target='_blank' style='color:black;'>FIRST Tech Challenge</a>",
             '
@@ -482,8 +482,8 @@ class CvDatabase
             "",
             "1<sup>st</sup> place",
             "Locul 1",
-            "FIRST Tech Challenge Siberia - Feb 2020",
-            "FIRST Tech Challenge Siberia - Feb 2020",
+            "FTC Russia Robotics from Siberia  - Feb 2020",
+            "FTC Russia Robotics din Siberia - Feb 2020",
             "<br><br>",
             "<br><br>"
         );
@@ -495,8 +495,8 @@ class CvDatabase
             "",
             "1<sup>st</sup> place",
             "Locul 1",
-            "FIRST Tech Challenge Russia - Apr 2021",
-            "FIRST Tech Challenge Russia - Apr 2021",
+            "FIRST Russia Robotics - Apr 2021",
+            "FIRST Russia Robotics - Apr 2021",
             "<br><br>",
             "<br><br>"
         );
@@ -532,8 +532,8 @@ class CvDatabase
             "Mar 2020 - ",
             "Sep 2020",
             "Sep 2020",
-            "Financial Manager",
-            "Manager Financiar",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Financial Manager</a>",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Manager Financiar</a>",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
             '
@@ -549,15 +549,15 @@ class CvDatabase
             'Apr 2020 - ',
             "Sep 2020",
             "Sep 2020",
-            "Sales Agent",
-            "Agent de vânzari",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Sales Agent</a>",
+            "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Agent de vânzari</a>",
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
             "
                     <p>I convinced the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>
                 ",
             "
-                    <p>Task-ul meu era de a convinge directorii generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor.</p>
+                    <p>Task-ul meu era de a convinge directorii generali ai celor mai mari corporații din România să ia parte la Corporate Games alături de subordonații lor.</p>
                 "
         );
 
@@ -574,7 +574,7 @@ class CvDatabase
                         <p style="text-align: justify;">Staff member at Model United Nations Conference, held in "Gheorghe Lazar" National College from Bucharest.</p>
                     ',
             '
-                        <p style="text-align: justify;">Am ocupat funcția de voluntar la conferința model organizată de United Nations, desfășurată în Colegiul Național "Gheorghe Lazar" din România Bucureşti.</p>
+                        <p style="text-align: justify;">Am ocupat funcția de voluntar la conferința model organizată de United Nations, desfășurată în Colegiul Național "Gheorghe Lazăr" din Bucureşti.</p>
                     '
         );
 
@@ -583,15 +583,15 @@ class CvDatabase
             "Ian 2020 - ",
             "Apr 2020",
             "Apr 2020",
-            "Volunteer",
-            "Voluntar",
+            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Volunteer</a>",
+            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Voluntar</a>",
             "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Red Cross</a>",
             "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Crucea Roșie</a>",
             '
-                        <p style="text-align: justify;">I participated at two different editions of Food Bank and I attended a few First Aid classes.</p>
+                        <p style="text-align: justify;">I volunteered at two different editions of Food Bank and I attended a few First Aid classes.</p>
                     ',
             '
-                        <p>Am participat la două ediții ale Băncii de Alimente și am participat la cateva cursuri de prim ajutor.</p>
+                        <p>Am fost voluntar la două ediții ale Băncii de Alimente și am participat la câteva cursuri de prim ajutor.</p>
                     '
         );
 
@@ -617,10 +617,10 @@ class CvDatabase
             "Apr 2019 - ",
             "on going",
             "prezent",
-            "Volunteer",
-            "Voluntar",
-            'Happy Camps',
-            "Happy Camps",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Volunteer</a>",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Voluntar</a>",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
+            "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
             "
                         <p>I occupied the position of financial manager where I managed budgets, sponsorships and fundings for the organisation.</p> 
                         <p>I also developed the club's website, which can be found <a href='https://happycamps.club' target='_blank'>here</a>.</p>
