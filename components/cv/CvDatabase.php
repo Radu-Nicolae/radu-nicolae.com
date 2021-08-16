@@ -242,7 +242,7 @@ class CvDatabase
 
             '
                 <p> Website owner - dezvoltat pentru a atrage trafic pentru Google Adsense.<br>
-                Am construit site-ul împreună cu <a href="https://luanaionica.com" target="_blank"> <u> Luana </u> </a> folosind PHP și SEO. În prezent păstrez mentenanța site-ului web. </p>
+                Am construit site-ul împreună cu <a href="https://luanaionica.com" target="_blank"><u>Luana</u></a> folosind PHP și SEO. În prezent păstrez mentenanța site-ului web. </p>
                 </p>
             '
         );
