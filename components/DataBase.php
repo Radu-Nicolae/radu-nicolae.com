@@ -91,8 +91,8 @@ $contact = array(
 
 $footer = array(
     array("About"),
-    array('My name is Radu Nicolae and I am a student at "Saint Sava" National College. Some of the things I do are Web Developing, Web Designing, PHP Developing, Java Developing, FIRST Tech Challenge Robotics, Happy Camps volunteering. I also love nature and sport, hence I love cycling and exploring new paths.',
-        'Numele meu este Radu Nicolae și sunt elev la Colegiul Național "Sfântul Sava". Câteva dintre activitățile mele sunt: Web Developing, Web Designing, Javascript Developing, Java Developing, Robotică FTC, Voluntar Happy Camps, Voluntar Crucea Roșie. De asemenea, iubesc sportul, practic ciclism, tenis și înot.'),
+    array('My name is Radu Nicolae and I am a student at "Saint Sava" National College. Some of the things I do are Web, PHP, Javascript, Pyhton and Java Developing, FIRST Tech Challenge Robotics, Happy Camps volunteering. I also love nature and sport, hence I love cycling and exploring new paths.',
+        'Numele meu este Radu Nicolae și sunt elev la Colegiul Național "Sfântul Sava". Câteva dintre activitățile pe care le practic sunt: Web, PHP, Javascript, Python și Java Developing, robotică FTC, voluntariat Happy Camps. De asemenea, iubesc să descopăr natura pe 2 roți..'),
     array('Links', 'Link-uri'),
     array('Home', 'Home'),
     array('Personal Info', 'Despre mine'),
