@@ -557,7 +557,7 @@ class CvDatabase
                     <p>I convinced the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>
                 ",
             "
-                    <p>Convingerea directorilor generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor.</p>
+                    <p>Task-ul meu era de a convinge directorii generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor.</p>
                 "
         );
 
@@ -626,9 +626,11 @@ class CvDatabase
                         <p>I also developed the club's website, which can be found <a href='https://happycamps.club' target='_blank'>here</a>.</p>
                         <p>I also volunteered as a trainer in several summer and winter children camps where I improved my communication abilities, as well as my coordination skills.</p>
                     ",
-            '
-                        <p style="text-align: justify;">Happy Camps este o organizație non profit pentru copii și adolescenți. Happy Camps este despre ajutor, dezvoltare personală, sport și distracție, fiind una dintre cele mai mari organizații de voluntariat din România.</p>
-                    '
+            "
+                        <p>Am ocupat funcția de manager financiar în care am gestionat bugete, sponsorizări și finanțări pentru organizație.</p> 
+                        <p>De asemenea, am dezvoltat site-ul clubului, care poate fi găsit <a href='https://happycamps.club' target='_blank'> aici </a>.</p>
+                        <p>În plus, am fost trainer în mai multe tabere de vară și de iarnă pentru copii, unde mi-am îmbunătățit abilitățile de comunicare, precum și abilitățile de coordonare.</p>                    
+                    "
         );
 
         $euDialogue = new CvItem(

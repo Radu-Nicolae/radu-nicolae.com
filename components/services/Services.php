@@ -6,14 +6,15 @@ class Services
 
     public function getDataBase()
     {
-        $webDeveloper = new service("Web Developer", "The HTML language is the coding language that makes the magic happen transforming the code in a website, but without any color, alingnment, shadow, etc.", 'HTML este limbajul de programare care face "magia" de a transforma liniile de cod într-un website funcțional, dar fără nici o culoare, aliniere a elementelor, umbre, etc.', 'flaticon-flasks');
+        $webDeveloper = new service("Web Developer", "HTML and CSS are the languages that make the magic happen transforming the code into a website, containing colors, shadows, different alignemtents and sizes of elements, etc.", 'HTML și CSS sunt limbaje care transformă liniile de cod într-un site web, conținând culori, umbre, diferite alinieri și dimensiuni ale elementelor, etc.', 'flaticon-flasks');
         $jsDeveloper = new service("Javascript Developer", "Javascript, or JS, makes the website react to some of your actions. A button from a website is programmed in Javascript, as well as the cookies (not the tasty ones).", 'Javascript, sau JS, este limbajul de programare care ”învață” un website să reacționeze la anumite acțiuni ale utilizatorului. De exemplu, un buton, prezent pe un site, este programat în Javascript, precum și "coockie-urile".', 'flaticon-innovation');
         $webDesigner = new service("Web Designer", "CSS, or Cascading Style Sheets, is the programming language that adds style to the HTML. This is the reason we have colors or diferent text sizes. And alingnment. And shadows.", 'CSS, numit și Cascading Style Sheets, este limbajul de programare care dă culoare unui website. La propriu. Și nu doar culoare, datorită CSS-ului textele au diferite dimensiuni, există alinieri ale elementelor, decorații, umbre, etc.', 'flaticon-ux-design');
+        $phpDeveloper = new Service("PHP Developer", "PHP is an indispensable erver-side programming language and makes developers' life much easier when working with both external and internal data.", "PHP este un limbaj de programare server-side indispensabil și face viața dezvoltatorilor mult mai ușoară atunci când lucrează atât cu date externe cât și interne.", "flaticon-ux-design");
 
         $servs = array(
             $webDeveloper,
             $jsDeveloper,
-            $webDesigner
+            $phpDeveloper
         );
 
         return $servs;
