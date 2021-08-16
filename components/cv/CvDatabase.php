@@ -43,14 +43,14 @@ class CvDatabase
 
             "
                     <p>Overall: <b>1360 points</b> - higher than 91% of test takers</p>
-                    <p>Math: <b>760 points</b> - higher than 96% of test takers.
-                    <br>English: <b>600 points</b> - higher than 76% of test takers.</p>
+                    <p>Math: <b>760 points</b> - higher than 96% of test takers
+                    <br>English: <b>600 points</b> - higher than 76% of test takers</p>
                 ",
 
             "
-                    <p>Total: <b>1360 de puncte</b> - mai mare decât 91% dintre candidații SAT.</p>
-                    <p>Matematică: <b>760 de puncte</b> - mai mare decât 96% dintre candidații SAT.
-                    <br>Engleză: <b>600 de puncte</b> - mai mare decât 76% dintre candidații la SAT.</p>
+                    <p>Total: <b>1360 de puncte</b> - mai mare decât 91% dintre candidații SAT</p>
+                    <p>Matematică: <b>760 de puncte</b> - mai mare decât 96% dintre candidații SAT
+                    <br>Engleză: <b>600 de puncte</b> - mai mare decât 76% dintre candidații la SAT</p>
                 "
         );
 
@@ -115,7 +115,7 @@ class CvDatabase
             "<a href='https://www.tudelft.nl/' style='color:black;'>TU Delft</a>",
 
             '
-                    <p> I graduated the official pre-university mathematics course organized by TU Delft with the remarkable <b>final grade of 91%</b>.</p>
+                    <p>I graduated the official pre-university calculus course organized by TU Delft with the remarkable <b>final grade of 91%</b>.</p>
                     <p>I did gain indispensable calculus and mathematical algorithm knowledge including equations, functions, differentiation, integration and geometry.</p>
                 ',
 
@@ -131,14 +131,14 @@ class CvDatabase
             "Mar 2020 - ",
             "Nov 2020",
             "Nov 2020",
-            "<a href='https://jademy.ro/' style='color:black;'>Java Courses</a>",
-            "<a href='https://jademy.ro/' style='color:black;'>Cursuri Java</a>",
-            "<a href='https://jademy.ro/' style='color:black;'>Jademy</a>",
-            "<a href='https://jademy.ro/' style='color:black;'>Jademy</a>",
+            "<a href='https://jademy.ro/'  target='_blank' style='color:black;'>Java Courses</a>",
+            "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Cursuri Java</a>",
+            "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Jademy</a>",
+            "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Jademy</a>",
 
             '
                     <p>I have attended Oracle authorised back end courses of Java.</p>
-                    <p>The course help me develop an algorithmic thinking and I did gain knowledge of OOP, Debugging, solving problems, handling exceptions, databases (SQL and JDBC), functional programming and Java FX.</p>
+                    <p>The course helped me develop an algorithmic thinking and I gained knowledge of OOP, debugging, solving problems, handling exceptions, databases (SQL and JDBC), functional programming and Java FX.</p>
                 ',
 
             '
@@ -211,7 +211,7 @@ class CvDatabase
 
             '
                 <p>
-                    <a href="https://github.com/Radu-Nicolae?tab=repositories">Github</a> is the platform where I have uploaded all my projects.
+                    <a href="https://github.com/Radu-Nicolae?tab=repositories">Github</a> is the platform where I upload all my projects.
                 </p>
             ',
 
@@ -259,7 +259,7 @@ class CvDatabase
             '<a href="#" class="linksiteuri" style="text-decoration: underline; color: black !important">Acest website</a>',
 
             '
-                        <p style="text-align: justify;">Structured, designed and built my personal website by my own using HTML, CSS, Javascript, PHP and GIT. In present I am keeping its maintenance.</p>
+                        <p style="text-align: justify;">I structured, designed and built my personal website by myself using HTML, CSS, Javascript, PHP and GIT. In present I am keeping its maintenance.</p>
                     ',
 
             '
@@ -278,7 +278,7 @@ class CvDatabase
             '<a href="https://happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
 
             '
-                        <p style="text-align: justify;">Structured, designed, built and kept the maintenance for the official website of Happy Camps Club.</p>
+                        <p style="text-align: justify;">I structured, designed, built and kept the maintenance for the official website of Happy Camps Club.</p>
                     ',
 
             '
@@ -296,7 +296,7 @@ class CvDatabase
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact Bucharest</a>',
             '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact București</a>',
             '
-                            <p>Structure, designed and built the official website of Interact Bucharest, member of Rotary. I kept maintenaince of the website during the period.</p>
+                            <p>I structured, designed and built the official website of Interact Bucharest, member of Rotary. I kept maintenaince of the website during the period.</p>
                        ',
             '
                             <p>Am structurat, proiectat și construit site-ul oficial al Interact București, care aparține de Rotary și am păstrat mentenanța site-ului web.</p>
@@ -313,7 +313,7 @@ class CvDatabase
             '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
             '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
             '
-                            <p>Structured, designed and built the official website of CaVa, the magazine of "Saint Sava" National College. In prezent I keep the maintenance of the website by posting new articles, updating details, making announcements, etc.</p>
+                            <p>I structured, designed and built the official website of CaVa, the magazine of "Saint Sava" National College. In present I keep the maintenance of the website by posting new articles, updating details, making announcements, etc.</p>
                        ',
             '
                             <p> Am structurat, proiectat și construit site-ul oficial al CaVa, revista Colegiului Național „Sfântul Sava”. În prezent păstrez întreținerea site-ului web postând articole noi, actualizând detalii, efectuarea de anunțuri etc. </p>
@@ -353,11 +353,10 @@ class CvDatabase
                                             href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"
                                             target="_blank" class="linksiteuri"
                                             style="text-decoration: underline; color: black !important">Curs Front-End</a></span>',
-            '<p>I structured, created and implemented a 25 module front end course containg notions and exercises of Javascript, HTML and CSS for <b>Jademy - Oracle Silver Partner</b>. The course can be found here <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>here</u>.</a ></p>
-                        <p>I participated as a trainer assistant at Java Courses.</p> ',
+            '<p>I structured, created and implemented a 25 module front end course containg notions and exercises of Javascript, HTML and CSS for <b>Jademy - Oracle Silver Partner</b>. The course can be found <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>here</u>.</a> I also participated as a trainer assistant at Java Courses.</p> ',
 
 
-            '<p> Am structurat, creat și implementat un curs de Front-End de 25 de module care conține noțiuni și exerciții de Javascript, HTML și CSS pentru <b> Jademy - Oracle Silver Partner </b>. Cursul poate fi găsit aici <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"> <u> aici </u>. </ A> </ p >
+            '<p> Am structurat, creat și implementat un curs de Front-End de 25 de module care conține noțiuni și exerciții de Javascript, HTML și CSS pentru <b> Jademy - Oracle Silver Partner </b>. Cursul poate fi găsit <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"> <u> aici </u>. </ A> </ p >
                          <p> Am participat ca asistent de trainer la cursurile Java. </p>
                                 '
         );
@@ -446,8 +445,8 @@ class CvDatabase
             "Gamma Robotics",
             "Gamma Robotics",
             '
-                <p>Gamma is my high school\'s robotics team, which participated at the international contest FIRST Tech Challenge.</p>
-                <p>I was team leader and driver during the season. We passed the regional stage and we competed against the best robotics teams in Romania at the national stage.</p>
+                <p>Gamma is my high school\'s robotics team and we participated at the international contest FIRST Tech Challenge.</p>
+                <p>I was team leader and driver during the season. We passed the regional stage and we competed against the best robotics teams in Romania in the national stage.</p>
 ',
             '<p> Gamma este echipa de robotică a liceului meu, care a participat la concursul internațional FIRST Tech Challenge. </p>
                  <p> Am fost lider de echipă și driver în timpul sezonului. Am trecut de etapa regională și am concurat împotriva celor mai bune echipe de robotică din România la etapa națională. </p>'
@@ -472,8 +471,8 @@ class CvDatabase
             "",
             "1<sup>st</sup> place",
             "Locul 1",
-            "First Tech Challenge Russia - Dec 2019",
-            "First Tech Challenge Russia - Dec 2019",
+            "FIRST Tech Challenge Russia - Dec 2019",
+            "FIRST Tech Challenge Russia - Dec 2019",
             "<br><br>",
             "<br><br>"
         );
@@ -485,8 +484,8 @@ class CvDatabase
             "",
             "1<sup>st</sup> place",
             "Locul 1",
-            "First Tech Challenge Siberia - Feb 2020",
-            "First Tech Challenge Siberia - Feb 2020",
+            "FIRST Tech Challenge Siberia - Feb 2020",
+            "FIRST Tech Challenge Siberia - Feb 2020",
             "<br><br>",
             "<br><br>"
         );
@@ -498,8 +497,8 @@ class CvDatabase
             "",
             "1<sup>st</sup> place",
             "Locul 1",
-            "First Tech Challenge Russia - Apr 2021",
-            "First Tech Challenge Russia - Apr 2021",
+            "FIRST Tech Challenge Russia - Apr 2021",
+            "FIRST Tech Challenge Russia - Apr 2021",
             "<br><br>",
             "<br><br>"
         );
@@ -552,7 +551,7 @@ class CvDatabase
             "Agent de vânzari",
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
             "<a href='https://www.corporate-games.ro/ro' target='_blank' style='color:black;'>Corporate Games Romania</a>",
-            "<p>Convince the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>",
+            "<p>I convinced the general managers of the greatest corporations from Romania to take part of Corporate Games together with their subordinates.</p>",
             "<p>Convingerea directorilor generali ai celor mai mari corporații din România să ia parte la Corporate Games alaturi de subordonații lor. </p>"
         );
 
