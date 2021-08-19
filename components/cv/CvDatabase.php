@@ -95,11 +95,11 @@ class CvDatabase
             "<a style='color:black' href='https://www.sololearn.com/home'>Sololearn</a>",
             "<a style='color:black' href='https://www.sololearn.com/home'>Sololearn</a>",
             '
-                    <p>I have attended and graduated the following SoloLearn courses: Java, PHP, HTML, CSS, Responsive Web Design.</p>
+                    <p>I have attended and graduated the following SoloLearn courses: Python Core, Python Data Structures, Java, PHP, HTML, CSS, Responsive Web Design.</p>
                     <p>I am currently attending MySQL and C++ courses.</p>
                 ',
             '
-                     <p>Am urmat și am absolvit următoarele cursuri SoloLearn: Java, PHP, HTML, CSS, Responsive Web Design.</p>
+                     <p>Am urmat și am absolvit următoarele cursuri SoloLearn: Python Core, Python Data Structures, Java, PHP, HTML, CSS, Responsive Web Design.</p>
                      <p>În prezent particip la cursurile de MySQL și C++. </p>
                 '
         );
