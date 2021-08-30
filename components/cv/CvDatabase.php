@@ -86,8 +86,8 @@ class CvDatabase
 
 
         $sololearn = new CvItem(
-            "2020 - ",
-            "2020 - ",
+            "Nov 2020 - ",
+            "Nov 2020 - ",
             "on going",
             "prezent",
             "<a style='color:black' href='https://www.sololearn.com/home'>Programming Courses</a>",
@@ -222,6 +222,26 @@ class CvDatabase
             '
         );
 
+        $viviriaFestival = new CvItem(
+            "Jul 2021 - ",
+            "Iul 2021 - ",
+            "on going",
+            "prezent",
+            "Web Developer",
+            "Web Developer",
+            '<a href="https://viviriafestival.ro" class="linksiteuri"
+                                                          style="text-decoration: underline; color: black !important">Viviria Festival</a>',
+            '<a href="https://viviriafestival.ro" class="linksiteuri"
+                                                          style="text-decoration: underline; color: black !important">Viviria Festival</a>',
+            '
+                <p>I work as a web developer for the official website of the literature festival Viviria. I created the website primarly using PHP and I am currently keeping its maintenance.</p>
+            ',
+            '
+                <p>Sunt web developer pentru site-ul oficial al festivalului de literatură Viviria. Am creat acest website folosind în mare parte PHP și în prezent păstrez mentenanța acestuia.</p>
+            '
+
+        );
+
         $topTheWhole = new CvItem(
             "Jan 2021 - ",
             "Ian 2020 - ",
@@ -289,7 +309,7 @@ class CvDatabase
         $interactWebsite = new CvItem(
             "Feb 2020 - ",
             "Feb 2020 - ",
-            "Iul 2021",
+            "Jul 2021",
             "Iul 2021",
             'Web Developer Internship',
             "Web Developer Internship",
@@ -323,6 +343,7 @@ class CvDatabase
 
         $cv = array(
             $github,
+            $viviriaFestival,
             $topTheWhole,
             $raduNicolaeWebsite,
             $revistaCaVaWebsite,
