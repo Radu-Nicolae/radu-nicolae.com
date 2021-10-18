@@ -389,11 +389,11 @@ class CvDatabase
     public function getRoboticsCv()
     {
         $autovortex = new CvItem(
-            "Oct 2020 - ",
-            "Oct 2020 - ",
+            "Oct 2019 - ",
+            "Oct 2019 - ",
             "on going",
             "prezent",
-            "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>National Team of Robotics Member</a>",
+            "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>National Robotics Team Member</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Membru al Echipei Naționale de Robotică Autovortex</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Autovortex</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Autovortex</a>",
