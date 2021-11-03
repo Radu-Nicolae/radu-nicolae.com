@@ -40,8 +40,8 @@
                             <span>Official Websites completed</span>
                         </p>
 <!--                        <p><a href="CV-RaduNicolae.pdf" class="btn btn-primary py-3 px-3" download>Download CV</a></p>-->
-<!--                        <p><a href="CV-RaduNicolae.pdf" class="btn btn-primary py-3 px-3" download>Download CV</a></p>-->
                         <div style="display: flex;">
+                            <p><a href="CV-RaduNicolae.pdf" class="btn btn-primary py-3 px-3" download>Download CV</a></p>
                             <p><a href="https://github.com/Radu-Nicolae" class="btn btn-primary" style="margin-right: 0.5rem"><span class="ion-logo-github" style="padding-left: 0.1rem; font-size: 200%; color: white !important;"></span></a></p>
                             <p><a href="https://www.linkedin.com/in/radunicolae-dev/" class="btn btn-primary"><span class="ion-logo-linkedin" style="font-size: 200%; padding-left: 0.1rem; color: white !important;"></span></a></p>
                         </div>
