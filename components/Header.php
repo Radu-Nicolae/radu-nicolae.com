@@ -46,6 +46,16 @@
             transition: 20ms;
         }
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M3J6FHVD6L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-M3J6FHVD6L');
+    </script>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" data-aos-easing="slide"
       data-aos-duration="800" data-aos-delay="0">
