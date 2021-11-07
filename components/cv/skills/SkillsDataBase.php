@@ -13,7 +13,7 @@ class SkillsDataBase
         $mysql = new Skill("MySQL", 50, array("Intermediate", "Intermediate"));
         $cyber = new Skill("<span class='cyberSecurity'>Cyber Security</span>", 30, array("Beginner", "Începător"));
         $python = new Skill("Python", 90, array("Advanced", "Avansat"));
-        $django = new Skill("Django", 30, array("Beginner", "Începător"));
+        $django = new Skill("Django", 50, array("Intermediate", "Intermediar"));
 
         $mainSkills = array(
             $python,

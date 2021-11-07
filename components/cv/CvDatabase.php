@@ -74,8 +74,8 @@ class CvDatabase
             "<a style='color:black' href='https://codewithmosh.com/'>Django - The Ultimate Course</a>",
             "<a style='color:black' href='https://codewithmosh.com/'>Mosh Hamedani</a>",
             "<a style='color:black' href='https://codewithmosh.com/'>Mosh Hamedani</a>",
-            "<p>The course covers the following chapters of Django: Data Models, Databases, Django ORM, Django Admin</p>",
-            "<p>Cursul cuprinde următoarele capitole: Data Models, Databases, Django ORM, Django Admin</p>"
+            "<p>The course covers the following chapters of Django: Data Models, Databases, Django ORM, Django Admin.</p>",
+            "<p>Cursul cuprinde următoarele capitole: Data Models, Databases, Django ORM, Django Admin.</p>"
         );
 
         $edxHarvard = new CvItem(
@@ -248,10 +248,10 @@ class CvDatabase
             '<a href="https://viviriafestival.ro" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Viviria Festival</a>',
             '
-                <p>I work as a web developer for the official website of the literature festival Viviria. I created the website primarly using PHP and I am currently keeping its maintenance.</p>
+                <p>I worked as a web developer for the official website of the literature festival Viviria. I created the website primarly using PHP and I kept its maintenance.</p>
             ',
             '
-                <p>Sunt web developer pentru site-ul oficial al festivalului de literatură Viviria. Am creat acest website folosind în mare parte PHP și în prezent păstrez mentenanța acestuia.</p>
+                <p>Am fost web developer pentru site-ul oficial al festivalului de literatură Viviria. Am creat acest website folosind în mare parte PHP și am păstrat mentenanța acestuia.</p>
             '
 
         );
