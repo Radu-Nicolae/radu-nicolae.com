@@ -65,6 +65,19 @@ class CvDatabase
 
     public function getEducationCv()
     {
+        $django = new CvItem(
+            "Jul 2021",
+            "Iul 2021",
+            "",
+            "",
+            "<a style='color:black' href='https://codewithmosh.com/'>Django - The Ultimate Course</a>",
+            "<a style='color:black' href='https://codewithmosh.com/'>Django - The Ultimate Course</a>",
+            "<a style='color:black' href='https://codewithmosh.com/'>Mosh Hamedani</a>",
+            "<a style='color:black' href='https://codewithmosh.com/'>Mosh Hamedani</a>",
+            "<p>The course covers the following chapters of Django: Data Models, Databases, Django ORM, Django Admin</p>",
+            "<p>Cursul cuprinde următoarele capitole: Data Models, Databases, Django ORM, Django Admin</p>"
+        );
+
         $edxHarvard = new CvItem(
             "Jun 2021 - ",
             "Jun 2021 - ",
@@ -184,6 +197,7 @@ class CvDatabase
 
         $cv = array(
             $edxHarvard,
+            $django,
             $sololearn,
             $edxDelft,
             $jademyCourses
@@ -364,16 +378,16 @@ class CvDatabase
             "Mai 2020 - ",
             "Oct 2021",
             "Oct 2021",
-            "Front-End Trainer Internship",
-            "Front-End Trainer Internship",
+            "Trainer Internship",
+            "Trainer Internship",
             '<span class="position"><a
                                             href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"
                                             target="_blank" class="linksiteuri"
-                                            style="text-decoration: underline; color: black !important">Jademy Front-End Course</a></span>',
+                                            style="color: black !important">Jademy - Oracle Silver Partner</a></span>',
             '<span class="position"><a
                                             href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"
                                             target="_blank" class="linksiteuri"
-                                            style="text-decoration: underline; color: black !important">Curs Front-End</a></span>',
+                                            style="color: black !important">Jademy - Oracle Silver Partner</a></span>',
             '<p>I structured, created and implemented a 25 module front end course containg notions and exercises of Javascript, HTML and CSS for <b>Jademy - Oracle Silver Partner</b>. The course can be found <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>here</u>.</a> I also participated as a trainer assistant at Java Courses.</p> ',
 
 
