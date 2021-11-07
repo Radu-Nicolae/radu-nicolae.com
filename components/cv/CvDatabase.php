@@ -9,7 +9,7 @@ class CvDatabase
         $highSchool = new CvItem(
             "2018 - ",
             "2018 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "Baccalaureate Diploma",
             "Diplomă de Bacalaureat",
@@ -68,8 +68,8 @@ class CvDatabase
         $edxHarvard = new CvItem(
             "Jun 2021 - ",
             "Jun 2021 - ",
-            "on going",
-            "on going",
+            "ongoing",
+            "prezent",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Web Programming with Python and JavaScript</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Web Programming with Python and JavaScript</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
@@ -88,7 +88,7 @@ class CvDatabase
         $sololearn = new CvItem(
             "Nov 2020 - ",
             "Nov 2020 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "<a style='color:black' href='https://www.sololearn.com/home'>Programming Courses</a>",
             "<a style='color:black' href='https://www.sololearn.com/home'>Cursuri de programare</a>",
@@ -225,7 +225,7 @@ class CvDatabase
         $viviriaFestival = new CvItem(
             "Jul 2021 - ",
             "Iul 2021 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "Web Developer",
             "Web Developer",
@@ -245,7 +245,7 @@ class CvDatabase
         $topTheWhole = new CvItem(
             "Jan 2021 - ",
             "Ian 2020 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "Website Founder",
             "Fondator Website",
@@ -271,7 +271,7 @@ class CvDatabase
         $raduNicolaeWebsite = new CvItem(
             "Mar 2020 - ",
             "Mar 2020 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "Web Developer",
             "Web Developer",
@@ -326,7 +326,7 @@ class CvDatabase
         $revistaCaVaWebsite = new CvItem(
             "Oct 2019 - ",
             "Oct 2019 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "Web Developer Internship",
             "Web Developer Internship",
@@ -362,8 +362,8 @@ class CvDatabase
         $jademyInternship = new cvItem(
             "May 2020 - ",
             "Mai 2020 - ",
-            "on going",
-            "prezent",
+            "Oct 2021",
+            "Oct 2021",
             "Front-End Trainer Internship",
             "Front-End Trainer Internship",
             '<span class="position"><a
@@ -391,7 +391,7 @@ class CvDatabase
         $autovortex = new CvItem(
             "Oct 2019 - ",
             "Oct 2019 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>National Robotics Team Member</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Membru al Echipei Naționale de Robotică Autovortex</a>",
@@ -636,7 +636,7 @@ class CvDatabase
         $happyCampsVolunteer = new CvItem(
             "Apr 2019 - ",
             "Apr 2019 - ",
-            "on going",
+            "ongoing",
             "prezent",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Volunteer</a>",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Voluntar</a>",
