@@ -146,8 +146,8 @@ class CvDatabase
             "Nov 2020",
             "<a href='https://jademy.ro/'  target='_blank' style='color:black;'>Java Courses</a>",
             "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Cursuri Java</a>",
-            "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Jademy</a>",
-            "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Jademy</a>",
+            "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Jademy - Oracle Silver Partner</a>",
+            "<a href='https://jademy.ro/' target='_blank' style='color:black;'>Jademy - Oracle Silver Partner</a>",
 
             '
                     <p>I have attended Oracle authorised back end courses of Java.</p>
@@ -197,8 +197,8 @@ class CvDatabase
 
         $cv = array(
             $edxHarvard,
-            $django,
             $sololearn,
+            $django,
             $edxDelft,
             $jademyCourses
         );
@@ -239,8 +239,8 @@ class CvDatabase
         $viviriaFestival = new CvItem(
             "Jul 2021 - ",
             "Iul 2021 - ",
-            "ongoing",
-            "prezent",
+            "Sep 2021",
+            "Sep 2021",
             "Web Developer",
             "Web Developer",
             '<a href="https://viviriafestival.ro" class="linksiteuri"
@@ -357,10 +357,10 @@ class CvDatabase
 
         $cv = array(
             $github,
-            $viviriaFestival,
             $topTheWhole,
             $raduNicolaeWebsite,
             $revistaCaVaWebsite,
+            $viviriaFestival,
             $happyCampsWebsite,
             $interactWebsite
         );
@@ -473,8 +473,8 @@ class CvDatabase
             "Oct 2018 - ",
             "Oct 2019",
             "Oct 2019",
-            "Team Member",
-            "Membru",
+            "Team Leader",
+            "Lider de Echipă",
             "Gamma Robotics",
             "Gamma Robotics",
             '
@@ -686,12 +686,12 @@ class CvDatabase
         );
 
         $cv = array(
+            $happyCampsVolunteer,
             $happyCampsFinancial,
             $corporateGamesFinancial,
             $lazarMun,
             $redCross,
-            $euDialogue,
-            $happyCampsVolunteer
+            $euDialogue
         );
 
         return $cv;
