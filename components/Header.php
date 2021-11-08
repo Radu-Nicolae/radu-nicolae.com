@@ -30,6 +30,16 @@
     <link rel="stylesheet" href="cssblog/icomoon.css">
     <link rel="stylesheet" href="cssblog/style.css">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7JJ6DEJFE0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-7JJ6DEJFE0');
+    </script>
+
     <style type="text/css">.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after {
             pointer-events: none !important;
             -webkit-animation-play-state: paused !important;
@@ -47,15 +57,7 @@
         }
     </style>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M3J6FHVD6L"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
 
-        gtag('config', 'G-M3J6FHVD6L');
-    </script>
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" data-aos-easing="slide"
       data-aos-duration="800" data-aos-delay="0">
