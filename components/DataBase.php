@@ -10,7 +10,8 @@ $navbar = array(
     array("CV", "CV"),
     array("Websites","Websites"),
     array("Contact", "Contact"),
-    array("Menu", "Meniu")
+    array("Menu", "Meniu"),
+    array("index.php", "ro.php"),
 );
 
 $iam = array(
