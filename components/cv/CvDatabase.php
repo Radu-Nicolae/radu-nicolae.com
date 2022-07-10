@@ -9,8 +9,8 @@ class CvDatabase
         $highSchool = new CvItem(
             "2018 - ",
             "2018 - ",
-            "ongoing",
-            "prezent",
+            "2022",
+            "2022",
             "Baccalaureate Diploma",
             "Diplomă de Bacalaureat",
             '<a href="https://licsfsava.ro" style="color: black !important" target="_blank">"Saint Sava" National College</a>',
@@ -18,15 +18,15 @@ class CvDatabase
 
             '
                     <div style="color:#999999">
-                        <p>I study at the best high school in Romania <b>mathematics-informatics profile</b> and I am currently in the 12<sup>th</sup> grade.</p>
-                        <p>I will sustain Baccalaureate Exam at Mathematics, Physics, Romanian, Digital Competences and English.</p>    
+                        <p>I studied at the best high school in Romania <b>mathematics-informatics profile</b>.</p>
+                        <p>I sustained the Baccalaureate Exam at Mathematics, Physics, Romanian, Digital Competences and English and obtained the average mark of <b>9.48.</b></p>    
                     </div>
                 ',
 
             '
                     <div style="color:#999999">
-                        <p> Studiez la cel mai bun liceu din România <b>profilul matematică-informatică</b> și în prezent sunt în clasa a 12-a.</p>
-                        <p> Voi susține examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză.</p>
+                        <p> Am studiat la cel mai bun liceu din România <b>profilul matematică-informatică</b>.</p>
+                        <p>Am susținut examenul de bacalaureat la matematică, fizică, română, competențe digitale și engleză și am obținut media de <b>9,48.</b></p>
                     </div>
                 '
         );
