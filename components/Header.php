@@ -13,7 +13,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="http://yoursite.com/themify-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="cssblog/themify-icons/themify-icons.css"
+    <link rel="stylesheet" href="cssblog/themify-icons/themify-icons.css">
 
     <link rel="stylesheet" href="cssblog/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="cssblog/animate.css">
@@ -45,11 +45,8 @@
             -webkit-animation-play-state: paused !important;
             animation-play-state: paused !important;
         }
-
-        ;
-
-
     </style>
+
     <style>
         html{
             overflow-y: scroll
