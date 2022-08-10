@@ -29,7 +29,7 @@ $cvDatabase = new CvDatabase();
                         <div class="secondary-cv">
                             <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[0][$lang] ?> </h2>
                             <?php
-                            echo $cvUtils->generateCode($cvDatabase->getHighSchoolCv() ,  $lang);
+                            echo $cvUtils->generateCode($cvDatabase->getAcademicCv() ,  $lang);
                             ?>
                         </div>
 

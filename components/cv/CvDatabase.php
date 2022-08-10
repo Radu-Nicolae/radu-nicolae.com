@@ -4,7 +4,7 @@ include 'components/cv/CvUtils.php';
 
 class CvDatabase
 {
-    public function getHighSchoolCv()
+    public function getAcademicCv()
     {
         $highSchool = new CvItem(
             "2018 - ",
