@@ -14,6 +14,7 @@ class SkillsDataBase
         $cyber = new Skill("<span class='cyberSecurity'>Cyber Security</span>", 30, array("Beginner", "Începător"));
         $python = new Skill("Python", 90, array("Advanced", "Avansat"));
         $django = new Skill("Django", 50, array("Intermediate", "Intermediar"));
+        $js = new Skill("Javascript", 50, array("Intermediate", "Intermediar"));
 
         $mainSkills = array(
             $python,
@@ -21,7 +22,7 @@ class SkillsDataBase
             $java,
             $cpp,
             $php,
-            $mysql,
+            $js,
             $html,
             $css
         );
@@ -36,7 +37,7 @@ class SkillsDataBase
         $spring = new Skill("Spring", "30", "");
         $maven = new Skill("Maven", "90", "");
         $git = new Skill("Git", "90", "");
-        $photoshop = new Skill("Photoshop", "50", "");
+        $mysql = new Skill("MySQL | SQLite", 50, array("Intermediate", "Intermediate"));
 
         $secondarySkills = array(
             $javaFx,
@@ -44,7 +45,7 @@ class SkillsDataBase
             $maven,
             $bootstrap,
             $git,
-            $photoshop
+            $mysql
         );
 
         return $secondarySkills;
