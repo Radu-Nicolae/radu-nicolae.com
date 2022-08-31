@@ -6,6 +6,24 @@ class CvDatabase
 {
     public function getAcademicCv()
     {
+        $university = new CvItem(
+            "2022 - ",
+            "2022 - ",
+            "present",
+            "prezent",
+            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Computer Science Bachelor\'s</a>',
+            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Licenta Computer Science</a>',
+            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Vrije Universiteit Amsterdam</a>',
+            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Vrije Universiteit Amsterdam</a>',
+            '<div style="color:#999999">
+                        <p>Vrije Universiteit Amsterdam (VU Amsterdam) is a leading university, ranked in the top 120 worldwide (Times Higher Education World University Rankings 2022).></p>    
+                    </div>',
+            '<div style="color:#999999">
+                        <p>I studied at the best high school in Romania <b>mathematics-informatics profile</b>.</p>
+                        <p>I sustained the Baccalaureate Exam at Mathematics, Physics, Romanian, Digital Competences and English and obtained the average mark of <b>9.48.</b></p>    
+                    </div>';
+        );
+
         $highSchool = new CvItem(
             "2018 - ",
             "2018 - ",
