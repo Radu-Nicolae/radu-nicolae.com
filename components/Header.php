@@ -39,6 +39,7 @@
 
         gtag('config', 'G-7JJ6DEJFE0');
     </script>
+    <script src="https://kit.fontawesome.com/b97198f209.js" crossorigin="anonymous"></script>
 
     <style type="text/css">.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after {
             pointer-events: none !important;

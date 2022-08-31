@@ -84,3 +84,37 @@
 </style>
 
 <?php include 'SoftSkills.php' ?>
+
+<section style="padding-top: 4rem !important;" class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img"
+         id="section-counter" xmlns="http://www.w3.org/1999/html">
+
+    <h2 class="heading">Driving License</h2>
+
+    <div class="container-fluid px-md-5">
+        <div class="row d-md-flex align-items-center">
+            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
+                <div class="block-18 shadow">
+                    <div class="text">
+
+                        <strong class="number" style="color: #50C878"><i class="flatticon-driving fa-solid fa-motorcycle"></i></strong>
+                        <b><span style="color: #ff851b; font-size: 120%">AM, A1, A2</span></b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md d-flex justify-content-center counter-wrap ftco-animate paddingCounter">
+                <div class="block-18 shadow">
+                    <div class="text">
+
+                        <strong class="number" style="color: #50C878"><i class="flatticon-driving fa-solid fa-car"></i></strong>
+                        <b><span style="color: #ff851b; font-size: 120%">B1, B</span></b>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+</section>
