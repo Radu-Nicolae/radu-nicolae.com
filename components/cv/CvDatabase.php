@@ -21,7 +21,7 @@ class CvDatabase
             '<div style="color:#999999">
                         <p>I studied at the best high school in Romania <b>mathematics-informatics profile</b>.</p>
                         <p>I sustained the Baccalaureate Exam at Mathematics, Physics, Romanian, Digital Competences and English and obtained the average mark of <b>9.48.</b></p>    
-                    </div>';
+                    </div>'
         );
 
         $highSchool = new CvItem(
