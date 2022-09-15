@@ -50,7 +50,7 @@ $cvCategories = array(
 );
 
 $cvSecondaryCategories = array(
-    array("High School", "Liceu"),
+    array("Academic", "Academic"),
     array("Courses", "Cursuri"),
     array("Internship", "Internship"),
     array("Projects", "Proiecte"),
@@ -87,13 +87,13 @@ $contact = array(
     array("Phone", "Telefon"),
     array("Personal Website", "Website Personal"),
     array("City", "Oraș"),
-    array("Bucharest", "București")
+    array("Amsterdam", "Amsterdam")
 );
 
 $footer = array(
     array("About"),
-    array('My name is Radu Nicolae and I am a student at "Saint Sava" National College. Some of the things I do are Web, PHP, Javascript, Pyhton and Java Developing, FIRST Tech Challenge Robotics, Happy Camps volunteering. I also love nature and sport, hence I love cycling and exploring new paths.',
-        'Numele meu este Radu Nicolae și sunt elev la Colegiul Național "Sfântul Sava". Câteva dintre activitățile pe care le practic sunt: Web, PHP, Javascript, Python și Java Developing, robotică FTC, voluntariat Happy Camps. De asemenea, iubesc să descopăr natura pe 2 roți..'),
+    array('My name is Radu Nicolae and I am studying Computer Science at a world leading university - Vrije Universiteit Amsterdam. Some of the things I do are PHP, Javascript, Pyhton and Java Developing. I also love nature and sport, hence I love motorcycling, cycling and exploring new paths.',
+        'Numele meu este Radu Nicolae și studiez Computer Science la Vrije Universiteit Amsterdam. Câteva dintre activitățile pe care le practic sunt: Web, PHP, Javascript, Python și Java Developing. De asemenea, sunt un motociclist caruia ii place să descopere natura pe 2 roți.'),
     array('Links', 'Link-uri'),
     array('Home', 'Home'),
     array('Personal Info', 'Despre mine'),
