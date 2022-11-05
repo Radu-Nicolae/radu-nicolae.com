@@ -42,7 +42,7 @@ class CvItem
 
     /**
      * @return mixed
-     */
+     */z
     public function getStartingDate()
     {
         return $this->startingDate;
