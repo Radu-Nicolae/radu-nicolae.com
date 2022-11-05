@@ -9,20 +9,20 @@ class SkillsDataBase
         $php = new Skill("PHP", 50, array("Intermediate", "Intermediar"));
         $js = new Skill("JavaScript", 50, array("Intermediate", "Intermediar"));
         $java = new Skill("Java", 90, array("Advanced", "Avansat"));
-        $cpp = new Skill("C++", 50, array("Intermediate", "Intermediar"));
+        $cpp = new Skill("C++", 90, array("Advanced", "Avansat"));
         $mysql = new Skill("MySQL", 50, array("Intermediate", "Intermediate"));
         $cyber = new Skill("<span class='cyberSecurity'>Cyber Security</span>", 30, array("Beginner", "Începător"));
-        $python = new Skill("Python", 90, array("Advanced", "Avansat"));
+        $python = new Skill("Python", 50, array("Intermediate", "Intermediate"));
         $django = new Skill("Django", 50, array("Intermediate", "Intermediar"));
         $js = new Skill("Javascript", 50, array("Intermediate", "Intermediar"));
 
         $mainSkills = array(
-            $python,
-            $django,
             $java,
             $cpp,
             $php,
             $js,
+            $python,
+            $django,
             $html,
             $css
         );

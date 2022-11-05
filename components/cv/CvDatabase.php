@@ -389,7 +389,24 @@ class CvDatabase
 
     public function getInternshipCv()
     {
-
+        $oxaigenIntership = new CvItem(
+            "Nov 2022 - ",
+            "Nov 2022 - ",
+            "present",
+            "prezent",
+            'Computer Science and Healthcare Data Science',
+            "Computer Science and Healthcare Data Science",
+            '<span class="position"><a
+                                            href="https://www.oxaigen.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Oxaigen</a></span>',
+            '<span class="position"><a
+                                            href="https://www.oxaigen.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Oxaigen</a></span>',
+            '<p>Working with front-end tools, such as Webflow. <b>Structuring</b>, <b>designing</b> and <b>building</b>  the website, including <b>animations</b> and <b>responsiveness</b>, <b>SEO</b>  optimisation, <b>QA</b>, writing <b>documentation</b> and loading time <b>optimisation</b>.</p>',
+            '<p>Lucrul cu instrumente front-end, precum Webflow. <b>Structurarea</b>, <b>proiectarea</b> și <b>construirea</b> site-ului web, inclusiv <b>animații</b> și <b>responsiveness</b>, <b optimizarea >SEO</b>, <b>QA</b>, scrierea <b>documentației</b> și <b>optimizarea timpului de încărcare</b>.</p>'
+        );
 
         $jademyInternship = new cvItem(
             "May 2020 - ",
@@ -412,7 +429,31 @@ class CvDatabase
             '<p> Am structurat, creat și implementat un curs de Front-End de 25 de module care conține noțiuni și exerciții de Javascript, HTML și CSS pentru <b> Jademy - Oracle Silver Partner </b>. Cursul poate fi găsit <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>aici</u></a>. De asemenea, am participat ca trainer assistant la cursurile Java.</p>'
         );
 
-        $cv = array($jademyInternship);
+        $cv = array(
+            $oxaigenIntership,
+            $jademyInternship
+        );
+
+        return $cv;
+    }
+
+    public function getWorkingCv(){
+        $studentAmbassador = new CvItem(
+            "Nov 2022 - ",
+            "Noi 2022 - ",
+            "present",
+            "prezent",
+            "Student Ambassador",
+            "Student Ambassador",
+            "Vrije Universiteit Amsterdam",
+            "Vrije Universiteit Amsterdam",
+            "<p>Giving future Computer Science students an overall view of what this domain involves. It requires excellent organization, communication, and presentation skills and also a good teamwork ability for collaborating with other student ambassadors.</p>",
+            "<p>Oferirea unei viziuni de ansamblu viitorilor studenți de Computer Science despre ceea ce implică acest domeniu. Necesită abilități excelente de organizare, comunicare și prezentare și, de asemenea, o bună abilitate de lucru în echipă pentru a colabora cu alți student ambassadors.</p>",
+        );
+
+        $cv = array(
+            $studentAmbassador,
+        );
 
         return $cv;
     }
