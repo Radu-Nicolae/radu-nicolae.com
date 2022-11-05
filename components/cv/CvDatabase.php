@@ -437,6 +437,27 @@ class CvDatabase
         return $cv;
     }
 
+    public function getWorkingCv(){
+        $studentAmbassador = new CvItem(
+            "Nov 2022 - ",
+            "Noi 2022 - ",
+            "present",
+            "prezent",
+            "Student Ambassador",
+            "Student Ambassador",
+            "Vrije Universiteit Amsterdam",
+            "Vrije Universiteit Amsterdam",
+            "<p>Giving future Computer Science students an overall view of what this domain involves. It requires excellent organization, communication, and presentation skills and also a good teamwork ability for collaborating with other student ambassadors.</p>",
+            "<p>Oferirea unei viziuni de ansamblu viitorilor studenți de Computer Science despre ceea ce implică acest domeniu. Necesită abilități excelente de organizare, comunicare și prezentare și, de asemenea, o bună abilitate de lucru în echipă pentru a colabora cu alți student ambassadors.</p>",
+        );
+
+        $cv = array(
+            $studentAmbassador,
+        );
+
+        return $cv;
+    }
+
 
     public function getRoboticsCv()
     {

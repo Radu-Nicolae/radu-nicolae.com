@@ -58,6 +58,14 @@ $cvDatabase = new CvDatabase();
                     <div class="secondary-cv">
                         <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[3][$lang] ?> </h2>
 
+
+                        <?= $cvUtils->generateCode($cvDatabase->getWorkingCv(), $lang) ?>
+                    </div>
+
+
+                    <div class="secondary-cv">
+                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[4][$lang] ?> </h2>
+
                         <?= $cvUtils->generateCode($cvDatabase->getDevelopingCv(), $lang)?>
                     </div>
 
@@ -71,21 +79,21 @@ $cvDatabase = new CvDatabase();
                     <h2 class="heading"><?= $cvCategories[2][$lang] ?></h2>
 
                     <div class="secondary-cv">
-                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[4][$lang] ?> </h2>
+                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[5][$lang] ?> </h2>
 
 
                         <?= $cvUtils->generateCode($cvDatabase->getRoboticsCv(), $lang) ?>
                     </div>
 
                     <div class="secondary-cv">
-                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[5][$lang] ?> </h2>
+                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[6][$lang] ?> </h2>
 
 
                         <?= $cvUtils->generateCode($cvDatabase->getCompetitionsCv(), $lang) ?>
                     </div>
 
                     <div class="secondary-cv">
-                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[6][$lang] ?> </h2>
+                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[7][$lang] ?> </h2>
 
 
                         <?= $cvUtils->generateCode($cvDatabase->getVolunteeringCv(), $lang) ?>
