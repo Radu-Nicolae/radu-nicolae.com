@@ -390,8 +390,8 @@ class CvDatabase
     public function getInternshipCv()
     {
         $oxaigenIntership = new CvItem(
-            "Nov 2022 - ",
-            "Nov 2022 - ",
+            "Oct 2022 - ",
+            "Oct 2022 - ",
             "present",
             "prezent",
             'Computer Science and Healthcare Data Science',
