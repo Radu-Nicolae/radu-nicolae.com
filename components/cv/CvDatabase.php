@@ -261,9 +261,9 @@ class CvDatabase
             "Sep 2021",
             "Web Developer",
             "Web Developer",
-            '<a href="https://viviriafestival.ro" class="linksiteuri"
+            '<a href="https://github.com/Radu-Nicolae/viviriafestival.ro" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Viviria Festival</a>',
-            '<a href="https://viviriafestival.ro" class="linksiteuri"
+            '<a href="https://github.com/Radu-Nicolae/viviriafestival.ro" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Viviria Festival</a>',
             '
                 <p>I worked as a web developer for the official website of the literature festival Viviria. I created the website primarly using PHP and I kept its maintenance.</p>
@@ -281,9 +281,9 @@ class CvDatabase
             "prezent",
             "Website Founder",
             "Fondator Website",
-            '<a href="https://topthewhole.com" class="linksiteuri"
+            '<a href="https://github.com/Radu-Nicolae/topthewhole.com" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
-            '<a href="https://topthewhole.com" class="linksiteuri"
+            '<a href="https://github.com/Radu-Nicolae/topthewhole.com" class="linksiteuri"
                                                           style="text-decoration: underline; color: black !important">Top The Whole</a>',
 
             '
@@ -326,8 +326,8 @@ class CvDatabase
             "Iun 2020",
             "Web Developer Internship",
             "Web Developer Internship",
-            '<a href="https://happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
-            '<a href="https://happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
+            '<a href="https://github.com/Radu-Nicolae/happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
+            '<a href="https://github.com/Radu-Nicolae/happycamps.club" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Happy Camps Club Website</a>',
 
             '
                         <p style="text-align: justify;">I structured, designed, built and kept the maintenance for the official website of Happy Camps Club.</p>
@@ -345,8 +345,8 @@ class CvDatabase
             "Iul 2021",
             'Web Developer Internship',
             "Web Developer Internship",
-            '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact Bucharest</a>',
-            '<a href="http://interactbucuresti.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact București</a>',
+            '<a href="https://github.com/Radu-Nicolae/Interact-Bucharest" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact Bucharest</a>',
+            '<a href="https://github.com/Radu-Nicolae/Interact-Bucharest" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">Interact București</a>',
             '
                             <p>I structured, designed and built the official website of Interact Bucharest, member of Rotary. I kept maintenaince of the website during the period.</p>
                        ',
@@ -362,8 +362,8 @@ class CvDatabase
             "prezent",
             "Web Developer Internship",
             "Web Developer Internship",
-            '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
-            '<a href="http://revista-cava.ro/" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
+            '<a href="https://github.com/Radu-Nicolae/revista-cava.ro" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
+            '<a href="https://github.com/Radu-Nicolae/revista-cava.ro" target="_blank" class="linksiteuri" style="text-decoration: underline; color: black !important">ÇaVa Website</a>',
             '
                             <p>I structured, designed and built the official website of CaVa, the magazine of "Saint Sava" National College. In present I keep the maintenance of the website by posting new articles, updating details, making announcements, etc.</p>
                        ',
