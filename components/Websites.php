@@ -91,12 +91,12 @@ class Site
 
     public function getWebsites()
     {
-        $cava = new Site("ÇaVa?", "Web Developer, Web Designer", "http://revista-cava.ro/", "cava.jpeg");
-        $interactBucharest = new Site("Interact Bucharest", "Web Developer, Web Design, Javascript Developer", "http://interactbucuresti.ro/", "interactBucharest.jpeg");
+        $cava = new Site("ÇaVa?", "Web Developer, Web Designer", "https://github.com/Radu-Nicolae/revista-cava.ro", "cava.jpeg");
+        $interactBucharest = new Site("Interact Bucharest", "Web Developer, Web Design, Javascript Developer", "https://github.com/Radu-Nicolae/Interact-Bucharest", "interactBucharest.jpeg");
         $personalWebsite = new Site("Personal Website", "Web Developer, Web Designer, Javascript Developer, PHP Developer", "#", "personalWebsite.jpeg");
-        $happyCampsClub = new Site("Happy Camps Club", "Web Developer, Web Design, Javascript Developer", "http://happycamps.club", "happyCampsClub.jpeg");
-        $topTheWhole = new Site("Top The Whole", "Web Developer, Web Design, Javascript Developer, PHP Developer <br> Article Writer", "https://topthewhole.com", 'topTheWhole.jpeg');
-        $viviriaFestival = new Site("Vivira Festival", "Web Developer, PHP Developer, Web Designer", "https://viviriafestival.ro", "viviriafestival.jpg");
+        $happyCampsClub = new Site("Happy Camps Club", "Web Developer, Web Design, Javascript Developer", "https://github.com/Radu-Nicolae/happycamps.club", "happyCampsClub.jpeg");
+        $topTheWhole = new Site("Top The Whole", "Web Developer, Web Design, Javascript Developer, PHP Developer <br> Article Writer", "https://github.com/Radu-Nicolae/topthewhole.com", 'topTheWhole.jpeg');
+        $viviriaFestival = new Site("Vivira Festival", "Web Developer, PHP Developer, Web Designer", "https://github.com/Radu-Nicolae/viviriafestival.ro", "viviriafestival.jpg");
 
         $sites = array(
             $cava,
