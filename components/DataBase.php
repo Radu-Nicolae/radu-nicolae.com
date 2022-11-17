@@ -34,7 +34,7 @@ $aboutMe = array(
     array("Address: ", "Orașul: "),
     array("Amsterdam", "Amsterdam"),
     array("Zip code: ", "Cod poștal: "),
-    array("62283", "62283"),
+    array("1183 AP", "1183 AP"),
     array("Email: ", "Email:"),
     array("mail@radu-nicolae.com", "mail@radu-nicolae.com"),
     array("Phone: ", "Telefon: "),
