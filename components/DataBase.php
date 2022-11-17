@@ -32,7 +32,7 @@ $aboutMe = array(
     array("Date of birth: ", "Data nașterii: "),
     array("23 February 2004", "23 Februarie 2004"),
     array("Address: ", "Orașul: "),
-    array("Bucharest", "București"),
+    array("Amsterdam", "Amsterdam"),
     array("Zip code: ", "Cod poștal: "),
     array("62283", "62283"),
     array("Email: ", "Email:"),
