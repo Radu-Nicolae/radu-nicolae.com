@@ -11,10 +11,10 @@
                     <h2 class="ftco-heading-2"><?=$footer[0][$lang]?></h2>
                     <p style="text-align: justify; font-size: small;"><?=$footer[1][$lang]?></p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/gtxbnm"
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.linkedin.com/in/radunicolae-dev/"
                                                                            target="_blank"><span
                                         class="icon-linkedin"></span></a></li>
-                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/gtxbnm"
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="https://github.com/Radu-Nicolae"
                                                                            target="_blank"><span
                                         class="icon-github"></span></a></li>
                         <li class="ftco-animate fadeInUp ftco-animated"><a href="https://www.facebook.com/gtxbnm"
