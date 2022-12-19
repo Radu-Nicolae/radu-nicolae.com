@@ -31,14 +31,14 @@
     <link rel="stylesheet" href="cssblog/style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7JJ6DEJFE0"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-7JJ6DEJFE0"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-7JJ6DEJFE0');
-    </script>
+    </script>-->
     <script src="https://kit.fontawesome.com/b97198f209.js" crossorigin="anonymous"></script>
 
     <style type="text/css">.scrollax-performance, .scrollax-performance *, .scrollax-performance *:before, .scrollax-performance *:after {
