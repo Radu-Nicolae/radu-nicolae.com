@@ -99,8 +99,8 @@ class CvDatabase
         $edxHarvard = new CvItem(
             "Jun 2021 - ",
             "Jun 2021 - ",
-            "ongoing",
-            "prezent",
+            "Sep 2021",
+            "Sep 2021",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Web Programming with Python and JavaScript</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Web Programming with Python and JavaScript</a>",
             "<a style='color:black' href='https://learning.edx.org/course/course-v1:HarvardX+CS50W+Web/home'>Harvard CS50</a>",
@@ -215,7 +215,6 @@ class CvDatabase
 
         $cv = array(
             $edxHarvard,
-            $sololearn,
             $django,
             $edxDelft,
             $jademyCourses
@@ -276,9 +275,9 @@ class CvDatabase
 
         $topTheWhole = new CvItem(
             "Jan 2021 - ",
-            "Ian 2020 - ",
-            "ongoing",
-            "prezent",
+            "Ian 2021 - ",
+            "Apr 2021",
+            "Apr 2021",
             "Website Founder",
             "Fondator Website",
             '<a href="https://github.com/Radu-Nicolae/topthewhole.com" class="linksiteuri"
@@ -464,8 +463,8 @@ class CvDatabase
         $autovortex = new CvItem(
             "Oct 2019 - ",
             "Oct 2019 - ",
-            "ongoing",
-            "prezent",
+            "Jun 2021",
+            "Iun 2021",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>National Robotics Team Member</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Membru al Echipei Naționale de Robotică Autovortex</a>",
             "<a href='https://autovortex.ro/' target='_blank' style='color:black;'>Autovortex</a>",
@@ -479,7 +478,7 @@ class CvDatabase
                                     </p>
 
                                     <p>
-                                        Earnt Awards:
+                                        Earned Awards:
                                     </p>
                                     <ul>
                                         <li>1<sup>st</sup> place at FIRST Tech Challenge Russia 2021 - April 2021
@@ -709,8 +708,8 @@ class CvDatabase
         $happyCampsVolunteer = new CvItem(
             "Apr 2019 - ",
             "Apr 2019 - ",
-            "ongoing",
-            "prezent",
+            "Sep 2022",
+            "Sep 2022",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Volunteer</a>",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Voluntar</a>",
             "<a href='https://www.happycamps.ro/' target='_blank' style='color:black;'>Happy Camps</a>",
