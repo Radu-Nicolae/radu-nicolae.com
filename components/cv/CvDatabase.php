@@ -388,6 +388,25 @@ class CvDatabase
 
     public function getInternshipCv()
     {
+        $logiscool = new CvItem(
+            "Mar 2023 - ",
+            "Mar 2023 - ",
+            "present",
+            "prezent",
+            'Programming Trainer',
+            "Programming Trainer",
+            '<span class="position"><a
+                                            href="https://logiscool.nl/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Logiscool Amsterdam</a></span>',
+            '<span class="position"><a
+                                            href="https://logiscool.nl/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Logiscool Amsterdam</a></span>',
+            '<p>Empowering future programmers, aged 8-14, with the fundamentals of software development and algorithmic thinking, fostering a solution-oriented mindset that prepares them for success in the computer science industry.</p>',
+            '<p></p>'
+        );
+
         $oxaigenIntership = new CvItem(
             "Oct 2022 - ",
             "Oct 2022 - ",
@@ -403,8 +422,28 @@ class CvDatabase
                                             href="https://www.oxaigen.com/"
                                             target="_blank" class="linksiteuri"
                                             style="color: black !important">Oxaigen</a></span>',
-            '<p>Working with front-end tools, such as Webflow. <b>Structuring</b>, <b>designing</b> and <b>building</b>  the website, including <b>animations</b> and <b>responsiveness</b>, <b>SEO</b>  optimisation, <b>QA</b>, writing <b>documentation</b> and loading time <b>optimisation</b>.</p>',
+            '<p>Oxaigen is a company working towards revolutionizing healthcare and ICU activities using AI.
+                            So far I have built:<br>
+                            - medical data charts based on billions of data values<br>
+                            - the official website <a
+                                            href="https://www.oxaigen.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">https://www.oxaigen.com</a><br>
+                            - currently working on the medical app</p>',
             '<p>Lucrul cu instrumente front-end, precum Webflow. <b>Structurarea</b>, <b>proiectarea</b> și <b>construirea</b> site-ului web, inclusiv <b>animații</b> și <b>responsiveness</b>, <b optimizarea >SEO</b>, <b>QA</b>, scrierea <b>documentației</b> și <b>optimizarea timpului de încărcare</b>.</p>'
+        );
+
+        $studentAmbassador = new CvItem(
+            "Nov 2022 - ",
+            "Noi 2022 - ",
+            "present",
+            "prezent",
+            "Student Ambassador",
+            "Student Ambassador",
+            "Vrije Universiteit Amsterdam",
+            "Vrije Universiteit Amsterdam",
+            "<p>Giving future Computer Science students an overall view of what this domain involves. It requires excellent organization, communication, and presentation skills and also a good teamwork ability for collaborating with other student ambassadors.</p>",
+            "<p>Oferirea unei viziuni de ansamblu viitorilor studenți de Computer Science despre ceea ce implică acest domeniu. Necesită abilități excelente de organizare, comunicare și prezentare și, de asemenea, o bună abilitate de lucru în echipă pentru a colabora cu alți student ambassadors.</p>",
         );
 
         $jademyInternship = new cvItem(
@@ -429,7 +468,9 @@ class CvDatabase
         );
 
         $cv = array(
+            $logiscool,
             $oxaigenIntership,
+            $studentAmbassador,
             $jademyInternship
         );
 
