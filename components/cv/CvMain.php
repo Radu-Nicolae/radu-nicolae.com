@@ -14,14 +14,36 @@ $cvDatabase = new CvDatabase();
             <div class="col-md-3">
                 <nav id="navi">
                     <ul>
-                        <li><a href="#page-1"><?= $cvCategories[0][$lang] ?></a></li>
                         <li><a href="#page-2"><?= $cvCategories[1][$lang] ?></a></li>
+                        <li><a href="#page-1"><?= $cvCategories[0][$lang] ?></a></li>
                         <li><a href="#page-21"><?= $cvCategories[2][$lang] ?></a></li>
                         <li><a href="#page-3"><?= $cvCategories[3][$lang] ?></a></li>
                     </ul>
                 </nav>
             </div>
             <div class="col-md-9">
+                <!-- Work start -->
+                <div id="page-2" class="page two" >
+                    <h2 class="heading"> <?= $cvCategories[1][$lang] ?> </h2>
+
+                    <div class="secondary-cv">
+                        <?= $cvUtils->generateCode($cvDatabase->getInternshipCv(), $lang) ?>
+                    </div>
+
+
+
+
+
+                    <div class="secondary-cv">
+                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[4][$lang] ?> </h2>
+
+                        <?= $cvUtils->generateCode($cvDatabase->getDevelopingCv(), $lang)?>
+                    </div>
+
+                </div>
+                <!-- Work end -->
+
+
                 <div id="page-1" class="page one">
                     <h2 class="heading"><?= $cvCategories[0][$lang] ?></h2>
 
@@ -43,34 +65,7 @@ $cvDatabase = new CvDatabase();
 
                 </div>
 
-                <!-- Work start -->
-                <div id="page-2" class="page two" >
-                    <h2 class="heading"> <?= $cvCategories[1][$lang] ?> </h2>
 
-                    <div class="secondary-cv">
-                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[2][$lang] ?> </h2>
-
-
-                        <?= $cvUtils->generateCode($cvDatabase->getInternshipCv(), $lang) ?>
-                    </div>
-
-
-                    <div class="secondary-cv">
-                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[3][$lang] ?> </h2>
-
-
-                        <?= $cvUtils->generateCode($cvDatabase->getWorkingCv(), $lang) ?>
-                    </div>
-
-
-                    <div class="secondary-cv">
-                        <h2 class="heading heading-secondary"> <?= $cvSecondaryCategories[4][$lang] ?> </h2>
-
-                        <?= $cvUtils->generateCode($cvDatabase->getDevelopingCv(), $lang)?>
-                    </div>
-
-                </div>
-                <!-- Work end -->
 
 
 
