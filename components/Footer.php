@@ -59,7 +59,7 @@
                     <h2 class="ftco-heading-2"><?=$footer[10][$lang]?></h2>
                     <div class="block-23 mb-3">
                         <ul>
-                            <li><a href="tel://+40726066744"><span class="icon icon-phone"></span><span class="text">+40726066744</span></a>
+                            <li><a href="tel://+31623831814"><span class="icon icon-phone"></span><span class="text">+31 6 23 83 18 14</span></a>
                             </li>
                             <li><a href="mailto:mail@radu-nicolae.com"><span class="icon icon-envelope"></span><span
                                         class="text">mail@radu-nicolae.com</span></a></li>

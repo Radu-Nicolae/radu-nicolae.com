@@ -9,7 +9,7 @@ class CvDatabase
         $university = new CvItem(
             "2022 - ",
             "2022 - ",
-            "present",
+            "ongoing",
             "prezent",
             '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Computer Science Bachelor\'s</a>',
             '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Licenta Computer Science</a>',
@@ -386,12 +386,98 @@ class CvDatabase
     }
 
 
-    public function getInternshipCv()
+    public function getWorkCv()
     {
+        $vu = new CvItem(
+            "",
+            "",
+            "",
+            "",
+            "Vrije Universiteit Amsterdam",
+            "Vrije Universiteit Amsterdam",
+            "",
+            "",
+            '
+                <div style="margin-left: 3%">
+                    <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Teaching Assistant (July 2023 - ongoing)</a></span>
+                        <ul>
+                            <li>Data Structures and Algorithms for AI</li>
+                        </ul>
+                    </div>
+                
+                    <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Course Coordinator (May 2023 - ongoing)</a></span>
+                        <ul>
+                            <li>Computer Programming</li>
+                            <li>Computational Thinking for Coders</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Student Ambassador (Nov 2022 - ongoing)</a></span>
+                        <p>Giving future Computer Science students an overall view of what this domain involves. It requires excellent organization, communication, and presentation skills and also a good teamwork ability for collaborating with other student ambassadors.</p>
+                    </div>
+                </div>
+                
+                ',
+            '
+                <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Asistent Universitar (July 2023 - ongoing)</a></span>
+                        <ul>
+                            <li>Data Structures and Algorithms for AI</li>
+                        </ul>
+                    </div>
+                <div>
+                    <h1>Coordonator Curs</h1>
+                    <ul>
+                        <li>Computer Programming</li>
+                        <li>Computational Thinking for Coders</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h1>Student Ambassador</h1>
+                    <p>Oferirea unei viziuni de ansamblu viitorilor studenți de Computer Science despre ceea ce implică acest domeniu. Necesită abilități excelente de organizare, comunicare și prezentare și, de asemenea, o bună abilitate de lucru în echipă pentru a colabora cu alți student ambassadors.</p>
+                </div>
+            '
+        );
+
+        $atLarge = new CvItem(
+            "May 2023 - ",
+            "Mai 2023 - ",
+            "ongoing",
+            "prezent",
+            'Student Researcher',
+            "Student Researcher",
+            '<span class="position"><a
+                                            href="https://atlarge-research.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">@Large Research x VU Amsterdam</a></span>',
+            '<span class="position"><a
+                                            href="https://atlarge-research.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">@Large Research x VU Amsterdam</a></span>',
+            '<p>Scientific Research towards massiving computer systems, making (distributed) computer systems scalable, reliable, and performant, with a focus on the datacenter industry. More details about @Large Research group can be found <a href="https://atlarge-research.com/"><u>here</u>.</a></p>',
+            '<p></p>'
+        );
+
         $logiscool = new CvItem(
             "Mar 2023 - ",
             "Mar 2023 - ",
-            "present",
+            "ongoing",
             "prezent",
             'Programming Trainer',
             "Programming Trainer",
@@ -408,10 +494,10 @@ class CvDatabase
         );
 
         $oxaigenIntership = new CvItem(
-            "Oct 2022 - ",
-            "Oct 2022 - ",
-            "present",
-            "prezent",
+            "Nov 2022 - ",
+            "Nov 2022 - ",
+            "May 2023",
+            "Mai 2023",
             'Computer Science and Healthcare Data Science',
             "Computer Science and Healthcare Data Science",
             '<span class="position"><a
@@ -423,7 +509,147 @@ class CvDatabase
                                             target="_blank" class="linksiteuri"
                                             style="color: black !important">Oxaigen</a></span>',
             '<p>Oxaigen is a company working towards revolutionizing healthcare and ICU activities using AI.
-                            So far I have built:<br>
+                             I have built:<br>
+                            - medical data charts based on billions of data values<br>
+                            - the official website <a
+                                            href="https://www.oxaigen.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">https://www.oxaigen.com</a><br>
+                            - currently working on the medical app</p>',
+            '<p>Lucrul cu instrumente front-end, precum Webflow. <b>Structurarea</b>, <b>proiectarea</b> și <b>construirea</b> site-ului web, inclusiv <b>animații</b> și <b>responsiveness</b>, <b optimizarea >SEO</b>, <b>QA</b>, scrierea <b>documentației</b> și <b>optimizarea timpului de încărcare</b>.</p>'
+        );
+
+        $jademyInternship = new cvItem(
+            "May 2020 - ",
+            "Mai 2020 - ",
+            "Oct 2021",
+            "Oct 2021",
+            "Trainer Internship",
+            "Trainer Internship",
+            '<span class="position"><a
+                                            href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Jademy - Oracle Silver Partner</a></span>',
+            '<span class="position"><a
+                                            href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Jademy - Oracle Silver Partner</a></span>',
+            '<p>I structured, created and implemented a 25 module front end course containg notions and exercises of Javascript, HTML and CSS for <b>Jademy - Oracle Silver Partner</b>. The course can be found <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>here</u>.</a> I also participated as a trainer assistant at Java Courses.</p> ',
+
+
+            '<p> Am structurat, creat și implementat un curs de Front-End de 25 de module care conține noțiuni și exerciții de Javascript, HTML și CSS pentru <b> Jademy - Oracle Silver Partner </b>. Cursul poate fi găsit <a href="https://edu.jademy.ro/wiki/doku.php/core:precourseweb:start"><u>aici</u></a>. De asemenea, am participat ca trainer assistant la cursurile Java.</p>'
+        );
+
+        $cv = array(
+            $vu,
+            $atLarge,
+            $logiscool,
+            $oxaigenIntership,
+            $jademyInternship
+        );
+
+        return $cv;
+    }
+
+    public function getInternshipCv(){
+        $vu = new CvItem(
+            "",
+            "",
+            "",
+            "",
+            "Vrije Universiteit Amsterdam",
+            "Vrije Universiteit Amsterdam",
+            "",
+            "",
+            '
+                <div style="margin-left: 3%">
+                    <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Course Coordinator (May 2023 - ongoing)</a></span>
+                        <ul>
+                            <li>Computer Programming</li>
+                            <li>Computational Thinking for Coders</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Student Ambassador (Nov 2022 - ongoing)</a></span>
+                        <p>Giving future Computer Science students an overall view of what this domain involves. It requires excellent organization, communication, and presentation skills and also a good teamwork ability for collaborating with other student ambassadors.</p>
+                    </div>
+                </div>
+                
+                ',
+            '
+            <div style="margin-left: 3%">
+                    <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Coordonator și Organizator Curs (Mai 2023 - present)</a></span>
+                        <ul>
+                            <li>Computer Programming</li>
+                            <li>Computational Thinking for Coders</li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Student Ambassador (Noi 2022 - present)</a></span>
+                        <p>
+                        Oferirea unei viziuni de ansamblu viitorilor studenți de Computer Science despre ceea ce implică acest domeniu. Necesită abilități excelente de organizare, comunicare și prezentare și, de asemenea, o bună abilitate de lucru în echipă pentru a colabora cu alți student ambassadors
+                        </p>
+                    </div>
+                </div>
+            '
+
+
+        );
+
+
+
+        $logiscool = new CvItem(
+            "Mar 2023 - ",
+            "Mar 2023 - ",
+            "ongoing",
+            "prezent",
+            'Programming Trainer',
+            "Programming Trainer",
+            '<span class="position"><a
+                                            href="https://logiscool.nl/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Logiscool Amsterdam</a></span>',
+            '<span class="position"><a
+                                            href="https://logiscool.nl/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Logiscool Amsterdam</a></span>',
+            '<p>Empowering future programmers, aged 8-14, with the fundamentals of software development and algorithmic thinking, fostering a solution-oriented mindset that prepares them for success in the computer science industry.</p>',
+            '<p></p>'
+        );
+
+        $oxaigenIntership = new CvItem(
+            "Nov 2022 - ",
+            "Nov 2022 - ",
+            "May 2023",
+            "Mai 2023",
+            'Computer Science and Healthcare Data Science',
+            "Computer Science and Healthcare Data Science",
+            '<span class="position"><a
+                                            href="https://www.oxaigen.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Oxaigen</a></span>',
+            '<span class="position"><a
+                                            href="https://www.oxaigen.com/"
+                                            target="_blank" class="linksiteuri"
+                                            style="color: black !important">Oxaigen</a></span>',
+            '<p>Oxaigen is a company working towards revolutionizing healthcare and ICU activities using AI.
+                             I have built:<br>
                             - medical data charts based on billions of data values<br>
                             - the official website <a
                                             href="https://www.oxaigen.com/"
@@ -436,7 +662,7 @@ class CvDatabase
         $studentAmbassador = new CvItem(
             "Nov 2022 - ",
             "Noi 2022 - ",
-            "present",
+            "ongoing",
             "prezent",
             "Student Ambassador",
             "Student Ambassador",
@@ -468,31 +694,11 @@ class CvDatabase
         );
 
         $cv = array(
+            $vu,
             $logiscool,
+            // $studentAmbassador,
             $oxaigenIntership,
-            $studentAmbassador,
             $jademyInternship
-        );
-
-        return $cv;
-    }
-
-    public function getWorkingCv(){
-        $studentAmbassador = new CvItem(
-            "Nov 2022 - ",
-            "Noi 2022 - ",
-            "present",
-            "prezent",
-            "Student Ambassador",
-            "Student Ambassador",
-            "Vrije Universiteit Amsterdam",
-            "Vrije Universiteit Amsterdam",
-            "<p>Giving future Computer Science students an overall view of what this domain involves. It requires excellent organization, communication, and presentation skills and also a good teamwork ability for collaborating with other student ambassadors.</p>",
-            "<p>Oferirea unei viziuni de ansamblu viitorilor studenți de Computer Science despre ceea ce implică acest domeniu. Necesită abilități excelente de organizare, comunicare și prezentare și, de asemenea, o bună abilitate de lucru în echipă pentru a colabora cu alți student ambassadors.</p>",
-        );
-
-        $cv = array(
-            $studentAmbassador,
         );
 
         return $cv;

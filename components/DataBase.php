@@ -8,7 +8,7 @@ $navbar = array(
     array("Home", "Home"),
     array("Personal Info", "Despre"),
     array("CV", "CV"),
-    array("Websites","Websites"),
+    array("Websites", "Websites"),
     array("Contact", "Contact"),
     array("Menu", "Meniu"),
     array("index.php", "ro.php"),
@@ -38,7 +38,7 @@ $aboutMe = array(
     array("Email: ", "Email:"),
     array("mail@radu-nicolae.com", "mail@radu-nicolae.com"),
     array("Phone: ", "Telefon: "),
-    array("+40726066744", "+40726066744"),
+    array("+31 6 23 83 18 14", "+31 6 23 83 18 14"),
     array("Official Websites completed", "Site-uri oficiale dezvoltate")
 );
 
@@ -61,14 +61,14 @@ $cvSecondaryCategories = array(
 );
 
 $servicesDB = array(
-    array("Services", "Servicii"),
+    array("Activities", "Activități"),
 );
 
 $servs = array(
-    "Web Development",
-    "Web Design",
-    "PHP Development",
-    "Java Development"
+    "BSc Honours CS Student",
+    "Scientific Research",
+    "Course Coordinator",
+    "Teaching Assistant"
 );
 
 $devWebsites = array(
@@ -93,16 +93,16 @@ $contact = array(
 
 $footer = array(
     array("About"),
-    array('My name is Radu Nicolae and I am studying Computer Science at a world leading university - Vrije Universiteit Amsterdam. Some of the things I do are PHP, Javascript, Pyhton and Java Developing. I also love nature and sport, hence I love motorcycling, cycling and exploring new paths.',
+    array('My name is Radu Nicolae and I an Honours BSc Computer Science student at a Vrije Universiteit Amsterdam. I am a organizing and coordinating several Computer Science courses, while conducting scientific research with atLarge Research team and being also a teaching assistant. I also love nature and sport, hence I love motorcycling, cycling and exploring new paths.',
         'Numele meu este Radu Nicolae și studiez Computer Science la Vrije Universiteit Amsterdam. Câteva dintre activitățile pe care le practic sunt: Web, PHP, Javascript, Python și Java Developing. De asemenea, sunt un motociclist caruia ii place să descopere natura pe 2 roți.'),
     array('Links', 'Link-uri'),
     array('Home', 'Home'),
     array('Personal Info', 'Despre mine'),
     array('CV', 'CV'),
-    array('Services', 'Servicii'),
+    array('Activities', 'Activități'),
     array('Websites', 'Website-uri'),
     array('Contact', 'Contact'),
-    array('Services', 'Servicii'),
+    array("Activities", "Activități"),
     array('Contact Me!', 'Contact')
 );
 

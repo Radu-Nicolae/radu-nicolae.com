@@ -27,7 +27,7 @@ $cvDatabase = new CvDatabase();
                     <h2 class="heading"> <?= $cvCategories[1][$lang] ?> </h2>
 
                     <div class="secondary-cv">
-                        <?= $cvUtils->generateCode($cvDatabase->getInternshipCv(), $lang) ?>
+                        <?= $cvUtils->generateCode($cvDatabase->getWorkCv(), $lang) ?>
                     </div>
 
 
