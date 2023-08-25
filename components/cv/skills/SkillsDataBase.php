@@ -29,15 +29,15 @@ class SkillsDataBase
 
     public function getSecondarySkills()
     {
-        $tensorflow = new Skill("Tensorflow", "50", "");
-        $numpy = new Skill("NumPy", "50", "");
-        $pandas = new Skill("Pandas", "50", "");
+        $tensorflow = new Skill("Tensorflow", "80", "");
+        $numpy = new Skill("NumPy", "80", "");
+        $pandas = new Skill("Pandas", "70", "");
         $keras = new Skill("Keras", "50", "");
         $matplotlib = new Skill("Matplotlib", "50", "");
-        $graphql = new Skill("GraphQL", "50", "");
-        $react = new Skill("React", "50", "");
-        $php = new Skill("PHP", "50", "");
-        $linux = new Skill("Linux/Debian", "50", "");
+        $graphql = new Skill("GraphQL", "40", "");
+        $react = new Skill("React", "60", "");
+        $php = new Skill("PHP", "60", "");
+        $linux = new Skill("Linux/Debian", "60", "");
 
         $secondarySkills = array(
             $tensorflow,

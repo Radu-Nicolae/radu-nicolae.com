@@ -838,7 +838,6 @@ class CvDatabase
 
         $cv = array(
             $autovortex,
-            $ftcCamp,
             $gammaRobotics
         );
 
