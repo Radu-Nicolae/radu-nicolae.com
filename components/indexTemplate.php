@@ -10,7 +10,7 @@
 
 <?php include "components/cv/CvMain.php" ?>
 
-<?php include "components/services/Services.php" ?>
+<?php //include "components/services/Services.php" ?>
 
 <?php include "components/Websites.php" ?>
 

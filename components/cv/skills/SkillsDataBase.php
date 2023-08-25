@@ -4,27 +4,24 @@ class SkillsDataBase
 {
     public function getMainSkills()
     {
-        $html = new Skill("HTML", 90, array("Advanced", "Avansat"));
-        $css = new Skill("CSS", 90, array("Advanced", "Avansat"));
-        $php = new Skill("PHP", 50, array("Intermediate", "Intermediar"));
-        $js = new Skill("JavaScript", 50, array("Intermediate", "Intermediar"));
-        $java = new Skill("Java", 90, array("Advanced", "Avansat"));
+        $python = new Skill("Python", 90, array("Advanced", "Avansat"));
+        $typescript = new Skill("TypeScript", 90, array("Advanced", "Avansat"));
+        $javascript = new Skill("JavaScript", 90, array("Advanced", "Avansat"));
         $cpp = new Skill("C++", 90, array("Advanced", "Avansat"));
-        $mysql = new Skill("MySQL", 50, array("Intermediate", "Intermediate"));
-        $cyber = new Skill("<span class='cyberSecurity'>Cyber Security</span>", 30, array("Beginner", "Începător"));
-        $python = new Skill("Python", 50, array("Intermediate", "Intermediate"));
-        $django = new Skill("Django", 50, array("Intermediate", "Intermediar"));
-        $js = new Skill("Javascript", 50, array("Intermediate", "Intermediar"));
+        $postgresql = new Skill("PostgreSQL", 90, array("Advanced", "Avansat"));
+        $java = new Skill("Java", 90, array("Advanced", "Avansat"));
+        $html = new Skill("HTML & CSS", 90, array("Advanced", "Avansat"));
+        $git = new Skill("GIT", 90, array("Advanced", "Avansat"));
 
         $mainSkills = array(
-            $java,
-            $cpp,
-            $php,
-            $js,
             $python,
-            $django,
+            $typescript,
+            $javascript,
+            $cpp,
+            $postgresql,
+            $java,
             $html,
-            $css
+            $git
         );
 
         return $mainSkills;
@@ -32,20 +29,26 @@ class SkillsDataBase
 
     public function getSecondarySkills()
     {
-        $bootstrap = new Skill("Bootstrap", "90", "");
-        $javaFx = new Skill("Java FX", "50", "");
-        $spring = new Skill("Spring", "30", "");
-        $maven = new Skill("Maven", "90", "");
-        $git = new Skill("Git", "90", "");
-        $mysql = new Skill("MySQL | SQLite", 50, array("Intermediate", "Intermediate"));
+        $tensorflow = new Skill("Tensorflow", "50", "");
+        $numpy = new Skill("NumPy", "50", "");
+        $pandas = new Skill("Pandas", "50", "");
+        $keras = new Skill("Keras", "50", "");
+        $matplotlib = new Skill("Matplotlib", "50", "");
+        $graphql = new Skill("GraphQL", "50", "");
+        $react = new Skill("React", "50", "");
+        $php = new Skill("PHP", "50", "");
+        $linux = new Skill("Linux/Debian", "50", "");
 
         $secondarySkills = array(
-            $javaFx,
-            $spring,
-            $maven,
-            $bootstrap,
-            $git,
-            $mysql
+            $tensorflow,
+            $numpy,
+            $pandas,
+            $keras,
+            $matplotlib,
+            $graphql,
+            $react,
+            $php,
+            $linux
         );
 
         return $secondarySkills;

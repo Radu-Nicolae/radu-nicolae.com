@@ -11,15 +11,15 @@ class CvDatabase
             "2022 - ",
             "ongoing",
             "prezent",
-            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Computer Science Bachelor\'s</a>',
-            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Licenta Computer Science</a>',
+            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Honours Bachelor\'s Computer Science</a>',
+            '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Honours Bachelor\'s Computer Science</a>',
             '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Vrije Universiteit Amsterdam</a>',
             '<a href="https://vu.nl/en" style="color: black !important" target="_blank">Vrije Universiteit Amsterdam</a>',
             '<div style="color:#999999">
-                        <p>Vrije Universiteit Amsterdam is a leading university, ranked <b>115th worldwide</b> by the prestigious Times Higher Education 2022.<br><br> I am currently in the first year of the Computer Science bachelor\'s programme.</p>    
+                        <p>Vrije Universiteit Amsterdam is a leading university, ranked <b>115th worldwide</b> by the prestigious Times Higher Education 2022. I am in the 2nd year of the Computer Science BSc, currently with a GPA of 8.8 and Cum laude. Conducting research with @Large and taking extra courses, part of the Honours Programme, split between Vrije Universiteit Amsterdam and Universiteit van Amsterdam.</p>    
                     </div>',
             '<div style="color:#999999">
-                        Vrije Universiteit Amsterdam este o universitate lider, clasată pe <b>locul 115</b> la nivel mondial, conform prestigiosului Times Higher Education 2022. <br><br> În prezent sunt în primul an al programului de licență Computer Science.</p>    
+                        Vrije Universiteit Amsterdam este o universitate lider, clasată pe <b>locul 115</b> la nivel mondial, conform prestigiosului Times Higher Education 2022. În prezent sunt în al doilea an al programului de licență Computer Science, cu un GPA de 8.8 și Cum laude. Realizez cercetări cu @Large și particip la cursuri suplimentare, parte a Programului de Onoruri, împărțit între Vrije Universiteit Amsterdam și Universiteit van Amsterdam.</p>    
                     </div>'
         );
 
@@ -74,7 +74,6 @@ class CvDatabase
         $schools = array(
             $university,
             $highSchool,
-            $sat
         );
 
         return $schools;
@@ -83,6 +82,20 @@ class CvDatabase
 
     public function getEducationCv()
     {
+        $deepLearningSpecialization = new CvItem(
+            "Jul 2023 - ",
+            "Iul 2023 - ",
+            "Aug 2023",
+            "Aug 2023",
+            "<a style='color:black' href='https://www.coursera.org/specializations/deep-learning'>Deep Learning Specialization</a>",
+            "<a style='color:black' href='https://www.coursera.org/specializations/deep-learning'>Specializare în Învățare Profundă</a>",
+            "<a style='color:black' href='https://www.coursera.org/specializations/deep-learning'>Stanford University x DeeplearningAI x Coursera</a>",
+            "<a style='color:black' href='https://www.coursera.org/specializations/deep-learning'>Stanford University x DeeplearningAI x Coursera</a>",
+            "<p>Completed an intensive 5-course deep learning specialization online with a grade of 93%, over 17 weeks under the guidance of Dr. Andrew Ng, co-founder of Coursera and DeepLearning.AI. <br><br>Through 25 practical projects, I honed my skills in Python, TensorFlow, Numpy, Pandas, Keras, and Matplotlib, and delved into Neural Networks, CNNs, RNNs, Hyperparameter Tuning, Regularization, Sequence Models, and other advanced aspects of ML/DL. <br><br>Engaging with real-world cases like speech recognition and music synthesis has expanded my understanding of AI and deepened my expertise in Deep Learning principles, algorithms, optimization methods, and regularization techniques - <a href='https://coursera.org/share/c8a992ef01e6fd160c697d7a0f0f5726'>link to certification.</a></p>",
+            "<p>Am finalizat o specializare intensivă în învățare profundă compusă din 5 cursuri online cu o notă de 93%, în 17 săptămâni, sub îndrumarea Dr. Andrew Ng, co-fondator al Coursera și DeepLearning.AI. <br><br>Prin 25 de proiecte practice, mi-am perfecționat abilitățile în Python, TensorFlow, Numpy, Pandas, Keras și Matplotlib și am explorat Rețele Neuronale, CNNs, RNNs, Reglarea Hiperparametrilor, Regularizare, Modele de Secvență și alte aspecte avansate de ML/DL. <br><br>Interacționarea cu cazuri din lumea reală, precum recunoașterea vocală și sinteza muzicală, mi-a extins înțelegerea IA și mi-a aprofundat expertiza în principiile, algoritmii, metodele de optimizare și tehnicile de regularizare ale învățării profunde <a href='https://coursera.org/share/c8a992ef01e6fd160c697d7a0f0f5726'>- link certificare.</a></p>"
+        );
+
+
         $django = new CvItem(
             "Jul 2021",
             "Iul 2021",
@@ -214,8 +227,8 @@ class CvDatabase
 
 
         $cv = array(
+            $deepLearningSpecialization,
             $edxHarvard,
-            $django,
             $edxDelft,
             $jademyCourses
         );
@@ -252,6 +265,36 @@ class CvDatabase
                 </p>
             '
         );
+
+        $webdeveloper = new CvItem(
+            "Oct 2019 - ",
+            "Oct 2019 - ",
+            "Jun 2023",
+            "Jun 2023",
+            'Front-End Developer',
+            'Front-End Developer',
+            "",
+            "",
+            '<ul>
+                          <li><a href="https://www.radu-nicolae.com">www.radu-nicolae.com</a> | Mar 2020 - ongoing</li>
+                          <li><a href="https://www.oxaigen.com">www.oxaigen.com</a> | Oct 2022 - May 2023</li>
+                          <li><a href="https://github.com/Radu-Nicolae/revista-cava.ro">www.revista-cava.ro</a> | Oct 2019 - May 2023</li>
+                          <li><a href="https://github.com/Radu-Nicolae/topthewhole.com">www.topthewhole.com</a> | Jan 2021 - Jan 2022</li>
+                          <li><a href="https://github.com/Radu-Nicolae/viviriafestival.ro">www.viviriafestival.ro</a> | Aug 2021 - Sep 2021</li>
+                          <li><a href="https://github.com/Radu-Nicolae/happycamps.club">www.happycamps.club</a> | Mar 2020 - Jun 2020</li>
+                          <li><a href="https://github.com/Radu-Nicolae/Interact-Bucharest">www.interactbucuresti.ro</a> | Feb 2020 - Jul 2021</li>
+                        </ul>',
+            '<ul>
+                          <li><a href="https://www.radu-nicolae.com">www.radu-nicolae.com</a> | Mar 2020 - ongoing</li>
+                          <li><a href="https://www.oxaigen.com">www.oxaigen.com</a> | Oct 2022 - May 2023</li>
+                          <li><a href="https://github.com/Radu-Nicolae/revista-cava.ro">www.revista-cava.ro</a> | Oct 2019 - May 2023</li>
+                          <li><a href="https://github.com/Radu-Nicolae/topthewhole.com">www.topthewhole.com</a> | Jan 2021 - Jan 2022</li>
+                          <li><a href="https://github.com/Radu-Nicolae/viviriafestival.ro">www.viviriafestival.ro</a> | Aug 2021 - Sep 2021</li>
+                          <li><a href="https://github.com/Radu-Nicolae/happycamps.club">www.happycamps.club</a> | Mar 2020 - Jun 2020</li>
+                          <li><a href="https://github.com/Radu-Nicolae/Interact-Bucharest">www.interactbucuresti.ro</a> | Feb 2020 - Jul 2021</li>
+                        </ul>'
+        );
+
 
         $viviriaFestival = new CvItem(
             "Jul 2021 - ",
@@ -374,12 +417,7 @@ class CvDatabase
 
         $cv = array(
             $github,
-            $topTheWhole,
-            $raduNicolaeWebsite,
-            $revistaCaVaWebsite,
-            $viviriaFestival,
-            $happyCampsWebsite,
-            $interactWebsite
+            $webdeveloper
         );
 
         return $cv;
@@ -415,8 +453,9 @@ class CvDatabase
                                                 target="_blank" class="linksiteuri"
                                                 style="color: black !important">Course Coordinator (May 2023 - ongoing)</a></span>
                         <ul>
-                            <li>Computer Programming</li>
-                            <li>Computational Thinking for Coders</li>
+                            <li>Computer Organization (Aug 2023 - ongoing)</li>
+                            <li>Computer Programming (May 2023 - ongoing)</li>
+                            <li>Computational Thinking for Coders (May 2023 - ongoing)</li>
                         </ul>
                     </div>
                     
@@ -558,7 +597,8 @@ class CvDatabase
         return $cv;
     }
 
-    public function getInternshipCv(){
+    public function getInternshipCv()
+    {
         $vu = new CvItem(
             "",
             "",
@@ -618,7 +658,6 @@ class CvDatabase
 
 
         );
-
 
 
         $logiscool = new CvItem(
@@ -926,19 +965,19 @@ class CvDatabase
         );
 
         $redCross = new CvItem(
-            "Jan 2020 - ",
-            "Ian 2020 - ",
-            "Apr 2020",
-            "Apr 2020",
+            "2020",
+            "2020",
+            "",
+            "",
             "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Volunteer</a>",
             "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Voluntar</a>",
-            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Red Cross</a>",
-            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Crucea Roșie</a>",
+            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Red Cross Bucharest</a>",
+            "<a href='https://www.icrc.org/' target='_blank' style='color:black;'>Crucea Roșie București</a>",
             '
-                        <p style="text-align: justify;">I volunteered at two different editions of Food Bank and I attended a few First Aid classes.</p>
+                        
                     ',
             '
-                        <p>Am fost voluntar la două ediții ale Băncii de Alimente și am participat la câteva cursuri de prim ajutor.</p>
+                        
                     '
         );
 
@@ -998,12 +1037,7 @@ class CvDatabase
         );
 
         $cv = array(
-            $happyCampsVolunteer,
-            $happyCampsFinancial,
-            $corporateGamesFinancial,
-            $lazarMun,
             $redCross,
-            $euDialogue
         );
 
         return $cv;
