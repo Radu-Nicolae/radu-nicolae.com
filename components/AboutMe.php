@@ -23,7 +23,7 @@
                             <li class="d-flex"><span><?= $aboutMe[2][$lang] ?></span> <span><?= $aboutMe[3][$lang] ?></span></li>
                             <li class="d-flex"><span><?= $aboutMe[4][$lang] ?></span> <span><?= $aboutMe[5][$lang] ?></span></li>
                             <li class="d-flex"><span><?= $aboutMe[6][$lang] ?></span> <span><?= $aboutMe[7][$lang] ?></span></li>
-                            <li class="d-flex"><span><?= $aboutMe[8][$lang] ?></span> <span><?= $aboutMe[9][$lang] ?></span></li>
+                            
                             <li class="d-flex"><span><?= $aboutMe[10][$lang] ?></span> <a href="mailto:mail@radu-nicolae.com"><span
                                         style="color: #595959 !important; text-decoration: underline; font-weight: normal;"><?= $aboutMe[11][$lang] ?></span></a></span>
                             </li>

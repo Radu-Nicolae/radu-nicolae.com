@@ -431,28 +431,35 @@ class CvDatabase
                 
                 ',
             '
-                <div>
+                <div style="margin-left: 3%">
+                    <div>
+                        <span class="position"><a
+                                                    href="https://vu.nl/"
+                                                    target="_blank" class="linksiteuri"
+                                                    style="color: black !important">Asistent Universitar (Iul 2023 - prezent)</a></span>
+                            <ul>
+                                <li>Data Structures and Algorithms for AI</li>
+                            </ul>
+                    </div>
+                    <div>
                         <span class="position"><a
                                                 href="https://vu.nl/"
                                                 target="_blank" class="linksiteuri"
-                                                style="color: black !important">Asistent Universitar (July 2023 - ongoing)</a></span>
+                                                style="color: black !important">Coordonator Curs (Mai 2023 - prezent)</a></span>
                         <ul>
-                            <li>Data Structures and Algorithms for AI</li>
+                            <li>Computer Programming</li>
+                            <li>Computational Thinking for Coders</li>
                         </ul>
                     </div>
+             
                 <div>
-                    <h1>Coordonator Curs</h1>
-                    <ul>
-                        <li>Computer Programming</li>
-                        <li>Computational Thinking for Coders</li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h1>Student Ambassador</h1>
+                   <span class="position"><a
+                                                href="https://vu.nl/"
+                                                target="_blank" class="linksiteuri"
+                                                style="color: black !important">Student Ambassador (Noi 2022 - prezent)</a></span>
                     <p>Oferirea unei viziuni de ansamblu viitorilor studenți de Computer Science despre ceea ce implică acest domeniu. Necesită abilități excelente de organizare, comunicare și prezentare și, de asemenea, o bună abilitate de lucru în echipă pentru a colabora cu alți student ambassadors.</p>
                 </div>
-            '
+            </div>'
         );
 
         $atLarge = new CvItem(
